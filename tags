@@ -1,0 +1,1941 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/actuday/dev/tmp/multitail/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+AMOUNT_STR_LEN	mt.h	/^#define AMOUNT_STR_LEN	/;"	d
+An introduction to MultiTail	manual.html	/^<H1>An introduction to MultiTail<\/H1>$/;"	h
+BEEP_BEEP	mt.h	/^typedef enum { BEEP_FLASH = 1, BEEP_BEEP, BEEP_POPUP, BEEP_NONE } beeb_t;$/;"	e	enum:__anon7c9ac89c0303
+BEEP_FLASH	mt.h	/^typedef enum { BEEP_FLASH = 1, BEEP_BEEP, BEEP_POPUP, BEEP_NONE } beeb_t;$/;"	e	enum:__anon7c9ac89c0303
+BEEP_NONE	mt.h	/^typedef enum { BEEP_FLASH = 1, BEEP_BEEP, BEEP_POPUP, BEEP_NONE } beeb_t;$/;"	e	enum:__anon7c9ac89c0303
+BEEP_POPUP	mt.h	/^typedef enum { BEEP_FLASH = 1, BEEP_BEEP, BEEP_POPUP, BEEP_NONE } beeb_t;$/;"	e	enum:__anon7c9ac89c0303
+BOOL	error.h	/^#define BOOL /;"	d
+BUGS	multitail.1	/^.SH BUGS$/;"	s	title:MULTITAIL
+Bline	mt.h	/^	char *Bline;$/;"	m	struct:__anon7c9ac89c1d08	typeref:typename:char *
+CC	Makefile	/^CC?=gcc$/;"	m
+CLIPBOARD_NAME	clipboard.h	/^#define CLIPBOARD_NAME /;"	d
+CONFIG_FILE	Makefile	/^CONFIG_FILE=$(DESTDIR)$(PREFIX)\/etc\/multitail.conf$/;"	m
+CONFIG_READ_BUFFER	mt.h	/^#define CONFIG_READ_BUFFER	/;"	d
+CONVTYPE_ABBRTOK	mt.h	/^typedef enum { CONVTYPE_IP4TOHOST = 1, CONVTYPE_EPOCHTODATE, CONVTYPE_ERRNO, CONVTYPE_HEXTODEC, /;"	e	enum:__anon7c9ac89c2403
+CONVTYPE_DECTOHEX	mt.h	/^typedef enum { CONVTYPE_IP4TOHOST = 1, CONVTYPE_EPOCHTODATE, CONVTYPE_ERRNO, CONVTYPE_HEXTODEC, /;"	e	enum:__anon7c9ac89c2403
+CONVTYPE_EPOCHTODATE	mt.h	/^typedef enum { CONVTYPE_IP4TOHOST = 1, CONVTYPE_EPOCHTODATE, CONVTYPE_ERRNO, CONVTYPE_HEXTODEC, /;"	e	enum:__anon7c9ac89c2403
+CONVTYPE_ERRNO	mt.h	/^typedef enum { CONVTYPE_IP4TOHOST = 1, CONVTYPE_EPOCHTODATE, CONVTYPE_ERRNO, CONVTYPE_HEXTODEC, /;"	e	enum:__anon7c9ac89c2403
+CONVTYPE_HEXTODEC	mt.h	/^typedef enum { CONVTYPE_IP4TOHOST = 1, CONVTYPE_EPOCHTODATE, CONVTYPE_ERRNO, CONVTYPE_HEXTODEC, /;"	e	enum:__anon7c9ac89c2403
+CONVTYPE_IP4TOHOST	mt.h	/^typedef enum { CONVTYPE_IP4TOHOST = 1, CONVTYPE_EPOCHTODATE, CONVTYPE_ERRNO, CONVTYPE_HEXTODEC, /;"	e	enum:__anon7c9ac89c2403
+CONVTYPE_SCRIPT	mt.h	/^typedef enum { CONVTYPE_IP4TOHOST = 1, CONVTYPE_EPOCHTODATE, CONVTYPE_ERRNO, CONVTYPE_HEXTODEC, /;"	e	enum:__anon7c9ac89c2403
+CONVTYPE_SIGNRTOSTRING	mt.h	/^typedef enum { CONVTYPE_IP4TOHOST = 1, CONVTYPE_EPOCHTODATE, CONVTYPE_ERRNO, CONVTYPE_HEXTODEC, /;"	e	enum:__anon7c9ac89c2403
+CONVTYPE_TAI64NTODATE	mt.h	/^typedef enum { CONVTYPE_IP4TOHOST = 1, CONVTYPE_EPOCHTODATE, CONVTYPE_ERRNO, CONVTYPE_HEXTODEC, /;"	e	enum:__anon7c9ac89c2403
+CPPFLAGS	Makefile	/^CPPFLAGS:=$(shell pkg-config --cflags ncurses)$/;"	m
+CSREFLAG_CMP_VAL_BIGGER	mt.h	/^	CSREFLAG_CMP_VAL_BIGGER,	\/* compare with value: value higher then what is configured? *\/$/;"	e	enum:__anon7c9ac89c1f03
+CSREFLAG_CMP_VAL_EQUAL	mt.h	/^	CSREFLAG_CMP_VAL_EQUAL		\/* compare with value: value equal to what is configured? *\/$/;"	e	enum:__anon7c9ac89c1f03
+CSREFLAG_CMP_VAL_LESS	mt.h	/^	CSREFLAG_CMP_VAL_LESS,		\/* compare with value: value less then what is configured? *\/$/;"	e	enum:__anon7c9ac89c1f03
+CSREFLAG_SUB	mt.h	/^	CSREFLAG_SUB = 1,		\/* substring matching *\/$/;"	e	enum:__anon7c9ac89c1f03
+Colors	manual.html	/^<H2>Colors<\/H2>$/;"	i
+DEBUG	Makefile	/^DEBUG:=#XXX -g -D_DEBUG ###-pg -Wpedantic ## -pg #-fprofile-arcs$/;"	m
+DEFAULT_COLORPAIRS	mt.h	/^#define DEFAULT_COLORPAIRS	/;"	d
+DEFAULT_TAB_WIDTH	mt.h	/^#define DEFAULT_TAB_WIDTH	/;"	d
+DEPENDS	Makefile	/^DEPENDS:= $(OBJS:%.o=%.d)$/;"	m
+DESCRIPTION	multitail.1	/^.SH DESCRIPTION$/;"	s	title:MULTITAIL
+DESTDIR	Makefile	/^DESTDIR=$/;"	m
+De Basis	manual-nl.html	/^<H2>De Basis<\/H2>$/;"	i
+EXAMPLES	multitail.1	/^.SH EXAMPLES$/;"	s	title:MULTITAIL
+Een introductie tot MultiTail	manual-nl.html	/^<H1>Een introductie tot MultiTail<\/H1>$/;"	h
+F1	globals.c	/^const char *F1 = "For help at any time press F1.";$/;"	v	typeref:typename:const char *
+FALSE	error.h	/^#define FALSE /;"	d
+Filtering using regular expressions	manual.html	/^<H2>Filtering using regular expressions<\/H2>$/;"	i
+HELP_ADD_FILE_DISPLAY_DIFF	help.h	/^#define HELP_ADD_FILE_DISPLAY_DIFF	/;"	d
+HELP_ADD_FILE_FOLLOW_FILENAME	help.h	/^#define HELP_ADD_FILE_FOLLOW_FILENAME	/;"	d
+HELP_ADD_FILE_OR_CMD	help.h	/^#define HELP_ADD_FILE_OR_CMD	/;"	d
+HELP_ADD_WINDOW_MERGE_SUBWIN	help.h	/^#define HELP_ADD_WINDOW_MERGE_SUBWIN	/;"	d
+HELP_ADD_WINDOW_REPEAT_INTERVAL	help.h	/^#define HELP_ADD_WINDOW_REPEAT_INTERVAL	/;"	d
+HELP_ADD_WINDOW_SELECT_MERGE_WINDOW	help.h	/^#define HELP_ADD_WINDOW_SELECT_MERGE_WINDOW	/;"	d
+HELP_ASK_COLORS	help.h	/^#define HELP_ASK_COLORS	/;"	d
+HELP_ASK_COLORS_SELECT_COLOR	help.h	/^#define HELP_ASK_COLORS_SELECT_COLOR	/;"	d
+HELP_ASK_COLORS_SELECT_SCHEME	help.h	/^#define HELP_ASK_COLORS_SELECT_SCHEME	/;"	d
+HELP_CANNOT_EDIT_COLOR	help.h	/^#define HELP_CANNOT_EDIT_COLOR	/;"	d
+HELP_CLEAR_BUFFER	help.h	/^#define HELP_CLEAR_BUFFER	/;"	d
+HELP_COLORS_FIELD_DELIMITER	help.h	/^#define HELP_COLORS_FIELD_DELIMITER	/;"	d
+HELP_COLORS_FIELD_NR	help.h	/^#define HELP_COLORS_FIELD_NR	/;"	d
+HELP_COLUMN_WIDTH	help.h	/^#define HELP_COLUMN_WIDTH	/;"	d
+HELP_COMPILE_REGEXP_FAILED	help.h	/^#define HELP_COMPILE_REGEXP_FAILED	/;"	d
+HELP_DELETE_SELECT_SUBWINDOW	help.h	/^#define HELP_DELETE_SELECT_SUBWINDOW	/;"	d
+HELP_DELETE_SELECT_WINDOW	help.h	/^#define HELP_DELETE_SELECT_WINDOW	/;"	d
+HELP_DELETE_WINDOW_DELETE_ALL_SUBWIN	help.h	/^#define HELP_DELETE_WINDOW_DELETE_ALL_SUBWIN	/;"	d
+HELP_EDIT_COLOR	help.h	/^#define HELP_EDIT_COLOR	/;"	d
+HELP_EDIT_COLOR_CHANGE_NAME	help.h	/^#define HELP_EDIT_COLOR_CHANGE_NAME	/;"	d
+HELP_EDIT_COLOR_EDIT	help.h	/^#define HELP_EDIT_COLOR_EDIT	/;"	d
+HELP_ENTER_CMD	help.h	/^#define HELP_ENTER_CMD	/;"	d
+HELP_ENTER_CMD_TO_MONITOR	help.h	/^#define HELP_ENTER_CMD_TO_MONITOR	/;"	d
+HELP_ENTER_FILENAME_TO_MONITOR	help.h	/^#define HELP_ENTER_FILENAME_TO_MONITOR	/;"	d
+HELP_ENTER_NUMBER_OF_LINES_TO_STORE	help.h	/^#define HELP_ENTER_NUMBER_OF_LINES_TO_STORE	/;"	d
+HELP_ENTER_REGEXP	help.h	/^#define HELP_ENTER_REGEXP	/;"	d
+HELP_ENTER_REGEXP_SELECT_SUBWINDOW	help.h	/^#define HELP_ENTER_REGEXP_SELECT_SUBWINDOW	/;"	d
+HELP_ENTER_REGEXP_SELECT_WINDOW	help.h	/^#define HELP_ENTER_REGEXP_SELECT_WINDOW	/;"	d
+HELP_ENTER_STRIPPER_SELECT_SUBWINDOW	help.h	/^#define HELP_ENTER_STRIPPER_SELECT_SUBWINDOW	/;"	d
+HELP_ENTER_STRIPPER_SELECT_WINDOW	help.h	/^#define HELP_ENTER_STRIPPER_SELECT_WINDOW	/;"	d
+HELP_ERROR_WRITE_SCRIPT_CREATE_FILE	help.h	/^#define HELP_ERROR_WRITE_SCRIPT_CREATE_FILE	/;"	d
+HELP_FAILED_TO_START_TAIL	help.h	/^#define HELP_FAILED_TO_START_TAIL	/;"	d
+HELP_HIDE_BUT_WINDOW	help.h	/^#define HELP_HIDE_BUT_WINDOW	/;"	d
+HELP_HIDE_WINDOW	help.h	/^#define HELP_HIDE_WINDOW	/;"	d
+HELP_HIGHLIGHT_IN_ALL_WINDOWS	help.h	/^#define HELP_HIGHLIGHT_IN_ALL_WINDOWS	/;"	d
+HELP_HISTORY	help.h	/^#define HELP_HISTORY	/;"	d
+HELP_LIST_KEYBINDINGS	help.h	/^#define HELP_LIST_KEYBINDINGS	/;"	d
+HELP_MAIN_MENU	help.h	/^#define HELP_MAIN_MENU	/;"	d
+HELP_MANAGE_COLS	help.h	/^#define HELP_MANAGE_COLS	/;"	d
+HELP_MERGE_ANOTHER_WINDOW	help.h	/^#define HELP_MERGE_ANOTHER_WINDOW	/;"	d
+HELP_NEGATE_REGEXP	help.h	/^#define HELP_NEGATE_REGEXP	/;"	d
+HELP_N_WIN_PER_COL	help.h	/^#define HELP_N_WIN_PER_COL	/;"	d
+HELP_PAUSE_A_WINDOW	help.h	/^#define HELP_PAUSE_A_WINDOW	/;"	d
+HELP_REDIRECT_FAILED	help.h	/^#define HELP_REDIRECT_FAILED	/;"	d
+HELP_REGEXP_MENU	help.h	/^#define HELP_REGEXP_MENU	/;"	d
+HELP_REGEXP_USAGE	help.h	/^#define HELP_REGEXP_USAGE	/;"	d
+HELP_SCREENDUMP_SELECT_FILE	help.h	/^#define HELP_SCREENDUMP_SELECT_FILE	/;"	d
+HELP_SCREENDUMP_SELECT_WIN	help.h	/^#define HELP_SCREENDUMP_SELECT_WIN	/;"	d
+HELP_SCROLLBACK_EDIT_SEARCH_STRING	help.h	/^#define HELP_SCROLLBACK_EDIT_SEARCH_STRING	/;"	d
+HELP_SCROLLBACK_HELP	help.h	/^#define HELP_SCROLLBACK_HELP	/;"	d
+HELP_SCROLLBACK_NO_MARK	help.h	/^#define HELP_SCROLLBACK_NO_MARK	/;"	d
+HELP_SCROLLBACK_SAVEFILE	help.h	/^#define HELP_SCROLLBACK_SAVEFILE	/;"	d
+HELP_SCROLLBACK_SAVEFILE_ENTER_FILENAME	help.h	/^#define HELP_SCROLLBACK_SAVEFILE_ENTER_FILENAME	/;"	d
+HELP_SCROLLBACK_SELECT_WINDOW	help.h	/^#define HELP_SCROLLBACK_SELECT_WINDOW	/;"	d
+HELP_SEARCH_IN_ALL_WINDOWS	help.h	/^#define HELP_SEARCH_IN_ALL_WINDOWS	/;"	d
+HELP_SELECT_COLORSCHEMES	help.h	/^#define HELP_SELECT_COLORSCHEMES	/;"	d
+HELP_SELECT_COLOR_AND_ATTRIBUTES	help.h	/^#define HELP_SELECT_COLOR_AND_ATTRIBUTES	/;"	d
+HELP_SELECT_CONVERSIONSCHEMES	help.h	/^#define HELP_SELECT_CONVERSIONSCHEMES	/;"	d
+HELP_SELECT_RESTART_WINDOW	help.h	/^#define HELP_SELECT_RESTART_WINDOW	/;"	d
+HELP_SELECT_RESTART_WINDOW_ALL	help.h	/^#define HELP_SELECT_RESTART_WINDOW_ALL	/;"	d
+HELP_SELECT_SIGNAL	help.h	/^#define HELP_SELECT_SIGNAL	/;"	d
+HELP_SELECT_TERMINAL_EMULATION	help.h	/^#define HELP_SELECT_TERMINAL_EMULATION	/;"	d
+HELP_SEND_SIGNAL_FAILED	help.h	/^#define HELP_SEND_SIGNAL_FAILED	/;"	d
+HELP_SEND_SIGNAL_SELECT_SUBWINDOW	help.h	/^#define HELP_SEND_SIGNAL_SELECT_SUBWINDOW	/;"	d
+HELP_SEND_SIGNAL_SELECT_WINDOW	help.h	/^#define HELP_SEND_SIGNAL_SELECT_WINDOW	/;"	d
+HELP_SEND_SIGNAL_WINDOW_SEND_TO_ALL_SUBWIN	help.h	/^#define HELP_SEND_SIGNAL_WINDOW_SEND_TO_ALL_SUBWIN	/;"	d
+HELP_SET_BUFFERING	help.h	/^#define HELP_SET_BUFFERING	/;"	d
+HELP_SET_BUFFERING_SELECT_WINDOW	help.h	/^#define HELP_SET_BUFFERING_SELECT_WINDOW	/;"	d
+HELP_SET_BUFFERING_STORE_WHAT	help.h	/^#define HELP_SET_BUFFERING_STORE_WHAT	/;"	d
+HELP_SET_LINEWRAP	help.h	/^#define HELP_SET_LINEWRAP	/;"	d
+HELP_SET_VERTICAL_SPLIT_N_WIN	help.h	/^#define HELP_SET_VERTICAL_SPLIT_N_WIN	/;"	d
+HELP_SET_WINDOWSIZES	help.h	/^#define HELP_SET_WINDOWSIZES	/;"	d
+HELP_SET_WINDOW_HEIGHT	help.h	/^#define HELP_SET_WINDOW_HEIGHT	/;"	d
+HELP_SET_WINDOW_HEIGHT_SELECT_WINDOW	help.h	/^#define HELP_SET_WINDOW_HEIGHT_SELECT_WINDOW	/;"	d
+HELP_SET_WINDOW_WIDTH	help.h	/^#define HELP_SET_WINDOW_WIDTH	/;"	d
+HELP_STATISTICS	help.h	/^#define HELP_STATISTICS	/;"	d
+HELP_STATISTICS_POPUP	help.h	/^#define HELP_STATISTICS_POPUP	/;"	d
+HELP_STRIPPER_COL_NR	help.h	/^#define HELP_STRIPPER_COL_NR	/;"	d
+HELP_STRIPPER_DELIMITER	help.h	/^#define HELP_STRIPPER_DELIMITER	/;"	d
+HELP_STRIPPER_END_OFFSET	help.h	/^#define HELP_STRIPPER_END_OFFSET	/;"	d
+HELP_STRIPPER_START_OFFSET	help.h	/^#define HELP_STRIPPER_START_OFFSET	/;"	d
+HELP_STRIPPER_TYPE	help.h	/^#define HELP_STRIPPER_TYPE	/;"	d
+HELP_SWAP_WIN1	help.h	/^#define HELP_SWAP_WIN1	/;"	d
+HELP_SWAP_WIN2	help.h	/^#define HELP_SWAP_WIN2	/;"	d
+HELP_TERMINAL_MODE_SELECT_WINDOW	help.h	/^#define HELP_TERMINAL_MODE_SELECT_WINDOW	/;"	d
+HELP_TOGGLE_COLORS_SELECT_SUBWINDOW	help.h	/^#define HELP_TOGGLE_COLORS_SELECT_SUBWINDOW	/;"	d
+HELP_TOGGLE_COLORS_SELECT_WINDOW	help.h	/^#define HELP_TOGGLE_COLORS_SELECT_WINDOW	/;"	d
+HELP_TRUNCATE_AREYOUSURE	help.h	/^#define HELP_TRUNCATE_AREYOUSURE	/;"	d
+HELP_TRUNCATE_FAILED	help.h	/^#define HELP_TRUNCATE_FAILED	/;"	d
+HELP_TRUNCATE_FILE_SELECT_SUBWINDOW	help.h	/^#define HELP_TRUNCATE_FILE_SELECT_SUBWINDOW	/;"	d
+HELP_TRUNCATE_FILE_SELECT_WINDOW	help.h	/^#define HELP_TRUNCATE_FILE_SELECT_WINDOW	/;"	d
+HELP_TRUNCATE_ONLY_LOGFILES	help.h	/^#define HELP_TRUNCATE_ONLY_LOGFILES	/;"	d
+HELP_WINDOW_CLOSED	help.h	/^#define HELP_WINDOW_CLOSED	/;"	d
+HELP_WIPE_WINDOW	help.h	/^#define HELP_WIPE_WINDOW	/;"	d
+HELP_WRITE_SCRIPT	help.h	/^#define HELP_WRITE_SCRIPT	/;"	d
+HISTORY_IO_BUFFER	mt.h	/^#define HISTORY_IO_BUFFER	/;"	d
+IS_MARKERLINE	mt.h	/^#define IS_MARKERLINE(/;"	d
+Introductie	manual-nl.html	/^<H2>Introductie<\/H2>$/;"	i
+Introduction	manual.html	/^<H2>Introduction<\/H2>$/;"	i
+Is that all?	manual.html	/^<H2>Is that all?<\/H2>$/;"	i
+KEYS	multitail.1	/^.SH KEYS$/;"	s	title:MULTITAIL
+LINE_BOTTOM	mt.h	/^typedef enum { LINE_LEFT = 1, LINE_RIGHT, LINE_TOP, LINE_BOTTOM } linepos_t;$/;"	e	enum:__anon7c9ac89c0403
+LINE_LEFT	mt.h	/^typedef enum { LINE_LEFT = 1, LINE_RIGHT, LINE_TOP, LINE_BOTTOM } linepos_t;$/;"	e	enum:__anon7c9ac89c0403
+LINE_RIGHT	mt.h	/^typedef enum { LINE_LEFT = 1, LINE_RIGHT, LINE_TOP, LINE_BOTTOM } linepos_t;$/;"	e	enum:__anon7c9ac89c0403
+LINE_TOP	mt.h	/^typedef enum { LINE_LEFT = 1, LINE_RIGHT, LINE_TOP, LINE_BOTTOM } linepos_t;$/;"	e	enum:__anon7c9ac89c0403
+LOADAVG_STR_LEN	mt.h	/^#define LOADAVG_STR_LEN	/;"	d
+LOG	mt.c	/^void LOG(char *s, ...)$/;"	f	typeref:typename:void
+MARKER_CHANGE	mt.h	/^#define MARKER_CHANGE	/;"	d
+MARKER_IDLE	mt.h	/^#define MARKER_IDLE	/;"	d
+MARKER_MSG	mt.h	/^#define MARKER_MSG	/;"	d
+MARKER_REGULAR	mt.h	/^#define MARKER_REGULAR	/;"	d
+MAX_BACKTRACE_LENGTH	mt.h	/^#define MAX_BACKTRACE_LENGTH	/;"	d
+MAX_COLORS_PER_LINE	mt.h	/^#define MAX_COLORS_PER_LINE /;"	d
+MAX_N_COLUMNS	mt.h	/^#define MAX_N_COLUMNS	/;"	d
+MAX_N_RE_MATCHES	mt.h	/^#define MAX_N_RE_MATCHES	/;"	d
+MAX_N_SPAWNED_PROCESSES	mt.h	/^#define MAX_N_SPAWNED_PROCESSES	/;"	d
+MIN_N_BUFFERLINES	mt.h	/^#define MIN_N_BUFFERLINES	/;"	d
+MULTITAIL	multitail.1	/^.TH MULTITAIL 1 2007-02 "MultiTail"$/;"	t
+MY_FALSE	mt.h	/^typedef enum { MY_FALSE = 0, MY_TRUE = 1 } mybool_t;$/;"	e	enum:__anon7c9ac89c0103
+MY_TRUE	mt.h	/^typedef enum { MY_FALSE = 0, MY_TRUE = 1 } mybool_t;$/;"	e	enum:__anon7c9ac89c0103
+M_GB	mt.h	/^#define M_GB /;"	d
+M_KB	mt.h	/^#define M_KB /;"	d
+M_MB	mt.h	/^#define M_MB /;"	d
+Merging Files	manual.html	/^<H2>Merging Files<\/H2>$/;"	i
+Miscellaneous Options	manual.html	/^<H2>Miscellaneous Options<\/H2>$/;"	i
+NAME	multitail.1	/^.SH NAME$/;"	s	title:MULTITAIL
+NCURSES_LIB	Makefile	/^NCURSES_LIB:=$(shell pkg-config --libs ncurses)$/;"	m
+NDEBUG	doassert.h	/^	#define NDEBUG$/;"	d
+NEWWIN	mt.h	/^} NEWWIN;$/;"	t	typeref:struct:__anon7c9ac89c0c08
+NOTES	multitail.1	/^.SH NOTES$/;"	s	title:MULTITAIL
+OBJS	Makefile	/^OBJS:=utils.o mt.o error.o my_pty.o term.o scrollback.o help.o mem.o cv.o selbox.o stripstring.o/;"	m
+OPTIONS	multitail.1	/^.SH OPTIONS$/;"	s	title:MULTITAIL
+PLATFORM	Makefile	/^PLATFORM:=$(shell uname)$/;"	m
+PREFIX	Makefile	/^PREFIX=\/usr\/local$/;"	m
+READ	utils.c	/^int READ(int fd, char *where_to, int max_len, char *for_whom)$/;"	f	typeref:typename:int
+REDIRECTTO_FILE	mt.h	/^typedef enum { REDIRECTTO_NONE = 0, REDIRECTTO_PIPE_FILTERED = 1, REDIRECTTO_PIPE, REDIRECTTO_FI/;"	e	enum:__anon7c9ac89c1403
+REDIRECTTO_FILE_FILTERED	mt.h	/^typedef enum { REDIRECTTO_NONE = 0, REDIRECTTO_PIPE_FILTERED = 1, REDIRECTTO_PIPE, REDIRECTTO_FI/;"	e	enum:__anon7c9ac89c1403
+REDIRECTTO_NONE	mt.h	/^typedef enum { REDIRECTTO_NONE = 0, REDIRECTTO_PIPE_FILTERED = 1, REDIRECTTO_PIPE, REDIRECTTO_FI/;"	e	enum:__anon7c9ac89c1403
+REDIRECTTO_PIPE	mt.h	/^typedef enum { REDIRECTTO_NONE = 0, REDIRECTTO_PIPE_FILTERED = 1, REDIRECTTO_PIPE, REDIRECTTO_FI/;"	e	enum:__anon7c9ac89c1403
+REDIRECTTO_PIPE_FILTERED	mt.h	/^typedef enum { REDIRECTTO_NONE = 0, REDIRECTTO_PIPE_FILTERED = 1, REDIRECTTO_PIPE, REDIRECTTO_FI/;"	e	enum:__anon7c9ac89c1403
+REDIRECTTO_SOCKET	mt.h	/^typedef enum { REDIRECTTO_NONE = 0, REDIRECTTO_PIPE_FILTERED = 1, REDIRECTTO_PIPE, REDIRECTTO_FI/;"	e	enum:__anon7c9ac89c1403
+REDIRECTTO_SOCKET_FILTERED	mt.h	/^typedef enum { REDIRECTTO_NONE = 0, REDIRECTTO_PIPE_FILTERED = 1, REDIRECTTO_PIPE, REDIRECTTO_FI/;"	e	enum:__anon7c9ac89c1403
+SCHEME_COLOR	mt.h	/^typedef enum { SCHEME_CONVERSION = 1, SCHEME_COLOR } scheme_t;$/;"	e	enum:__anon7c9ac89c2703
+SCHEME_CONVERSION	mt.h	/^typedef enum { SCHEME_CONVERSION = 1, SCHEME_COLOR } scheme_t;$/;"	e	enum:__anon7c9ac89c2703
+SCHEME_TYPE_EDIT	mt.h	/^typedef enum { SCHEME_TYPE_EDIT = 0, SCHEME_TYPE_FILTER } filter_edit_scheme_t;$/;"	e	enum:__anon7c9ac89c0603
+SCHEME_TYPE_FILTER	mt.h	/^typedef enum { SCHEME_TYPE_EDIT = 0, SCHEME_TYPE_FILTER } filter_edit_scheme_t;$/;"	e	enum:__anon7c9ac89c0603
+SCRIPT_IO_BUFFER_SIZE	mt.h	/^#define SCRIPT_IO_BUFFER_SIZE	/;"	d
+SEE ALSO	multitail.1	/^.SH "SEE ALSO"$/;"	s	title:MULTITAIL
+SEL_CSCHEME	mt.h	/^typedef enum { SEL_WIN = 1, SEL_SUBWIN, SEL_FILES, SEL_CSCHEME, SEL_HISTORY } selbox_type_t;$/;"	e	enum:__anon7c9ac89c0703
+SEL_FILES	mt.h	/^typedef enum { SEL_WIN = 1, SEL_SUBWIN, SEL_FILES, SEL_CSCHEME, SEL_HISTORY } selbox_type_t;$/;"	e	enum:__anon7c9ac89c0703
+SEL_HISTORY	mt.h	/^typedef enum { SEL_WIN = 1, SEL_SUBWIN, SEL_FILES, SEL_CSCHEME, SEL_HISTORY } selbox_type_t;$/;"	e	enum:__anon7c9ac89c0703
+SEL_SUBWIN	mt.h	/^typedef enum { SEL_WIN = 1, SEL_SUBWIN, SEL_FILES, SEL_CSCHEME, SEL_HISTORY } selbox_type_t;$/;"	e	enum:__anon7c9ac89c0703
+SEL_WIN	mt.h	/^typedef enum { SEL_WIN = 1, SEL_SUBWIN, SEL_FILES, SEL_CSCHEME, SEL_HISTORY } selbox_type_t;$/;"	e	enum:__anon7c9ac89c0703
+SL_ATTR	mt.h	/^#define SL_ATTR	/;"	d
+SL_NONE	mt.h	/^#define SL_NONE	/;"	d
+SL_REGULAR	mt.h	/^#define SL_REGULAR	/;"	d
+STRIP_KEEP_SUBSTR	mt.h	/^typedef enum { STRIP_TYPE_REGEXP = 1, STRIP_TYPE_RANGE, STRIP_TYPE_COLUMN, STRIP_KEEP_SUBSTR } s/;"	e	enum:__anon7c9ac89c0f03
+STRIP_TYPE_COLUMN	mt.h	/^typedef enum { STRIP_TYPE_REGEXP = 1, STRIP_TYPE_RANGE, STRIP_TYPE_COLUMN, STRIP_KEEP_SUBSTR } s/;"	e	enum:__anon7c9ac89c0f03
+STRIP_TYPE_RANGE	mt.h	/^typedef enum { STRIP_TYPE_REGEXP = 1, STRIP_TYPE_RANGE, STRIP_TYPE_COLUMN, STRIP_KEEP_SUBSTR } s/;"	e	enum:__anon7c9ac89c0f03
+STRIP_TYPE_REGEXP	mt.h	/^typedef enum { STRIP_TYPE_REGEXP = 1, STRIP_TYPE_RANGE, STRIP_TYPE_COLUMN, STRIP_KEEP_SUBSTR } s/;"	e	enum:__anon7c9ac89c0f03
+SWITCHES_COLUMN_WIDTH	help.h	/^#define SWITCHES_COLUMN_WIDTH	/;"	d
+SYNOPSIS	multitail.1	/^.SH SYNOPSIS$/;"	s	title:MULTITAIL
+Scrolling	manual.html	/^<H2>Scrolling<\/H2>$/;"	i
+TERM_ANSI	mt.h	/^typedef enum { TERM_IGNORE = 0, TERM_XTERM, TERM_ANSI \/* or vt100 *\/} term_t;$/;"	e	enum:__anon7c9ac89c0503
+TERM_IGNORE	mt.h	/^typedef enum { TERM_IGNORE = 0, TERM_XTERM, TERM_ANSI \/* or vt100 *\/} term_t;$/;"	e	enum:__anon7c9ac89c0503
+TERM_XTERM	mt.h	/^typedef enum { TERM_IGNORE = 0, TERM_XTERM, TERM_ANSI \/* or vt100 *\/} term_t;$/;"	e	enum:__anon7c9ac89c0503
+TIMESTAMP_EXTEND_BUFFER	mt.h	/^#define TIMESTAMP_EXTEND_BUFFER	/;"	d
+TRUE	error.h	/^#define TRUE /;"	d
+TT_ATIME	mt.h	/^typedef enum { TT_ATIME = 1, TT_MTIME, TT_CTIME } time_field_t;$/;"	e	enum:__anon7c9ac89c0803
+TT_CTIME	mt.h	/^typedef enum { TT_ATIME = 1, TT_MTIME, TT_CTIME } time_field_t;$/;"	e	enum:__anon7c9ac89c0803
+TT_MTIME	mt.h	/^typedef enum { TT_ATIME = 1, TT_MTIME, TT_CTIME } time_field_t;$/;"	e	enum:__anon7c9ac89c0803
+The Basics	manual.html	/^<H2>The Basics<\/H2>$/;"	i
+USE_IF_SET	mt.h	/^	#define USE_IF_SET(/;"	d
+UTF8_SUPPORT	Makefile	/^UTF8_SUPPORT:=yes$/;"	m
+VAL_POSITIVE	mt.h	/^typedef enum { VAL_ZERO_POSITIVE = 1, VAL_POSITIVE_NOT_1, VAL_POSITIVE } valcheck_t;$/;"	e	enum:__anon7c9ac89c0203
+VAL_POSITIVE_NOT_1	mt.h	/^typedef enum { VAL_ZERO_POSITIVE = 1, VAL_POSITIVE_NOT_1, VAL_POSITIVE } valcheck_t;$/;"	e	enum:__anon7c9ac89c0203
+VAL_ZERO_POSITIVE	mt.h	/^typedef enum { VAL_ZERO_POSITIVE = 1, VAL_POSITIVE_NOT_1, VAL_POSITIVE } valcheck_t;$/;"	e	enum:__anon7c9ac89c0203
+Viewing Output of External Programs	manual.html	/^<H2>Viewing Output of External Programs<\/H2>$/;"	i
+WAIT_FOR_FILE_DELAY	mt.h	/^#define WAIT_FOR_FILE_DELAY	/;"	d
+WRITE	utils.c	/^ssize_t WRITE(int fd, char *whereto, size_t len, char *for_whom)$/;"	f	typeref:typename:ssize_t
+WT_COMMAND	mt.h	/^typedef enum { WT_FILE=1, WT_COMMAND, WT_STDIN, WT_SOCKET } windowtype_t;$/;"	e	enum:__anon7c9ac89c1b03
+WT_FILE	mt.h	/^typedef enum { WT_FILE=1, WT_COMMAND, WT_STDIN, WT_SOCKET } windowtype_t;$/;"	e	enum:__anon7c9ac89c1b03
+WT_SOCKET	mt.h	/^typedef enum { WT_FILE=1, WT_COMMAND, WT_STDIN, WT_SOCKET } windowtype_t;$/;"	e	enum:__anon7c9ac89c1b03
+WT_STDIN	mt.h	/^typedef enum { WT_FILE=1, WT_COMMAND, WT_STDIN, WT_SOCKET } windowtype_t;$/;"	e	enum:__anon7c9ac89c1b03
+Waarom deze tekst?	manual-nl.html	/^<H3>Waarom deze tekst?<\/H3>$/;"	j
+Wat is MultiTail?	manual-nl.html	/^<H3>Wat is MultiTail?<\/H3>$/;"	j
+What is MultiTail?	manual.html	/^<H3>What is MultiTail?<\/H3>$/;"	j
+Why this text?	manual.html	/^<H3>Why this text?<\/H3>$/;"	j
+_BSD_SOURCE	mt.h	/^#define _BSD_SOURCE	/;"	d
+_INCLUDE_AES_SOURCE	my_pty.c	/^#define _INCLUDE_AES_SOURCE$/;"	d	file:
+_INCLUDE_HPUX_SOURCE	my_pty.c	/^#define _INCLUDE_HPUX_SOURCE$/;"	d	file:
+_INCLUDE_POSIX_SOURCE	my_pty.c	/^#define _INCLUDE_POSIX_SOURCE$/;"	d	file:
+_INCLUDE_XOPEN_SOURCE	my_pty.c	/^#define _INCLUDE_XOPEN_SOURCE$/;"	d	file:
+_INCLUDE_XOPEN_SOURCE_EXTENDED	my_pty.c	/^#define _INCLUDE_XOPEN_SOURCE_EXTENDED$/;"	d	file:
+_LARGEFILE64_SOURCE	clipboard.c	/^#define _LARGEFILE64_SOURCE$/;"	d	file:
+_LARGEFILE64_SOURCE	cmdline.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LARGEFILE64_SOURCE	color.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LARGEFILE64_SOURCE	config.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LARGEFILE64_SOURCE	cv.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LARGEFILE64_SOURCE	diff.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LARGEFILE64_SOURCE	error.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LARGEFILE64_SOURCE	exec.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LARGEFILE64_SOURCE	globals.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LARGEFILE64_SOURCE	help.c	/^#define _LARGEFILE64_SOURCE	/;"	d	file:
+_LARGEFILE64_SOURCE	history.c	/^#define _LARGEFILE64_SOURCE$/;"	d	file:
+_LARGEFILE64_SOURCE	mem.c	/^#define _LARGEFILE64_SOURCE	/;"	d	file:
+_LARGEFILE64_SOURCE	misc.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LARGEFILE64_SOURCE	mt.c	/^#define _LARGEFILE64_SOURCE	/;"	d	file:
+_LARGEFILE64_SOURCE	mt.h	/^#define _LARGEFILE64_SOURCE	/;"	d
+_LARGEFILE64_SOURCE	my_pty.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LARGEFILE64_SOURCE	scrollback.c	/^#define _LARGEFILE64_SOURCE	/;"	d	file:
+_LARGEFILE64_SOURCE	selbox.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LARGEFILE64_SOURCE	stripstring.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LARGEFILE64_SOURCE	term.c	/^#define _LARGEFILE64_SOURCE	/;"	d	file:
+_LARGEFILE64_SOURCE	ui.c	/^#define _LARGEFILE64_SOURCE /;"	d	file:
+_LARGEFILE64_SOURCE	utils.c	/^#define _LARGEFILE64_SOURCE	/;"	d	file:
+__MT_H__	mt.h	/^#define __MT_H__$/;"	d
+__PRETTY_FUNCTION__	mt.h	/^        #define __PRETTY_FUNCTION__	/;"	d
+__USE_BSD	mt.h	/^#define __USE_BSD	/;"	d
+__anon01d84cc40108	help.h	/^{$/;"	s
+__anon41b17d910108	config.h	/^{$/;"	s
+__anon7c9ac89c0103	mt.h	/^typedef enum { MY_FALSE = 0, MY_TRUE = 1 } mybool_t;$/;"	g
+__anon7c9ac89c0203	mt.h	/^typedef enum { VAL_ZERO_POSITIVE = 1, VAL_POSITIVE_NOT_1, VAL_POSITIVE } valcheck_t;$/;"	g
+__anon7c9ac89c0303	mt.h	/^typedef enum { BEEP_FLASH = 1, BEEP_BEEP, BEEP_POPUP, BEEP_NONE } beeb_t;$/;"	g
+__anon7c9ac89c0403	mt.h	/^typedef enum { LINE_LEFT = 1, LINE_RIGHT, LINE_TOP, LINE_BOTTOM } linepos_t;$/;"	g
+__anon7c9ac89c0503	mt.h	/^typedef enum { TERM_IGNORE = 0, TERM_XTERM, TERM_ANSI \/* or vt100 *\/} term_t;$/;"	g
+__anon7c9ac89c0603	mt.h	/^typedef enum { SCHEME_TYPE_EDIT = 0, SCHEME_TYPE_FILTER } filter_edit_scheme_t;$/;"	g
+__anon7c9ac89c0703	mt.h	/^typedef enum { SEL_WIN = 1, SEL_SUBWIN, SEL_FILES, SEL_CSCHEME, SEL_HISTORY } selbox_type_t;$/;"	g
+__anon7c9ac89c0803	mt.h	/^typedef enum { TT_ATIME = 1, TT_MTIME, TT_CTIME } time_field_t;$/;"	g
+__anon7c9ac89c0908	mt.h	/^{$/;"	s
+__anon7c9ac89c0a08	mt.h	/^{$/;"	s
+__anon7c9ac89c0b08	mt.h	/^{$/;"	s
+__anon7c9ac89c0c08	mt.h	/^{$/;"	s
+__anon7c9ac89c0d08	mt.h	/^{$/;"	s
+__anon7c9ac89c0e08	mt.h	/^{$/;"	s
+__anon7c9ac89c0f03	mt.h	/^typedef enum { STRIP_TYPE_REGEXP = 1, STRIP_TYPE_RANGE, STRIP_TYPE_COLUMN, STRIP_KEEP_SUBSTR } s/;"	g
+__anon7c9ac89c1008	mt.h	/^{$/;"	s
+__anon7c9ac89c1108	mt.h	/^{$/;"	s
+__anon7c9ac89c1208	mt.h	/^{$/;"	s
+__anon7c9ac89c1308	mt.h	/^{$/;"	s
+__anon7c9ac89c1403	mt.h	/^typedef enum { REDIRECTTO_NONE = 0, REDIRECTTO_PIPE_FILTERED = 1, REDIRECTTO_PIPE, REDIRECTTO_FI/;"	g
+__anon7c9ac89c1508	mt.h	/^typedef struct {$/;"	s
+__anon7c9ac89c1608	mt.h	/^{	$/;"	s
+__anon7c9ac89c1708	mt.h	/^{$/;"	s
+__anon7c9ac89c1808	mt.h	/^{$/;"	s
+__anon7c9ac89c1908	mt.h	/^{$/;"	s
+__anon7c9ac89c1a08	mt.h	/^{$/;"	s
+__anon7c9ac89c1b03	mt.h	/^typedef enum { WT_FILE=1, WT_COMMAND, WT_STDIN, WT_SOCKET } windowtype_t;$/;"	g
+__anon7c9ac89c1c08	mt.h	/^	{$/;"	s	struct:_subwindow_
+__anon7c9ac89c1d08	mt.h	/^{$/;"	s
+__anon7c9ac89c1e08	mt.h	/^{$/;"	s
+__anon7c9ac89c1f03	mt.h	/^typedef enum {$/;"	g
+__anon7c9ac89c2008	mt.h	/^{$/;"	s
+__anon7c9ac89c2108	mt.h	/^{$/;"	s
+__anon7c9ac89c2208	mt.h	/^{$/;"	s
+__anon7c9ac89c2308	mt.h	/^{$/;"	s
+__anon7c9ac89c2403	mt.h	/^typedef enum { CONVTYPE_IP4TOHOST = 1, CONVTYPE_EPOCHTODATE, CONVTYPE_ERRNO, CONVTYPE_HEXTODEC, /;"	g
+__anon7c9ac89c2508	mt.h	/^{$/;"	s
+__anon7c9ac89c2608	mt.h	/^{$/;"	s
+__anon7c9ac89c2703	mt.h	/^typedef enum { SCHEME_CONVERSION = 1, SCHEME_COLOR } scheme_t;$/;"	g
+__anon7c9ac89c2808	mt.h	/^{$/;"	s
+__anon7c9ac89c2908	mt.h	/^{$/;"	s
+__anon7c9ac89c2a08	mt.h	/^{$/;"	s
+_subwindow_	mt.h	/^typedef struct _subwindow_$/;"	s
+abbreviate_filesize	multitail.conf	/^abbreviate_filesize:on$/;"	k
+abort_key	globals.c	/^char abort_key = 7;$/;"	v	typeref:typename:char
+abort_key	multitail.conf	/^abort_key:7$/;"	k
+ac_index	mt.h	/^	int ac_index;$/;"	m	struct:__anon7c9ac89c2108	typeref:typename:int
+add_color_scheme	color.c	/^void add_color_scheme(int_array_t *schemes, int cur_scheme)$/;"	f	typeref:typename:void
+add_colorscheme	config.c	/^void add_colorscheme(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+add_colorscript	config.c	/^void add_colorscript(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+add_conversion_scheme	cv.c	/^void add_conversion_scheme(int_array_t *conversions, char *conversion_name)$/;"	f	typeref:typename:void
+add_convert	config.c	/^void add_convert(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+add_cs_re	config.c	/^void add_cs_re(int linenr, char *incmd, char *par)$/;"	f	typeref:typename:void
+add_editrule	config.c	/^void add_editrule(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+add_editscheme	config.c	/^void add_editscheme(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+add_filterscheme	config.c	/^void add_filterscheme(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+add_filterscheme_rule	config.c	/^void add_filterscheme_rule(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+add_glob_check	cmdline.c	/^void add_glob_check(const char *check_glob, int check_interval, char merge, char new_only, const/;"	f	typeref:typename:void
+add_marker_if_changed	mt.c	/^int add_marker_if_changed(int f_index, proginfo *cur)$/;"	f	typeref:typename:int
+add_markerline	ui.c	/^void add_markerline(int index, proginfo *cur, proginfo *type, char *text)$/;"	f	typeref:typename:void
+add_pars_per_file	mt.c	/^void add_pars_per_file(char *re, char *colorscheme, int n_buffer_lines, int buffer_bytes, char c/;"	f	typeref:typename:void
+add_redir_to_file	cmdline.c	/^void add_redir_to_file(char mode, char *file, redirect_t **predir, int *n_redirect)$/;"	f	typeref:typename:void
+add_redir_to_proc	cmdline.c	/^void add_redir_to_proc(char mode, char *proc, redirect_t **predir, int *n_redirect)$/;"	f	typeref:typename:void
+add_redir_to_socket	cmdline.c	/^void add_redir_to_socket(char filtered, char *prio, char *fac, char *address, redirect_t **predi/;"	f	typeref:typename:void
+add_timestamp	mt.h	/^	char add_timestamp;$/;"	m	struct:_subwindow_	typeref:typename:char
+add_to_iat	utils.c	/^void add_to_iat(int_array_t *piat, int element)$/;"	f	typeref:typename:void
+add_window	ui.c	/^int add_window(void)$/;"	f	typeref:typename:int
+afs	globals.c	/^char afs = 0;	\/* abbreviate filesize *\/$/;"	v	typeref:typename:char
+all	Makefile	/^all: multitail$/;"	t
+allow_8bit	globals.c	/^char allow_8bit = 0; \/* allow 8 bits ascii*\/$/;"	v	typeref:typename:char
+allow_8bit	multitail.conf	/^allow_8bit:yes$/;"	k
+alt_col	mt.h	/^	char alt_col;$/;"	m	struct:__anon7c9ac89c1708	typeref:typename:char
+alt_col_cdev1	mt.h	/^	myattr_t alt_col_cdev1, alt_col_cdev2;$/;"	m	struct:__anon7c9ac89c1708	typeref:typename:myattr_t
+alt_col_cdev2	mt.h	/^	myattr_t alt_col_cdev1, alt_col_cdev2;$/;"	m	struct:__anon7c9ac89c1708	typeref:typename:myattr_t
+amount_to_str	utils.c	/^char * amount_to_str(long long int amount)$/;"	f	typeref:typename:char *
+ansi_code_to_color	term.c	/^int ansi_code_to_color(int value)$/;"	f	typeref:typename:int
+ansi_terminal	help.c	/^char ansi_terminal(void)$/;"	f	typeref:typename:char
+argv_add_re	cmdline.c	/^int argv_add_re(char *mode, char *pars[], char invert_regex, re **pre_cur, int *n_re_cur, re **p/;"	f	typeref:typename:int
+argv_add_stripper	cmdline.c	/^int argv_add_stripper(char *mode, char *pars[], strip_t **pstrip, int *n_strip)$/;"	f	typeref:typename:int
+argv_color_settings	cmdline.c	/^int argv_color_settings(char *mode, char *pars[], char *allcolor, char *curcolor, int *field_ind/;"	f	typeref:typename:int
+argv_set_n_windows_per_column	cmdline.c	/^void argv_set_n_windows_per_column(char *pars)$/;"	f	typeref:typename:void
+argv_set_window_widths	cmdline.c	/^void argv_set_window_widths(char *widths)$/;"	f	typeref:typename:void
+ask_case_insensitive	ui.c	/^void ask_case_insensitive(mybool_t *pcase_insensitive)$/;"	f	typeref:typename:void
+ask_colors	ui.c	/^char ask_colors(NEWWIN *win, int line, char cur, char *fieldnr, char **fielddel, int_array_t *co/;"	f	typeref:typename:char
+ask_negate_regexp	ui.c	/^char ask_negate_regexp(NEWWIN *win, int line)$/;"	f	typeref:typename:char
+ask_regex_type	ui.c	/^char ask_regex_type(NEWWIN *win, int line)$/;"	f	typeref:typename:char
+ask_terminal_emulation	ui.c	/^int ask_terminal_emulation(term_t *term)$/;"	f	typeref:typename:int
+ask_yes_no	term.c	/^int ask_yes_no(int what_help, NEWWIN *popup)$/;"	f	typeref:typename:int
+atoll	mt.h	/^		#define atoll(/;"	d
+atoll	mt.h	/^      #define atoll(/;"	d
+attr_to_str	term.c	/^char *attr_to_str(int attr)$/;"	f	typeref:typename:char *
+attr_to_str_helper	term.c	/^void attr_to_str_helper(char *to, char *what)$/;"	f	typeref:typename:void
+attributes	mt.h	/^	myattr_t attributes;$/;"	m	struct:__anon7c9ac89c1708	typeref:typename:myattr_t
+attrs	mt.h	/^	int attrs;$/;"	m	struct:__anon7c9ac89c1308	typeref:typename:int
+attrs	mt.h	/^	myattr_t attrs;$/;"	m	struct:__anon7c9ac89c2908	typeref:typename:myattr_t
+attrs1	mt.h	/^	myattr_t attrs1;$/;"	m	struct:__anon7c9ac89c2108	typeref:typename:myattr_t
+attrs2	mt.h	/^	myattr_t attrs2;$/;"	m	struct:__anon7c9ac89c2108	typeref:typename:myattr_t
+attrstr_to_nr	term.c	/^int attrstr_to_nr(char *str)$/;"	f	typeref:typename:int
+banner	globals.c	/^char banner = 1;$/;"	v	typeref:typename:char
+bcur	mt.h	/^	char **bcur, **bprev;$/;"	m	struct:__anon7c9ac89c1808	typeref:typename:char **
+be	mt.h	/^	buffered_entry *be;$/;"	m	struct:__anon7c9ac89c1e08	typeref:typename:buffered_entry *
+beeb_t	mt.h	/^typedef enum { BEEP_FLASH = 1, BEEP_BEEP, BEEP_POPUP, BEEP_NONE } beeb_t;$/;"	t	typeref:enum:__anon7c9ac89c0303
+beep	mt.h	/^	} beep;$/;"	m	struct:_subwindow_	typeref:struct:_subwindow_::__anon7c9ac89c1c08
+beep_interval	globals.c	/^int beep_interval = -1;$/;"	v	typeref:typename:int
+beep_interval	mt.h	/^		int beep_interval;$/;"	m	struct:_subwindow_::__anon7c9ac89c1c08	typeref:typename:int
+beep_method	globals.c	/^beeb_t beep_method = BEEP_BEEP;$/;"	v	typeref:typename:beeb_t
+beep_method	multitail.conf	/^beep_method:flash$/;"	k
+beep_popup_length	globals.c	/^double beep_popup_length = 0.0;$/;"	v	typeref:typename:double
+beep_popup_length	multitail.conf	/^beep_popup_length:0.1$/;"	k
+bg_color	mt.h	/^	int *bg_color;$/;"	m	struct:__anon7c9ac89c1208	typeref:typename:int *
+bind	multitail.conf	/^bind:^k:\/bin\/bash$/;"	k
+bind	multitail.conf	/^bind:^l:\/usr\/bin\/telnet$/;"	k
+bind	multitail.conf	/^bind:^s:\/bin\/su$/;"	k
+bind	multitail.conf	/^bind:g:\/usr\/bin\/pine$/;"	k
+bind_char	config.c	/^void bind_char(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+box_bottom_left_hand_corner	globals.c	/^chtype box_bottom_left_hand_corner=0;$/;"	v	typeref:typename:chtype
+box_bottom_right_hand_corner	globals.c	/^chtype box_bottom_right_hand_corner=0;$/;"	v	typeref:typename:chtype
+box_bottom_side	globals.c	/^chtype box_bottom_side=0;$/;"	v	typeref:typename:chtype
+box_left_side	globals.c	/^chtype box_left_side=0;$/;"	v	typeref:typename:chtype
+box_right_side	globals.c	/^chtype box_right_side=0;$/;"	v	typeref:typename:chtype
+box_top_left_hand_corner	globals.c	/^chtype box_top_left_hand_corner=0;$/;"	v	typeref:typename:chtype
+box_top_right_hand_corner	globals.c	/^chtype box_top_right_hand_corner=0;$/;"	v	typeref:typename:chtype
+box_top_side	globals.c	/^chtype box_top_side=0;$/;"	v	typeref:typename:chtype
+bprev	mt.h	/^	char **bcur, **bprev;$/;"	m	struct:__anon7c9ac89c1808	typeref:typename:char **
+bright_colors	globals.c	/^char bright_colors = 0;$/;"	v	typeref:typename:char
+buffer	mt.h	/^} buffer;$/;"	t	typeref:struct:__anon7c9ac89c1e08
+buffer_bytes	mt.h	/^	int buffer_bytes;$/;"	m	struct:__anon7c9ac89c2808	typeref:typename:int
+buffer_maxnlines	mt.h	/^	int buffer_maxnlines;$/;"	m	struct:__anon7c9ac89c2808	typeref:typename:int
+buffer_replace_pi_pointers	mt.c	/^void buffer_replace_pi_pointers(int f_index, proginfo *org, proginfo *new)$/;"	f	typeref:typename:void
+buffered_entry	mt.h	/^} buffered_entry;$/;"	t	typeref:struct:__anon7c9ac89c1d08
+bufferwhat	mt.h	/^	char bufferwhat;$/;"	m	struct:__anon7c9ac89c1e08	typeref:typename:char
+bytes_processed	mt.h	/^	long long int bytes_processed;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:long long int
+caret_notation	globals.c	/^char caret_notation = 0;$/;"	v	typeref:typename:char
+caret_notation	multitail.conf	/^caret_notation:yes$/;"	k
+ccmultitail	Makefile	/^ccmultitail: $(OBJS)$/;"	t
+cdef	mt.h	/^	cdef_t cdef;$/;"	m	struct:_subwindow_	typeref:typename:cdef_t
+cdef	mt.h	/^	cse_main cdef;$/;"	m	struct:__anon7c9ac89c2208	typeref:typename:cse_main
+cdef_t	mt.h	/^} cdef_t;$/;"	t	typeref:struct:__anon7c9ac89c1708
+cdg	globals.c	/^check_dir_glob *cdg = NULL;$/;"	v	typeref:typename:check_dir_glob *
+cf_entries	config.c	/^config_file_keyword cf_entries[] = {$/;"	v	typeref:typename:config_file_keyword[]
+change_win_marker	mt.h	/^	char change_win_marker;$/;"	m	struct:__anon7c9ac89c2808	typeref:typename:char
+changeline_attrs	globals.c	/^myattr_t changeline_attrs = { -1, -1 };$/;"	v	typeref:typename:myattr_t
+changeline_char	globals.c	/^char changeline_char = '-';$/;"	v	typeref:typename:char
+changeline_char	multitail.conf	/^changeline_char:-$/;"	k
+changeline_color	multitail.conf	/^changeline_color:blue,white,bold\/reverse$/;"	k
+check	Makefile	/^check:$/;"	t
+check_dir_glob	mt.h	/^} check_dir_glob;$/;"	t	typeref:struct:__anon7c9ac89c0b08
+check_filter	mt.c	/^char check_filter(proginfo *cur, char *string, regmatch_t **pmatch, char **error, int *matching_/;"	f	typeref:typename:char
+check_filter_exec	mt.c	/^void check_filter_exec(char *cmd, char *matching_string)$/;"	f	typeref:typename:void
+check_for_died_processes	mt.c	/^int check_for_died_processes(void)$/;"	f	typeref:typename:int
+check_for_mail	globals.c	/^int check_for_mail = 5;	\/* check for mail every 5 seconds *\/$/;"	v	typeref:typename:int
+check_for_valid_stdin	mt.c	/^void check_for_valid_stdin()$/;"	f	typeref:typename:void
+check_interval	mt.h	/^	int check_interval;$/;"	m	struct:__anon7c9ac89c0b08	typeref:typename:int
+check_interval	mt.h	/^	int check_interval;$/;"	m	struct:_subwindow_	typeref:typename:int
+check_mail	multitail.conf	/^check_mail:0$/;"	k
+check_paths	mt.c	/^int check_paths(void)$/;"	f	typeref:typename:int
+children_list	globals.c	/^pid_t children_list[MAX_N_SPAWNED_PROCESSES];$/;"	v	typeref:typename:pid_t[]
+choose_color	color.c	/^myattr_t choose_color(char *string, proginfo *cur, color_offset_in_line **cmatches, int *n_cmatc/;"	f	typeref:typename:myattr_t
+clean	Makefile	/^clean:$/;"	t
+clean_memory	mem.c	/^void clean_memory(void)$/;"	f	typeref:typename:void
+clear_a_buffer	ui.c	/^void clear_a_buffer(void)$/;"	f	typeref:typename:void
+clear_all_buffers	ui.c	/^void clear_all_buffers(void)$/;"	f	typeref:typename:void
+clipboard	clipboard.c	/^char *clipboard = "\/usr\/bin\/" CLIPBOARD_NAME;$/;"	v	typeref:typename:char *
+close_closed_windows	multitail.conf	/^close_closed_windows:yes$/;"	k
+close_idle	mt.h	/^	int close_idle;$/;"	m	struct:_subwindow_	typeref:typename:int
+close_window	mt.c	/^char close_window(int winnr, proginfo *cur, mybool_t stop_proc)$/;"	f	typeref:typename:char
+closed	mt.h	/^	char closed;$/;"	m	struct:_subwindow_	typeref:typename:char
+cmd	mt.h	/^	char *cmd;$/;"	m	struct:__anon7c9ac89c0d08	typeref:typename:char *
+cmdfile_h	globals.c	/^history_t cmdfile_h = { NULL, 0, NULL };$/;"	v	typeref:typename:history_t
+cmdfile_history_file	multitail.conf	/^cmdfile_history_file:~\/.multitail.cmdfilehistory$/;"	k
+cmdfile_history_size	multitail.conf	/^cmdfile_history_size:30$/;"	k
+cmp_value	mt.h	/^	double cmp_value;$/;"	m	struct:__anon7c9ac89c2208	typeref:typename:double
+cnv_ts_format	globals.c	/^char *cnv_ts_format = NULL;$/;"	v	typeref:typename:char *
+cnv_ts_format	multitail.conf	/^cnv_ts_format:%b %d %H:%M:%S %Y$/;"	k
+col_nr	mt.h	/^	int col_nr;$/;"	m	struct:__anon7c9ac89c1008	typeref:typename:int
+color_management	ui.c	/^int color_management(myattr_t *org, myattr_t *new)$/;"	f	typeref:typename:int
+color_names	globals.c	/^char **color_names = NULL;$/;"	v	typeref:typename:char **
+color_off	term.c	/^void color_off(NEWWIN *win, int colorpair_index)$/;"	f	typeref:typename:void
+color_offset_in_line	mt.h	/^} color_offset_in_line;$/;"	t	typeref:struct:__anon7c9ac89c2908
+color_on	term.c	/^void color_on(NEWWIN *win, int colorpair_index)$/;"	f	typeref:typename:void
+color_print	mt.c	/^void color_print(int f_index, NEWWIN *win, proginfo *cur, char *string, regmatch_t *matches, int/;"	f	typeref:typename:void
+color_scheme	mt.h	/^	const char *color_scheme;$/;"	m	struct:__anon7c9ac89c0b08	typeref:typename:const char *
+color_scheme	mt.h	/^} color_scheme;$/;"	t	typeref:struct:__anon7c9ac89c2308
+color_scheme_entry	mt.h	/^} color_scheme_entry;$/;"	t	typeref:struct:__anon7c9ac89c2208
+color_schemes	mt.h	/^	int_array_t color_schemes;$/;"	m	struct:__anon7c9ac89c1708	typeref:typename:int_array_t
+color_script	color.c	/^void color_script(char *line, script *pscript, int *cur_n_cmatches, color_offset_in_line **cmatc/;"	f	typeref:typename:void
+color_script	mt.h	/^	script color_script;$/;"	m	struct:__anon7c9ac89c2308	typeref:typename:script
+color_to_string	term.c	/^char *color_to_string(int nr)$/;"	f	typeref:typename:char *
+colorize	mt.h	/^	char colorize;$/;"	m	struct:__anon7c9ac89c1708	typeref:typename:char
+colorpair_index	mt.h	/^	int colorpair_index;$/;"	m	struct:__anon7c9ac89c1308	typeref:typename:int
+colorpairs	mt.h	/^} colorpairs;$/;"	t	typeref:struct:__anon7c9ac89c1208
+colorscheme	multitail.conf	/^colorscheme:acctail:(BSD-) process accounting reader$/;"	k
+colorscheme	multitail.conf	/^colorscheme:acpitail:Show temperature\/battery\/etc info$/;"	k
+colorscheme	multitail.conf	/^colorscheme:apache:default Apache logging (webserver)$/;"	k
+colorscheme	multitail.conf	/^colorscheme:apache_error:default Apache error logging$/;"	k
+colorscheme	multitail.conf	/^colorscheme:argus:Argus http:\/\/qosient.com\/argus\/$/;"	k
+colorscheme	multitail.conf	/^colorscheme:asterisk:software PBX$/;"	k
+colorscheme	multitail.conf	/^colorscheme:audit$/;"	k
+colorscheme	multitail.conf	/^colorscheme:bind$/;"	k
+colorscheme	multitail.conf	/^colorscheme:boinc:BOINC http:\/\/boinc.berkeley.edu\/$/;"	k
+colorscheme	multitail.conf	/^colorscheme:boinctail:BOINCTail http:\/\/www.vanheusden.com\/boinctail\/$/;"	k
+colorscheme	multitail.conf	/^colorscheme:checkpoint:Checkpoint Firewall-1$/;"	k
+colorscheme	multitail.conf	/^colorscheme:clamav:clamd logging$/;"	k
+colorscheme	multitail.conf	/^colorscheme:dhcpd$/;"	k
+colorscheme	multitail.conf	/^colorscheme:errpt:AIX error reporting tool$/;"	k
+colorscheme	multitail.conf	/^colorscheme:exim$/;"	k
+colorscheme	multitail.conf	/^colorscheme:goldengate$/;"	k
+colorscheme	multitail.conf	/^colorscheme:httping:ping for HTTP$/;"	k
+colorscheme	multitail.conf	/^colorscheme:ii:ii IRC client http:\/\/www.suckless.org\/wiki\/tools\/irc$/;"	k
+colorscheme	multitail.conf	/^colorscheme:inn$/;"	k
+colorscheme	multitail.conf	/^colorscheme:kerberos$/;"	k
+colorscheme	multitail.conf	/^colorscheme:lambdamoo:MUD\/MOO server http:\/\/www.moo.mud.org\/$/;"	k
+colorscheme	multitail.conf	/^colorscheme:liniptfw:Linux IPtables (2.6.x kernel)$/;"	k
+colorscheme	multitail.conf	/^colorscheme:log4j$/;"	k
+colorscheme	multitail.conf	/^colorscheme:log4jnew$/;"	k
+colorscheme	multitail.conf	/^colorscheme:logcat$/;"	k
+colorscheme	multitail.conf	/^colorscheme:mailscanner:wrapper around sendmail\/clamav\/spamassassin$/;"	k
+colorscheme	multitail.conf	/^colorscheme:motion:Security camera software$/;"	k
+colorscheme	multitail.conf	/^colorscheme:mpstat:mpstat is part of systat$/;"	k
+colorscheme	multitail.conf	/^colorscheme:mysql:MySQL error log$/;"	k
+colorscheme	multitail.conf	/^colorscheme:nagtail:www.nagios.org status viewer$/;"	k
+colorscheme	multitail.conf	/^colorscheme:netscapeldap:Netscape Directory server (LDAP)$/;"	k
+colorscheme	multitail.conf	/^colorscheme:netstat:see www.vanheusden.com\/multitail\/examples.html$/;"	k
+colorscheme	multitail.conf	/^colorscheme:nntpcache$/;"	k
+colorscheme	multitail.conf	/^colorscheme:ntpd$/;"	k
+colorscheme	multitail.conf	/^colorscheme:oracle$/;"	k
+colorscheme	multitail.conf	/^colorscheme:p0f:p0f http:\/\/lcamtuf.coredump.cx\/p0f.shtml$/;"	k
+colorscheme	multitail.conf	/^colorscheme:portsentry:http:\/\/sourceforge.net\/projects\/sentrytools\/$/;"	k
+colorscheme	multitail.conf	/^colorscheme:postfix:www.postfix.org$/;"	k
+colorscheme	multitail.conf	/^colorscheme:powerdns:www.powerdns.com$/;"	k
+colorscheme	multitail.conf	/^colorscheme:pppd:PPP daemon$/;"	k
+colorscheme	multitail.conf	/^colorscheme:procmail$/;"	k
+colorscheme	multitail.conf	/^colorscheme:qmt-clamd$/;"	k
+colorscheme	multitail.conf	/^colorscheme:qmt-send$/;"	k
+colorscheme	multitail.conf	/^colorscheme:qmt-smtp$/;"	k
+colorscheme	multitail.conf	/^colorscheme:qmt-sophie$/;"	k
+colorscheme	multitail.conf	/^colorscheme:qmt-spamassassin$/;"	k
+colorscheme	multitail.conf	/^colorscheme:rsstail:RSSTail output (RSS feed reader)$/;"	k
+colorscheme	multitail.conf	/^colorscheme:samba$/;"	k
+colorscheme	multitail.conf	/^colorscheme:sendmail$/;"	k
+colorscheme	multitail.conf	/^colorscheme:smartd$/;"	k
+colorscheme	multitail.conf	/^colorscheme:snort:Intrusion detector$/;"	k
+colorscheme	multitail.conf	/^colorscheme:spamassassin$/;"	k
+colorscheme	multitail.conf	/^colorscheme:squid:http proxy server$/;"	k
+colorscheme	multitail.conf	/^colorscheme:ssh:www.openssh.org$/;"	k
+colorscheme	multitail.conf	/^colorscheme:strace:strace is the truss of Linux$/;"	k
+colorscheme	multitail.conf	/^colorscheme:syslog:kernel and unsorted messages$/;"	k
+colorscheme	multitail.conf	/^colorscheme:tcpdump$/;"	k
+colorscheme	multitail.conf	/^colorscheme:uucp:UUCP Log files$/;"	k
+colorscheme	multitail.conf	/^colorscheme:vmstat:vmstat is part of sysstat$/;"	k
+colorscheme	multitail.conf	/^colorscheme:vnetbr:Veritas Netbackup backup\/restore logs$/;"	k
+colorscheme	multitail.conf	/^colorscheme:weblogic$/;"	k
+colorscheme	multitail.conf	/^colorscheme:websphere:WebSphere error-log$/;"	k
+colorscheme	multitail.conf	/^colorscheme:wtmptail:www.vanheusden.com\/wtmptail\/$/;"	k
+colorscheme	multitail.conf	/^colorscheme:zarafa:www.zarafa.com$/;"	k
+colorschemes	mt.h	/^	char **colorschemes;$/;"	m	struct:__anon7c9ac89c2808	typeref:typename:char **
+colorscript	multitail.conf	/^colorscript:cscriptexample:\/etc\/multitail\/colors-example.pl:this is a barely functional examp/;"	k
+colorstr_to_nr	term.c	/^int colorstr_to_nr(char *str)$/;"	f	typeref:typename:int
+command	mt.h	/^	char *command;$/;"	m	struct:__anon7c9ac89c2a08	typeref:typename:char *
+compile_re	utils.c	/^void compile_re(regex_t *whereto, char *what)$/;"	f	typeref:typename:void
+compute_text_dimensions	scrollback.c	/^void compute_text_dimensions(int *nlines, int *ncols, char fullscreen)$/;"	f	typeref:typename:void
+config_error_exit	config.c	/^void config_error_exit(int linenr, char *format, ...)$/;"	f	typeref:typename:void
+config_file	globals.c	/^char *config_file = NULL;$/;"	v	typeref:typename:char *
+config_file_entry	config.c	/^int config_file_entry(int linenr, char *cmd)$/;"	f	typeref:typename:int
+config_file_keyword	config.h	/^} config_file_keyword;$/;"	t	typeref:struct:__anon41b17d910108
+config_keyword	config.h	/^	char *config_keyword;$/;"	m	struct:__anon41b17d910108	typeref:typename:char *
+config_yes_no	config.c	/^mybool_t config_yes_no(char *what)$/;"	f	typeref:typename:mybool_t
+cont	mt.h	/^	char cont;		\/* "re-connect" lines with \\ at the end *\/$/;"	m	struct:_subwindow_	typeref:typename:char
+conversion	mt.h	/^} conversion;$/;"	t	typeref:struct:__anon7c9ac89c2608
+conversion_bundle_t	mt.h	/^} conversion_bundle_t;$/;"	t	typeref:struct:__anon7c9ac89c2508
+conversion_schemes	mt.h	/^	char **conversion_schemes;$/;"	m	struct:__anon7c9ac89c2808	typeref:typename:char **
+conversion_t	mt.h	/^typedef enum { CONVTYPE_IP4TOHOST = 1, CONVTYPE_EPOCHTODATE, CONVTYPE_ERRNO, CONVTYPE_HEXTODEC, /;"	t	typeref:enum:__anon7c9ac89c2403
+conversions	globals.c	/^conversion *conversions = NULL;$/;"	v	typeref:typename:conversion *
+conversions	mt.h	/^	int_array_t conversions;$/;"	m	struct:_subwindow_	typeref:typename:int_array_t
+convert	cv.c	/^char *convert(int_array_t *pconversions, char *line)$/;"	f	typeref:typename:char *
+convert	multitail.conf	/^convert:apache:ip4tohost:^([0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3})$/;"	k
+convert	multitail.conf	/^convert:asterisk:epochtodate:^([0-9]*).([0-9]*)$/;"	k
+convert	multitail.conf	/^convert:geoip:script:\/etc\/multitail\/convert-geoip.pl:([0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\./;"	k
+convert	multitail.conf	/^convert:nagios.log:epochtodate:^.([0-9]*). $/;"	k
+convert	multitail.conf	/^convert:qmailtimestr:tai64todate:^(@[^ ]*)$/;"	k
+convert	multitail.conf	/^convert:squid:epochtodate:^([0-9]*)$/;"	k
+convert	multitail.conf	/^convert:squid:ip4tohost:^[^ ]* *[0-9]* *([0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3})$/;"	k
+convert_regexp_error	utils.c	/^char * convert_regexp_error(int error, const regex_t *preg)$/;"	f	typeref:typename:char *
+count_utf_bytes	mt.c	/^int count_utf_bytes(int c)$/;"	f	typeref:typename:int
+coverity	Makefile	/^coverity:$/;"	t
+cp	globals.c	/^colorpairs cp;$/;"	v	typeref:typename:colorpairs
+create_new_win	mt.c	/^void create_new_win(proginfo **cur, int *nr)$/;"	f	typeref:typename:void
+create_popup	term.c	/^NEWWIN * create_popup(int n_lines, int n_colls)$/;"	f	typeref:typename:NEWWIN *
+create_scrollback_windows	scrollback.c	/^void create_scrollback_windows(NEWWIN **mywin1, NEWWIN **mywin2, int nlines, int ncols, char ful/;"	f	typeref:typename:void
+create_subwindow_list	selbox.c	/^int create_subwindow_list(int f_index, char ***swlist)$/;"	f	typeref:typename:int
+create_window_set	mt.c	/^void create_window_set(int startx, int width, int nwindows, int indexoffset)$/;"	f	typeref:typename:void
+create_windows	mt.c	/^void create_windows(void)$/;"	f	typeref:typename:void
+cs_re	multitail.conf	/^cs_re:,,inverse:DNS address.*$/;"	k
+cs_re	multitail.conf	/^cs_re:black,red,blink:BOOT$/;"	k
+cs_re	multitail.conf	/^cs_re:black,yellow:DEAD$/;"	k
+cs_re	multitail.conf	/^cs_re:blue,,bold: [^ ]* download of file.*$/;"	k
+cs_re	multitail.conf	/^cs_re:blue,,bold:>[^ ]*$/;"	k
+cs_re	multitail.conf	/^cs_re:blue,,bold:CPU.*$/;"	k
+cs_re	multitail.conf	/^cs_re:blue,,bold:\\.$/;"	k
+cs_re	multitail.conf	/^cs_re:blue,,bold:^....-..-.. ..:..:..$/;"	k
+cs_re	multitail.conf	/^cs_re:blue,,bold:^[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}$/;"	k
+cs_re	multitail.conf	/^cs_re:blue,,bold:debug$/;"	k
+cs_re	multitail.conf	/^cs_re:blue,,underline:FIN_WAIT2$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:'.*'$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:....-..-.. ..:.. .*changed mode.*$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:....-..-.. ..:...*has joined \\#.*$/;"	k
+cs_re	multitail.conf	/^cs_re:blue::$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:FIN_WAIT1$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:Using interface.*$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:[0-9]*KB\/s$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:\/\\*.*\\*\/$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:\\.$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^... .. ..:..:..$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^... ... [0-9]* ..:..:.. ....$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^... [0-9]* ..:..:..$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^... [0-9]* ..:..:..:$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^....-..-.. ..:..:..$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^...... ..:..:..$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^.......... ..:..:..  $/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^....\/..\/.. ..:..$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^..:..:.. ..$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^..:..:.. .[0-9]*.[^\\)]*.$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^.[0-9]*\/[0-9]*\/[0-9]* *[0-9]*:..:..:[0-9]* [^ ]*$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^[0-9]*-[0-9]*-[0-9]* [0-9]*:[0-9]*:[0-9]*,[0-9]*$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^[^ ]*$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^\\[... ... .. ..:..:.. ....\\]$/;"	k
+cs_re	multitail.conf	/^cs_re:blue:^procmail: \\[[0-9]*\\] [^ ]* [^ ]* *[^ ]* ..:..:.. [^ ]*$/;"	k
+cs_re	multitail.conf	/^cs_re:blue|blue,,bold:... ... [0-9]* ..:..:.. 2...$/;"	k
+cs_re	multitail.conf	/^cs_re:blue|blue,,bold:....-..-.. ..:..:..$/;"	k
+cs_re	multitail.conf	/^cs_re:blue|blue,,bold:^... .. ..:..:..$/;"	k
+cs_re	multitail.conf	/^cs_re:blue|blue,,bold:^....-..-.. ..:..:..$/;"	k
+cs_re	multitail.conf	/^cs_re:blue|blue,,bold:^...............$/;"	k
+cs_re	multitail.conf	/^cs_re:blue|blue,,bold:^...\/...\/....:..:..:.. ......$/;"	k
+cs_re	multitail.conf	/^cs_re:blue|blue,,bold:^[0-9]*:[0-9]*:[0-9]*$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan,,bold:Scheduler list download succeeded$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan,,bold:\/$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:(: OK)$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan::$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:Calling system$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:DHCPNAK$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:Queuing$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:Rescheduling CPU: application exited$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:[0-9]*:[0-9]*[ap]m$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:[A-Z_]*$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:[INFO|WARNING|ERROR|DEBUG|FATAL]\\ ([a-zA-Z0-9\\.]*)\\  $/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:\/$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:^...............$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:^[^ ]*$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:attackalert: ERROR: cannot open ignore file. Blocking host anyway.$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:received notify for zone$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:to=<[^>]*>$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:uuxqt$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:zone [^:]*: sending notifies .serial [0-9]*.$/;"	k
+cs_re	multitail.conf	/^cs_re:cyan:zone [^:]*: transferred serial.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:=> *[^ ]* <[^>]*>$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:=> *[^ ]*$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:DHCPACK$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:Exit requested by user$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:HIT$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:INF - Status = the requested operation was successfully completed.$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:Netbios nameserver version.*started.$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:\\(newer, [0-9]*\\)$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:^...... ..:..:.. \\[Note\\]$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:info$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:named reload succeeded$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:ntpd\\[.*\\]: ntpd [^e].*$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:rule: *[^;]*$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:smbd version.*started.$/;"	k
+cs_re	multitail.conf	/^cs_re:green,,bold:workunit is ready$/;"	k
+cs_re	multitail.conf	/^cs_re:green:"[ ][2-3][0-9][0-9][ ]$/;"	k
+cs_re	multitail.conf	/^cs_re:green:.*Priority: 3.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:<= *[^ ]* <[^>]*>$/;"	k
+cs_re	multitail.conf	/^cs_re:green:<= *[^ ]*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Accepted [^ ]* for [^ ]* from [^ ]* port.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Accepted publickey for$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Added [^ ]* permission to directory.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Backing up file.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Call complete$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Connect time [^ ]* minutes.$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Detected.*\$$/;"	k
+cs_re	multitail.conf	/^cs_re:green:ESTABLISHED$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Handshake successful$/;"	k
+cs_re	multitail.conf	/^cs_re:green:INF - Beginning restore from server [^ ]* to client [^ ]*.$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Login successful$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Motion detected - starting event [0-9]*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:NOTICE$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Netscape-Directory.*starting up$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Protecting against [0-9]* viruses.$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Requesting [0-9]* seconds of new work$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Restore job id [0-9]* will require [0-9]* image.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:STARTING: Version [^ ]* of the LambdaMOO server$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Samba is now a logon server for workgroup.*on subnet.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Samba name server.*is now a local master browser for workgroup.*on subnet.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Target name: .*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Title:.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:Uninfected: Delivered [0-9]* messages$/;"	k
+cs_re	multitail.conf	/^cs_re:green:WARN$/;"	k
+cs_re	multitail.conf	/^cs_re:green:\\(older, [0-9]*\\)$/;"	k
+cs_re	multitail.conf	/^cs_re:green:\\[$/;"	k
+cs_re	multitail.conf	/^cs_re:green:\\]$/;"	k
+cs_re	multitail.conf	/^cs_re:green:^---.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:^... ... .. ..:..:.. ....$/;"	k
+cs_re	multitail.conf	/^cs_re:green:^...... ..:..:.. \\[Note\\].*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:^........$/;"	k
+cs_re	multitail.conf	/^cs_re:green:^................$/;"	k
+cs_re	multitail.conf	/^cs_re:green:^..:..:.. *accept$/;"	k
+cs_re	multitail.conf	/^cs_re:green:^PING .*:$/;"	k
+cs_re	multitail.conf	/^cs_re:green:^procmail: Match on.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:commencing operation$/;"	k
+cs_re	multitail.conf	/^cs_re:green:from=.*>$/;"	k
+cs_re	multitail.conf	/^cs_re:green:local *IP address.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:nntpcache-expire.*: expire task awakening$/;"	k
+cs_re	multitail.conf	/^cs_re:green:pppd [^ ]* started by [^,]*, uid [0-9]*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:server successfully spawned child process, pid$/;"	k
+cs_re	multitail.conf	/^cs_re:green:session opened for user.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:stat=Sent.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:synchronized to.*$/;"	k
+cs_re	multitail.conf	/^cs_re:green:transfer of [^ ]* from [^:]*: end of transfer$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta,,bold: *[^ ]*:ATTACH:.*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta,,bold: *[^ ]*:VIRUS:.*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta,,bold: *[^ ]*SPAM REJECT ([^ ]*).*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta,,bold: *[a-z]*[0-9]+[a-z]*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta,,bold:<=$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta,,bold:=>$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta,,bold:Queue manager security exit rejected connection with error code [0-9]*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta,,bold:WARNING *[^ ]*: Scan result =.*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta,,bold:^procmail: Assigning$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta,,bold:dst: *[^;]*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta,,bold:info: spamd: identified spam.*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta: ([0-9]{2,})$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta: *[^ ]*CHKUSER rejected intrusion: ([^ ]*).*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta: *[^ ]*CHKUSER rejected rcpt: ([^ ]*).*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta: *[^ ]*CHKUSER rejected relaying: ([^ ]*).*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta: *[^ ]*policy_check: policy forbid([^ ]*).*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta: I [A-Z] .*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:-$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta::$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:CLOSE_WAIT$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:DEBUG$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:Delivered [0-9]* warnings to virus senders$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:Executing$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:Receiving$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:Sending$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:Sent [0-9]* bytes, received [0-9]* bytes.$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:Ticket expired$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:VERBOSE$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:[^ ]* error in proc %d$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:\/$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:\/var\/qmail\/simscan\/.*(: [^ ]* FOUND)$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:\\($/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:\\)$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:\\.$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:\\\\[0-9]*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:\\\\[a-z]$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:mmap failed$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:mysqld ended$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:none$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:qmail-smtpd.*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:queue.active$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:rblsmtpd: ([0-9\\.]*).*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:relay=[^ ]*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:spf-reject.*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:src: *[^;]*$/;"	k
+cs_re	multitail.conf	/^cs_re:magenta:time=[0-9\\.]* ms$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,blink:Could not allocate [0-9]* bytes of memory!$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,blink:Shutting down due to possible conflicts with other slapd processes$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,blink:Unable to start slapd because it is already running as process [0-9]*$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,blink:error: Bind to port [0-9]* on [^ ]* failed: Address already in use.$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,blink:fatal$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,blink:media read error$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,blink:server killed by [^,]*, shutting down$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold: *[^ ]*policy_check: policy_load failed$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:'480.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:'501.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:Failed to$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:Somebody stole the video device, lets hope we got his picture$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:Status of restore from image created.*media read error$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:Thread is going to finish due to this fatal error$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:Trying to dump database:$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:Unable to start slapd because it is already running as process ([0-9]*)$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:Unable to$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:Video device fatal error - terminating camera thread$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:WARNING *[^ ]*: error:.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:\\($/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:\\)$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:^...... ..:..:.. \\[ERROR\\]$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:^..:..:.. *drop$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:^ORA-0*600.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:^ORA-0*7445.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:com.ibm.mq.MQException: [^:]*: An MQException occurred: Completion Code [0-9]*, /;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:delivery *[^ ]*: failure:.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:distance [0-9]*$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:klogind.*: User ([^ ]*) is not authorized to login to account(.*)$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,bold:not$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,inverse:Caused by:$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,inverse:[Pp]ermission [Dd]eni[ae][dl]$/;"	k
+cs_re	multitail.conf	/^cs_re:red,,inverse\/underline:kernel$/;"	k
+cs_re	multitail.conf	/^cs_re:red,black,inverse:Couldn't detach (fork failed:.*)$/;"	k
+cs_re	multitail.conf	/^cs_re:red,black,inverse:Exiting.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red,black,inverse:INF - Status = termination requested by administrator.$/;"	k
+cs_re	multitail.conf	/^cs_re:red,black,inverse:LOGGING DISABLED.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red,black,underline:Unable to.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red,yellow,bold:ERROR$/;"	k
+cs_re	multitail.conf	/^cs_re:red,yellow,bold:FATAL$/;"	k
+cs_re	multitail.conf	/^cs_re:red: *[^ ]* \\[[0-9\\.:]*\\]: Connection refused$/;"	k
+cs_re	multitail.conf	/^cs_re:red: [A-Z] H .*$/;"	k
+cs_re	multitail.conf	/^cs_re:red: [^ ]*\$$/;"	k
+cs_re	multitail.conf	/^cs_re:red:"[ ][4-5][0-9][0-9][ ]$/;"	k
+cs_re	multitail.conf	/^cs_re:red:"[^"]*"$/;"	k
+cs_re	multitail.conf	/^cs_re:red:.*Priority: 1.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:404 Not Found$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Can't create initial connection point$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Can't start server.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Can't write picture to file$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Client not found in Kerberos database$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Connection timed out: could.*t connect to [^ ]* as$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Could not alloc frame$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Could not create symbolic link$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Could not fetch initial image from network camera$/;"	k
+cs_re	multitail.conf	/^cs_re:red:DHCPINFORM from.*via.*not authoritative for subnet.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Detected Disorderly Shutdown last time Directory Server was running, recovering databa/;"	k
+cs_re	multitail.conf	/^cs_re:red:Detected HTML-specific exploits in.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Device: [^,]*, SMART Usage Attribute: [0-9]* [^ ]* changed from [0-9]* to.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Directory [^ ]* already exists.$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Disconnecting: Too many authentication failures for.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:ERRNO =.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:ERROR$/;"	k
+cs_re	multitail.conf	/^cs_re:red:ERROR:$/;"	k
+cs_re	multitail.conf	/^cs_re:red:ERROR:.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Error =.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Error capturing first image$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Error opening file %s$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Error opening file [^ ]* with mode$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Error while writing video frame$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Failed to open video loopback$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Hangup$/;"	k
+cs_re	multitail.conf	/^cs_re:red:INF - Status = the restore failed to recover the requested files.$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Ignoring unknown parameter.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Illegal user.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Infected message [^ ]* came from.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:MISS$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Memory error while allocating output media context$/;"	k
+cs_re	multitail.conf	/^cs_re:red:MySQL error was$/;"	k
+cs_re	multitail.conf	/^cs_re:red:PAM session setup failed\\[[0-9]*\\]:.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Problem creating directory$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Project communication failed:$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Project is down$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Reason:.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:SMTP.*timeout.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Unable to start external command$/;"	k
+cs_re	multitail.conf	/^cs_re:red:Video signal lost - Adding grey image$/;"	k
+cs_re	multitail.conf	/^cs_re:red:[0-9a-fx]*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:[^ ]* query failed$/;"	k
+cs_re	multitail.conf	/^cs_re:red:\\(up: .*\\)$/;"	k
+cs_re	multitail.conf	/^cs_re:red:\\[$/;"	k
+cs_re	multitail.conf	/^cs_re:red:\\]$/;"	k
+cs_re	multitail.conf	/^cs_re:red:^.*: Unable to open file or directory ERROR$/;"	k
+cs_re	multitail.conf	/^cs_re:red:^.*does not exist or is not a directory, when connecting to.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:^...... ..:..:.. \\[ERROR\\].*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:^..................................$/;"	k
+cs_re	multitail.conf	/^cs_re:red:^Link:.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:^procmail: Executing.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:attackalert: [^\/]*\/Normal scan from host: [^\/]*\/[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,/;"	k
+cs_re	multitail.conf	/^cs_re:red:av_new_stream - could not alloc stream$/;"	k
+cs_re	multitail.conf	/^cs_re:red:avcodec_alloc_frame - could not alloc frame$/;"	k
+cs_re	multitail.conf	/^cs_re:red:check receiver configuration \/ cableling$/;"	k
+cs_re	multitail.conf	/^cs_re:red:client [^:]*: update forwarding denied$/;"	k
+cs_re	multitail.conf	/^cs_re:red:configure: keyword "([^"]*)" unknown, line ignored$/;"	k
+cs_re	multitail.conf	/^cs_re:red:could not connect$/;"	k
+cs_re	multitail.conf	/^cs_re:red:error$/;"	k
+cs_re	multitail.conf	/^cs_re:red:error.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:error: PAM: Authentication failure for ([^ ]*) from (.*)$/;"	k
+cs_re	multitail.conf	/^cs_re:red:error: PAM: Authentication failure for$/;"	k
+cs_re	multitail.conf	/^cs_re:red:ffopen_open error creating [^ ]* file$/;"	k
+cs_re	multitail.conf	/^cs_re:red:gethostbyname failed$/;"	k
+cs_re	multitail.conf	/^cs_re:red:isc_log_open [^ ]* failed: permission denied$/;"	k
+cs_re	multitail.conf	/^cs_re:red:klogind.*: Kerberos authentication failed$/;"	k
+cs_re	multitail.conf	/^cs_re:red:klogind.*: User [^ ]* is not authorized to login to account.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:ksu.*:.*authentication failed for [^ ]* on.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:logging channel [^ ]* file [^:]*: permission denied$/;"	k
+cs_re	multitail.conf	/^cs_re:red:scanlogd.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:stat=User unknown$/;"	k
+cs_re	multitail.conf	/^cs_re:red:to=.*>$/;"	k
+cs_re	multitail.conf	/^cs_re:red:url_fopen - error opening file %s$/;"	k
+cs_re	multitail.conf	/^cs_re:red:verify failed for SMTP recipient.*$/;"	k
+cs_re	multitail.conf	/^cs_re:red:verify=FAIL$/;"	k
+cs_re	multitail.conf	/^cs_re:red:zone [^:]*: loading master file [^:]*: file not found$/;"	k
+cs_re	multitail.conf	/^cs_re:white,,bold: *[^ ]*CLEAN ([^ ]*).*$/;"	k
+cs_re	multitail.conf	/^cs_re:white,,bold: *[^ ]*RELAYCLIENT:([^ ]*).*$/;"	k
+cs_re	multitail.conf	/^cs_re:white,,bold: *[^ ]*policy_check: policy allows([^ ]*).*$/;"	k
+cs_re	multitail.conf	/^cs_re:white,,bold:Deferring communication for.*$/;"	k
+cs_re	multitail.conf	/^cs_re:white,,bold:Deferring scheduler requests for.*$/;"	k
+cs_re	multitail.conf	/^cs_re:white,,bold:NOTICE *[^ ]*:.*$/;"	k
+cs_re	multitail.conf	/^cs_re:white,,bold:^>> Masquerade at [^:]*:$/;"	k
+cs_re	multitail.conf	/^cs_re:white,,bold:delivery *[^ ]*: success:.*$/;"	k
+cs_re	multitail.conf	/^cs_re:white,,bold:info: spamd: processing message.*$/;"	k
+cs_re	multitail.conf	/^cs_re:white,,bold:starting delivery ([0-9]*)$/;"	k
+cs_re	multitail.conf	/^cs_re:white:[a-z0-9_]*:$/;"	k
+cs_re	multitail.conf	/^cs_re:white:[a-z]*=$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,blink:Peer not responding$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,blink:This computer is not attached to any projects$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,blink:ntpd\\[.*\\]: ntpd exiting on signal.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,bold:Motion Exits.$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,bold:Server.*at IP.*is announcing itself as a local master browser for workgroup.*/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,bold:Throughput [0-9]* bytes\/sec$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,bold:Virus present.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,bold:^...... ..:..:.. \\[Warning\\]$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,bold:^..:..:.. *reject$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,bold:delivery *[^ ]*: deferral:.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,bold:httpd quitting$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,bold:warning$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,bold\/underline:Computation for task.*finished$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,,underline:Finished upload of file.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow,black,inverse:Unsupported protocol .* received$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow: LibClamAV Warning.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow: T [A-Z] .*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow: warn.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:"[ ]1[0-9][0-9][ ]$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:.*Priority: 2.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow::$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Access to reference site succeeded - project servers may be temporarily down.$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:All database threads now stopped$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Attempting to become domain master browser on workgroup.*, subnet.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Begin backtrace for nested exception$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Changed [^ ]* to [^ ]*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Content Checks: Detected and will disarm HTML message in.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Couldn't determine implicit lockfile from.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:DHCPDECLINE of.*from.*via.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:DUMPING:.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Did not receive identification string from.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Did.not$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Entry [^ ]* unknown object class [^ ]*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Exception data follows:$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Failed [^ ]* for [^ ]* from [^ ]* port [0-9]* .*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Failed to put image into video pipe$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:H=[^ ]*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:INF - Media id [^ ]* is not in a robotic library; administrative interaction may be/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:INFO$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Media id ([^ ]*) is needed for the restore.$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Next Linked Exception:$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:No response from camera$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Other data:$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Received signal$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:SYN_SENT$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Saved infected "[^"]*" to.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Socket connection attempt refused$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Spam Checks: Found [0-9]* spam messages$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Spool file is locked (another process is handling this message)$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:Terminating on signal.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:WARNING$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:[\\[\\]]*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:\\[client .*\\]$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:^.*: Unable to open file or directory ERROR$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:^.*dropped connection during rebuild of.*\$$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:^...... ..:..:.. \\[Warning\\].*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:^Description:$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:^USER.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:^[0-9]\\{1,3\\}\\.[0-9]\\{1,3\\}\\.[0-9]\\{1,3\\}\\.[0-9]\\{1,3\\}$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:^[^ ]*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:^[a-z_]*[0-9]*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:attackalert: Host: [^ ]* is already blocked Ignoring$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:autolearn=failed$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:closed connection to service.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:error: Could not get shadow information for.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:fatal: Timeout before authentication for.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:identified spam [^ ]* for [^ ]* in [^ ]* seconds, [^ ]* bytes.$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:kernel: .*: segfault at [^ ]* rip [^ ]* rsp [^ ]* error$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:klogind.*: Authentication failed from [^:]*: Software caused connection abort$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:lame server resolving [^ ]* .in [^:]*..:$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:loading configuration from.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:nnrpd.*: .* timeout$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:nntpcache-expire.*: clean shutdown$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:no IPv6 interfaces found$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:notice$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:report deadline$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:seq=[0-9]*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:service: *[^;]*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:slapd got [^ ]* signal$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:stat=Deferred.*$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:status=sent$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:uucico$/;"	k
+cs_re	multitail.conf	/^cs_re:yellow:warning:.*$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:,,bold:AS_REQ [^}]*}, ([^ ]*) for (.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:,,bold:^ *r *b *swpd *free *buff *cache *si *so *bi *bo *in *cs *(us *sy *id *wa)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:,,bold:^... .. ..:..:.. [^ ]* ([A-z0-9]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:black,,bold:^(D)\/[^:]*: (.*)\$$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue,,bold:Using interface (.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue,,bold:^ *r *b *swpd *free *buff *cache *si *so *bi *bo *(in *cs)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue,,bold:^---> ........................ .([0-9]* seconds.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue,,bold:^.\/(Process)\\($/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue,,bold:^.\/(dalvikvm)\\($/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue,,bold:^[^ ]* *[^,]*,[^ ]* *[0-9]* *(DEBUG) *[^ ]* [^ ]* *(.*)\$$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue,,bold:^procmail: \\[[0-9]*\\] ([^ ]* [^ ]* *[^ ]* ..:..:.. [^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue,,bold|blue:^(..)..(..) ..:..:..$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue,,bold|blue:^[^ ]* *....(....)..$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue:.*(<Debug>).*$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue:^---> (... ... .. ..:..:.. ....)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue:^.([0-9]*\/[0-9]*\/[0-9]* [0-9]*:[0-9]*:[0-9]*, [0-9]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue:^[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}:([0-9]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue:^[a-z]*\\([^)]*\\).*(\\(.*\\))$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue:^procs *-*memory-* *-*swap-* *-*io-* *(-*system-*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue|blue,,bold:^..(..).. ..:..:..$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:blue|blue,,bold:^[^ ]* *(....)....(..)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:cyan,,bold:clean message ([^ ]*) for ([^ ]*) in ([^ ]*) seconds, ([^ ]*) bytes.$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:cyan,,bold:received notify for zone (.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:cyan: (\\[.*\\])$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:cyan:(^....-..-.. ..:..)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:cyan:^  -> [^:]*:([0-9]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:cyan:^.*= *-*[a-fx0-9]* *([A-Z]*)[^=]*\$$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:cyan:^......................(........)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:cyan:^.\/(ActivityManager)\\($/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:cyan:^.\/(ActivityThread)\\($/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:cyan:^[^ ]* *[0-9]* *[^ ]* [^ ]* *[0-9]* *[^ ]* *([^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:cyan:kernel: .*(SRC=[^ ]*) *(DST=[^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green,,bold:Accepted [^ ]* for ([^ ]*) from ([^ ]*) port ([0-9]*) ssh2$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green,,bold:Added ([^ ]*) permission to directory (.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green,,bold:Connect time ([^ ]*) minutes.$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green,,bold:Protecting against ([0-9]*) viruses.$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green,,bold:Requesting ([0-9]*) seconds of new work$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green,,bold:^ *r *b *swpd *free *buff *cache *(si *so)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green,,bold:^[^ ]* *[^ ]* *[^ ]* *[^ ]* *[^ ]* *(I)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green,,bold:^procmail: Match on "(.*)"$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green,,bold:local *IP address (.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green,,bold:server successfully spawned child process, pid (.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green,,bold:synchronized to ([^,]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green,,bold:transfer of [^ ]* from ([^#]*)#[0-9]*: end of transfer$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:(UNKNOWN|localhost|handling) $/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:, (estimated.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:.*( INFO ).*$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:.*(<.*>).*$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:DHCPACK on ([^ ]*) to ([^ ]*) to (.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:Remote\\ (.*)\\ wants$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:Restore job id ([0-9]*) will require ([0-9]*) image$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^ *([^ ]*).*(connect to service folkert initially as user [^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^(V)\/[^:]*: (.*)\$$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^([0-9]*) connects, ([0-9]*) ok, ([^%]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^.*(= *-*[a-fx0-9]*)[^=]*\$$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^....-..-.. ..:.. <([[:alnum:]_\\^\\|`-]+)> (nion[ ,:].*)\$$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^....-..-.. ..:..:.. ([^]]*])$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^................ ( OK )$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^....\/..\/.. ..:.. ..... *([^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^[^ ]* *[0-9]* *[^ ]* ([^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^[^ ]* *[^ ]* *[^ ]* *[^ ]* *([^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^[^ ]* *[^ ]* *[^ ]* *[^ ]* *[^ ]* *( C )$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^[^ ]* *[^,]*,[0-9]* *[0-9]* *(INFO) *[^ ]* [^ ]* *(.*)\$$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^[^ ]* [^ ]* *[^ ]*\\.([^ ]*) > [^ ]*\\.([^:]*):$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^[^\\(]*(\\()[^\\)]*(\\))$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^procs *-*memory-* *(-*swap-*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:^round-trip.*= ([0-9\\.]*)\/([0-9\\.]*)\/([0-9\\.]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:green:kernel: .*(PROTO=[^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:magenta,,bold:Sent ([0-9]*) bytes, received ([0-9]*) bytes.$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:magenta,,bold:^ *(r *b)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:magenta,,bold:^[^ ]* *[^ ]* *[^ ]* *[^ ]* *[^ ]* *( R )$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:magenta,,bold:info: spamd: result: Y ([^ ]*) -.*$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:magenta:^(procs)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:magenta:^....-..-.. ..:.. <([[:alnum:]_\\^\\|`-]+)>$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:magenta:^[^ ]* *[^ ]* *[^ ]* *[^ ]* *[^ ]* *( O )$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:.*( ERROR ).*$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:.*(<Error>).*$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:Connection timed out: could.*t connect to ([^ ]*) as (.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:DHCPINFORM from ([^ ]*) via$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:Device: [^,]*, SMART Usage Attribute: [0-9]* ([^ ]*) changed from [0-9]* to (./;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:Directory ([^ ]*) already exists.$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:ERROR:(.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:Hangup(.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:^ *r *b *(swpd *free *buff *cache)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:^(.*): Unable to open file or directory ERROR$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:^................ (CRIT)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:^..:..:.. *drop.*(service: *[^;]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:^[^ ]* *[^ ]* *[^ ]* *[^ ]* *[^ ]* *( F )$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:^[^ ]* *[^ ]* *[^ ]* *[^ ]* *[^ ]* *( Z )$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:^[^ ]* *[^,]*,[0-9]* *[0-9]* *(FATAL) *[^ ]* [^ ]* *(.*)\$$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:attackalert: ([^\/]*)\/Normal scan from host: ([^\/]*)\/([0-9]{1,3}\\.[0-9]{1,/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:client ([^#]*)#[0-9]*: update forwarding denied$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:configure: keyword "([^"]*)" unknown, line ignored$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:error: PAM: Authentication failure for ([^ ]*) from (.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:error: PAM: Authentication failure for(.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:kernel: ([^:]*): segfault at [^ ]* rip [^ ]* rsp [^ ]* error$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold:ksu.*:.*authentication failed for ([^ ]*) on$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,bold\/blink:Trying to dump database:(.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red,,inverse:^(F)\/[^:]*: (.*)\$$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red::([^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red:Failed to(.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red:Unable to(.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red:^(E)\/[^:]*: (.*)\$$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red:^................ ([^,]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red:^.................(....)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red:^[^ ]* *[^ ]* *[^ ]* *[^ ]* *[^ ]* *( E )$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red:^[^ ]* *[^,]*,[0-9]* *[0-9]* *(ERROR) *[^ ]* [^ ]* *(.*)\$$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red:^[^ ]* [^ ]* *[^ ]* > [^:]*: *([^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red:^procs *(-*memory-*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:red:kernel: .*(DPT=[0-9]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:white,,bold:^................ ( \\?\\? )$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:white,,bold:^.\/([^\\(]*)\\($/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:white,,bold:^[^ ]* *[^,]*,[0-9]* *[0-9]* *[A-Z]* *(.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:white,,bold:^name of workunit: (.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:white:^>> Masquerade at ([^:]*):$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,blink:INF - Media id ([^ ]*) is not in a robotic library; administrative interac/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:Changed ([^ ]*) to ([^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:DHCPDECLINE of ([^ ]*) from ([^ ]*) via$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:Entry ([^ ]*) unknown object class ([^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:Failed ([^ ]*) for ([^ ]*) from ([^ ]*) port ([0-9]*).*$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:Media id ([^ ]*) is needed for the restore.$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:Terminating on signal(.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:Unsupported protocol (.*) received$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:^ *r *b *swpd *free *buff *cache *si *so *(bi *bo)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:^(.*): Unable to open file or directory ERROR$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:^................ (WARN)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:^..:..:.. *reject.*(service: *[^;]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:^[^ ]* *[^ ]* *[^ ]* *[^ ]* *[^ ]* *( W )$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:attackalert: Host: ([^\/]*)\/([^ ]*) is already blocked Ignoring$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:identified spam ([^ ]*) for ([^ ]*) in ([^ ]*) seconds, ([^ ]*) bytes.$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:klogind.*: Authentication failed from ([^:]*): Software caused connection a/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold:lame server resolving ([^ ]*).*in ([^?]*).*: (.*$)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,bold|yellow: IP [^ ]* > ([^:]*):$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow,,underline:User *([^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:(((http|https|ftp|gopher)|mailto):(\/\/)?[^ <>\\"[:blank:]]*|(www|ftp)[0-9]?\\.[-/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:([0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]{3})$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:.*( WARNING ).*$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:.*(<Warning>).*$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:^(W).[^:]*: (.*)\$$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:^.*\\(([^:\\)]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:^...............................(........)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:^....\/..\/.. ..:.. ..... *[^ ]* *(.*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:^ORA-([^:]*):$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:^[^ ]* *[0-9]* *([^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:^[^ ]* *[^ ]* *[^ ]* *[^ ]* *[^ ]* *( A )$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:^[^ ]* *[^,]*,[0-9]* *[0-9]* *(WARN) *[^ ]* [^ ]* *(.*)\$$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:^[^ ]* - ([^(]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:^[a-z_]*[0-9]*(\\()[^)]*(\\))$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:^procs *-*memory-* *-*swap-* *(-*io-*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow:kernel: (IN=[^ ]*)$/;"	k
+cs_re_s	multitail.conf	/^cs_re_s:yellow|yellow,,bold: IP (.*) > .*:$/;"	k
+cs_re_val_bigger	multitail.conf	/^cs_re_val_bigger:cyan,,bold:501:\\(up: ([0-9]*).*\\)$/;"	k
+cs_re_val_bigger	multitail.conf	/^cs_re_val_bigger:green,,bold:50:indicators at ([0-9]*)%$/;"	k
+cs_re_val_bigger	multitail.conf	/^cs_re_val_bigger:red,,bold:65:temperature.*: ([0-9]*)$/;"	k
+cs_re_val_bigger	multitail.conf	/^cs_re_val_bigger:yellow:0:([0-9]{1,})$/;"	k
+cs_re_val_bigger	multitail.conf	/^cs_re_val_bigger:yellow:0:([0-9]{1,}\\.[0-9]{1,})$/;"	k
+cs_re_val_bigger	multitail.conf	/^cs_re_val_bigger:yellow:55:temperature.*: ([0-9]*)$/;"	k
+cs_re_val_less	multitail.conf	/^cs_re_val_less:red,,bold:5:^.* remaining capacity: .* .([0-9]*) minutes$/;"	k
+cs_re_val_less	multitail.conf	/^cs_re_val_less:yellow:10:^.*remaining capacity: .* .([0-9]*) minutes$/;"	k
+cschemes	globals.c	/^color_scheme *cschemes = NULL;$/;"	v	typeref:typename:color_scheme *
+cse_main	mt.h	/^} cse_main;$/;"	t	typeref:struct:__anon7c9ac89c2108
+csreflag_t	mt.h	/^} csreflag_t;$/;"	t	typeref:enum:__anon7c9ac89c1f03
+cur_colorscheme_nr	config.c	/^int cur_colorscheme_nr = -1;$/;"	v	typeref:typename:int
+cur_editscheme_nr	config.c	/^int cur_editscheme_nr = -1;$/;"	v	typeref:typename:int
+cur_filterscheme_nr	config.c	/^int cur_filterscheme_nr = -1;$/;"	v	typeref:typename:int
+curbytes	mt.h	/^	int maxbytes, curbytes;$/;"	m	struct:__anon7c9ac89c1e08	typeref:typename:int
+curpos	mt.h	/^	int curpos;$/;"	m	struct:__anon7c9ac89c1e08	typeref:typename:int
+cv_off	mt.h	/^typedef struct cv_off$/;"	s
+cv_off	mt.h	/^} cv_off;$/;"	t	typeref:struct:cv_off
+cv_offsets_compare	cv.c	/^int cv_offsets_compare(const void *a, const void *b)$/;"	f	typeref:typename:int
+data	mt.h	/^	NEWWIN *data;$/;"	m	struct:_subwindow_	typeref:typename:NEWWIN *
+def_umask	globals.c	/^mode_t def_umask = 0022;$/;"	v	typeref:typename:mode_t
+default_bg_color	globals.c	/^int default_bg_color = -1;$/;"	v	typeref:typename:int
+default_bufferwhat	globals.c	/^char default_bufferwhat = 'f';$/;"	v	typeref:typename:char
+default_bufferwhat	multitail.conf	/^default_bufferwhat:f$/;"	k
+default_color_scheme	globals.c	/^int default_color_scheme = -1;$/;"	v	typeref:typename:int
+default_convert	multitail.conf	/^default_convert:apache:\/var\/log\/apache\/.*access$/;"	k
+default_convert	multitail.conf	/^default_convert:apache:\/var\/log\/lighttpd\/.*access$/;"	k
+default_convert	multitail.conf	/^default_convert:asterisk:\/var\/log\/asterisk\/messages$/;"	k
+default_convert	multitail.conf	/^default_convert:qmailtimestr:\/var\/log\/qmail\/qmail.smtpd.log$/;"	k
+default_convert	multitail.conf	/^default_convert:squid:\/var\/log\/squid3\/$/;"	k
+default_convert	multitail.conf	/^default_convert:squid:\/var\/log\/squid\/$/;"	k
+default_follow_filename	globals.c	/^char default_follow_filename = 0;$/;"	v	typeref:typename:char
+default_line_wrap_offset	globals.c	/^int default_line_wrap_offset = 0;$/;"	v	typeref:typename:int
+default_linewrap	globals.c	/^char default_linewrap = 'a';$/;"	v	typeref:typename:char
+default_linewrap	multitail.conf	/^default_linewrap:a$/;"	k
+default_mark_change	multitail.conf	/^default_mark_change:yes:\/var\/log\/apache\/.*$/;"	k
+default_maxbytes	globals.c	/^int default_maxbytes = 0;$/;"	v	typeref:typename:int
+default_maxnlines	globals.c	/^int default_maxnlines = 0;$/;"	v	typeref:typename:int
+default_min_shrink	globals.c	/^int default_min_shrink = 10;$/;"	v	typeref:typename:int
+default_sb_showwinnr	globals.c	/^char default_sb_showwinnr = 0;$/;"	v	typeref:typename:char
+defaultcscheme	globals.c	/^char *defaultcscheme = NULL;$/;"	v	typeref:typename:char *
+del	mt.h	/^	char *del;$/;"	m	struct:__anon7c9ac89c1008	typeref:typename:char *
+delete_all_markerlines	mt.c	/^void delete_all_markerlines(void)$/;"	f	typeref:typename:void
+delete_array	utils.c	/^void delete_array(char **list, int n)$/;"	f	typeref:typename:void
+delete_be_in_buffer	mt.c	/^void delete_be_in_buffer(buffer *pb)$/;"	f	typeref:typename:void
+delete_entry	mt.c	/^char delete_entry(int f_index, proginfo *sub)$/;"	f	typeref:typename:char
+delete_popup	term.c	/^void delete_popup(NEWWIN *mywin)$/;"	f	typeref:typename:void
+delete_window	ui.c	/^int delete_window(void)$/;"	f	typeref:typename:int
+descr	mt.h	/^	char *descr;$/;"	m	struct:__anon7c9ac89c2308	typeref:typename:char *
+determine_terminal_size	term.c	/^void determine_terminal_size(int *max_y, int *max_x)$/;"	f	typeref:typename:void
+dev	mt.h	/^	double dev;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:double
+did_n_beeps	globals.c	/^int did_n_beeps = 0;$/;"	v	typeref:typename:int
+did_n_beeps	mt.h	/^		int did_n_beeps;$/;"	m	struct:_subwindow_::__anon7c9ac89c1c08	typeref:typename:int
+diff	mt.h	/^	diff_t diff;$/;"	m	struct:__anon7c9ac89c1908	typeref:typename:diff_t
+diff_t	mt.h	/^} diff_t;$/;"	t	typeref:struct:__anon7c9ac89c1808
+distclean	Makefile	/^distclean: clean$/;"	t
+do_buffer	mt.c	/^void do_buffer(int f_index, proginfo *cur, char *string, char filter_match, dtime_t now)$/;"	f	typeref:typename:void
+do_check_for_mail	misc.c	/^void do_check_for_mail()$/;"	f	typeref:typename:void
+do_color_print	mt.c	/^void do_color_print(proginfo *cur, char *use_string, int prt_start, int prt_end, int disp_end, c/;"	f	typeref:typename:void
+do_commandline	cmdline.c	/^void do_commandline(int argc, char *argv[])$/;"	f	typeref:typename:void
+do_convert	cv.c	/^char *do_convert(char *what, int what_len, int type, script *pscript)$/;"	f	typeref:typename:char *
+do_diff	mt.h	/^	char do_diff;$/;"	m	struct:__anon7c9ac89c1908	typeref:typename:char
+do_exit	mt.c	/^void do_exit(void)$/;"	f	typeref:typename:void
+do_keep_re	stripstring.c	/^char do_keep_re(regex_t *pre, int *match_count, char *in, char *strip_what)$/;"	f	typeref:typename:char
+do_load_config	config.c	/^void do_load_config(int dummynr, char *dummy, char *file)$/;"	f	typeref:typename:void
+do_not_close_closed_windows	globals.c	/^char do_not_close_closed_windows = 0;$/;"	v	typeref:typename:char
+do_pause	ui.c	/^void do_pause(void)$/;"	f	typeref:typename:void
+do_print	mt.c	/^void do_print(int f_index, proginfo *cur, char *string, regmatch_t *matches, int matching_regex,/;"	f	typeref:typename:void
+do_redirect	mt.c	/^void do_redirect(redirect_t *predir, char *buffer, int nbytes, char add_lf)$/;"	f	typeref:typename:void
+do_refresh	globals.c	/^char do_refresh = 0;$/;"	v	typeref:typename:char
+do_restart_window	mt.c	/^void do_restart_window(proginfo *cur)$/;"	f	typeref:typename:void
+do_set_bufferstart	mt.c	/^void do_set_bufferstart(int f_index, char store_what_lines, int maxnlines)$/;"	f	typeref:typename:void
+do_strip	stripstring.c	/^char * do_strip(proginfo *cur, char *in)$/;"	f	typeref:typename:char *
+do_strip_column	stripstring.c	/^char do_strip_column(char *delimiter, int col_nr, char *in, char *strip_what)$/;"	f	typeref:typename:char
+do_strip_re	stripstring.c	/^char do_strip_re(regex_t *pre, int *match_count, char *in, char *strip_what)$/;"	f	typeref:typename:char
+do_terminal	ui.c	/^void do_terminal(char c)$/;"	f	typeref:typename:void
+double_ts_to_str	utils.c	/^void double_ts_to_str(dtime_t ts, char *format_str, char *dest, int dest_size)$/;"	f	typeref:typename:void
+draw_border	term.c	/^void draw_border(NEWWIN *mywin)$/;"	f	typeref:typename:void
+draw_gui_window_header	ui.c	/^void draw_gui_window_header(proginfo *last_changed_window)$/;"	f	typeref:typename:void
+draw_line	term.c	/^void draw_line(NEWWIN *win, linepos_t where)$/;"	f	typeref:typename:void
+draw_marker_line	ui.c	/^void draw_marker_line(NEWWIN *win, char *string, proginfo *marker_type)$/;"	f	typeref:typename:void
+draw_tab	mt.c	/^int draw_tab(NEWWIN *win)$/;"	f	typeref:typename:int
+dsblwm	multitail.conf	/^dsblwm:yes$/;"	k
+dtime_t	mt.h	/^typedef double dtime_t;$/;"	t	typeref:typename:double
+duplicate_es_array	utils.c	/^void duplicate_es_array(strip_t *pes_in, int n_esin, strip_t **pes_out, int *n_esout)$/;"	f	typeref:typename:void
+duplicate_re_array	utils.c	/^void duplicate_re_array(re *pre_in, int n_rein, re **pre_out, int *n_reout)$/;"	f	typeref:typename:void
+edit_color	ui.c	/^void edit_color(int index)$/;"	f	typeref:typename:void
+edit_regexp	ui.c	/^int edit_regexp(void)$/;"	f	typeref:typename:int
+edit_string	term.c	/^char * edit_string(NEWWIN *win, int win_y, int win_x, int win_width, int max_width, char numbers/;"	f	typeref:typename:char *
+edit_stripper_edit_field	stripstring.c	/^int edit_stripper_edit_field(NEWWIN *win, char **del, int *col_nr)$/;"	f	typeref:typename:int
+edit_stripper_edit_offsets	stripstring.c	/^int edit_stripper_edit_offsets(NEWWIN *win, int *offset_start, int *offset_end)$/;"	f	typeref:typename:int
+edit_stripper_edit_regexp	stripstring.c	/^int edit_stripper_edit_regexp(NEWWIN *win, char **old_re, mybool_t *case_insensitive)$/;"	f	typeref:typename:int
+edit_strippers	stripstring.c	/^int edit_strippers(void)$/;"	f	typeref:typename:int
+editrule	multitail.conf	/^editrule:ke:----$/;"	k
+editrule	multitail.conf	/^editrule:ke:make$/;"	k
+editscheme	mt.h	/^} editscheme;$/;"	t	typeref:struct:__anon7c9ac89c1108
+editscheme	multitail.conf	/^editscheme:syslog:removes '----'$/;"	k
+editschemes	mt.h	/^	int_array_t editschemes;$/;"	m	struct:__anon7c9ac89c2808	typeref:typename:int_array_t
+elements	mt.h	/^	int *elements;$/;"	m	struct:__anon7c9ac89c0a08	typeref:typename:int *
+emit_myattr_t	mt.c	/^void emit_myattr_t(FILE *fh, myattr_t what)$/;"	f	typeref:typename:void
+emit_to_buffer_and_term	mt.c	/^int emit_to_buffer_and_term(int f_index, proginfo *cur, char *line)$/;"	f	typeref:typename:int
+emulate_terminal	term.c	/^char * emulate_terminal(char *string, color_offset_in_line **cmatches, int *n_cmatches)$/;"	f	typeref:typename:char *
+end	mt.h	/^	int start, end;$/;"	m	struct:__anon7c9ac89c1008	typeref:typename:int
+end	mt.h	/^	int start, end;$/;"	m	struct:cv_off	typeref:typename:int
+end	mt.h	/^	regoff_t end;$/;"	m	struct:__anon7c9ac89c2908	typeref:typename:regoff_t
+epoch_to_str	cv.c	/^char * epoch_to_str(time_t epoch)$/;"	f	typeref:typename:char *
+error_exit	error.h	/^#define error_exit(/;"	d
+error_exit_	error.c	/^void error_exit_(BOOL show_errno, BOOL show_st, char *file, const char *function, int line, char/;"	f	typeref:typename:void
+error_popup	ui.c	/^void error_popup(char *title, int help, char *message, ...)$/;"	f	typeref:typename:void
+es_desc	mt.h	/^	char *es_desc;$/;"	m	struct:__anon7c9ac89c1108	typeref:typename:char *
+es_name	mt.h	/^	char *es_name;$/;"	m	struct:__anon7c9ac89c1108	typeref:typename:char *
+escape_print	term.c	/^void escape_print(NEWWIN *win, int y, int x, char *str)$/;"	f	typeref:typename:void
+exec_bind	mt.c	/^int exec_bind(char key)$/;"	f	typeref:typename:int
+exec_script	exec.c	/^void exec_script(script *pscript)$/;"	f	typeref:typename:void
+exec_with_pipe	exec.c	/^pid_t exec_with_pipe(char *command, int pipe_to_proc[], int pipe_from_proc[])$/;"	f	typeref:typename:pid_t
+exec_with_pty	exec.c	/^pid_t exec_with_pty(char *command, int *fd)$/;"	f	typeref:typename:pid_t
+execute_program	exec.c	/^int execute_program(char *execute, char bg)$/;"	f	typeref:typename:int
+exit_key	globals.c	/^char exit_key = 3;$/;"	v	typeref:typename:char
+exit_key	multitail.conf	/^exit_key:3$/;"	k
+facilities	globals.c	/^char *facilities[24] = { "kern", "user", "mail", "daemon", "auth", "syslog", "lpr", "news", "uuc/;"	v	typeref:typename:char * [24]
+fd	mt.h	/^	int fd;		\/* read *\/$/;"	m	struct:_subwindow_	typeref:typename:int
+fd	mt.h	/^	int fd;$/;"	m	struct:__anon7c9ac89c1508	typeref:typename:int
+fd_r	mt.h	/^	int fd_r, fd_w;$/;"	m	struct:__anon7c9ac89c2008	typeref:typename:int
+fd_w	mt.h	/^	int fd_r, fd_w;$/;"	m	struct:__anon7c9ac89c2008	typeref:typename:int
+fg_color	mt.h	/^	int *fg_color;$/;"	m	struct:__anon7c9ac89c1208	typeref:typename:int *
+field_del	mt.h	/^	char *field_del;$/;"	m	struct:__anon7c9ac89c1708	typeref:typename:char *
+field_nr	mt.h	/^	char field_nr;$/;"	m	struct:__anon7c9ac89c1708	typeref:typename:char
+file_exist	utils.c	/^int file_exist(char *filename)$/;"	f	typeref:typename:int
+file_info	utils.c	/^int file_info(char *filename, off64_t *file_size, time_field_t tft, time_t *ts, mode_t *mode)$/;"	f	typeref:typename:int
+filename	mt.h	/^	char *filename;$/;"	m	struct:_subwindow_	typeref:typename:char *
+filename_only	globals.c	/^char filename_only = 0;$/;"	v	typeref:typename:char
+filter_edit_scheme_t	mt.h	/^typedef enum { SCHEME_TYPE_EDIT = 0, SCHEME_TYPE_FILTER } filter_edit_scheme_t;$/;"	t	typeref:enum:__anon7c9ac89c0603
+filterscheme	mt.h	/^} filterscheme;$/;"	t	typeref:struct:__anon7c9ac89c0e08
+filterscheme	multitail.conf	/^filterscheme:syslog:removes '----mark----' and such$/;"	k
+filterschemes	mt.h	/^	int_array_t filterschemes;$/;"	m	struct:__anon7c9ac89c2808	typeref:typename:int_array_t
+find_attr	term.c	/^myattr_t find_attr(int fgcolor, int bgcolor, int attrs)$/;"	f	typeref:typename:myattr_t
+find_char_offset	utils.c	/^int find_char_offset(char *str, char what)$/;"	f	typeref:typename:int
+find_cmatches_index	mt.c	/^myattr_t * find_cmatches_index(color_offset_in_line *cmatches, int n_cmatches, mybool_t has_merg/;"	f	typeref:typename:myattr_t *
+find_colorpair	term.c	/^int find_colorpair(int fgcolor, int bgcolor, char fuzzy)$/;"	f	typeref:typename:int
+find_colorscheme	color.c	/^int find_colorscheme(const char *name)$/;"	f	typeref:typename:int
+find_config_entry_in_dispatch_table	config.c	/^int find_config_entry_in_dispatch_table(char *cmd_name)$/;"	f	typeref:typename:int
+find_conversion_scheme	cv.c	/^int find_conversion_scheme(char *name)$/;"	f	typeref:typename:int
+find_editscheme	utils.c	/^int find_editscheme(char *name)$/;"	f	typeref:typename:int
+find_filterscheme	utils.c	/^int find_filterscheme(char *name)$/;"	f	typeref:typename:int
+find_highlight_matches	mt.c	/^char find_highlight_matches(regmatch_t *matches, char use_regex, int offset)$/;"	f	typeref:typename:char
+find_most_recent_file	utils.c	/^char * find_most_recent_file(char *filespec, char *cur_file)$/;"	f	typeref:typename:char *
+find_next_par	utils.c	/^char *find_next_par(char *start)$/;"	f	typeref:typename:char *
+find_or_init_colorpair	term.c	/^int find_or_init_colorpair(int fgcolor, int bgcolor, char ignore_errors)$/;"	f	typeref:typename:int
+find_path_max	utils.c	/^int find_path_max(void)$/;"	f	typeref:typename:int
+find_sb_string	selbox.c	/^int find_sb_string(void **list, selbox_type_t type, int nentries, char *compare_string)$/;"	f	typeref:typename:int
+find_string	scrollback.c	/^int find_string(buffer *pbuf, char *find, int offset, char direction, mybool_t case_insensitive)$/;"	f	typeref:typename:int
+find_window	mt.c	/^int find_window(char *filename, int *index, proginfo **cur)$/;"	f	typeref:typename:int
+first	mt.h	/^	char first;$/;"	m	struct:__anon7c9ac89c1908	typeref:typename:char
+flags	mt.h	/^	csreflag_t flags;$/;"	m	struct:__anon7c9ac89c2208	typeref:typename:csreflag_t
+follow_filename	mt.h	/^	char follow_filename;$/;"	m	struct:_subwindow_	typeref:typename:char
+follow_filename	multitail.conf	/^follow_filename:yes$/;"	k
+format_help	help.c	/^void format_help(const char *short_str, const char *long_str, const char *descr)$/;"	f	typeref:typename:void
+free_iat	utils.c	/^void free_iat(int_array_t *piat)$/;"	f	typeref:typename:void
+free_re	utils.c	/^void free_re(re *cur_re)$/;"	f	typeref:typename:void
+free_subentry	mt.c	/^void free_subentry(proginfo *entry)$/;"	f	typeref:typename:void
+fs_desc	mt.h	/^	char *fs_desc;$/;"	m	struct:__anon7c9ac89c0e08	typeref:typename:char *
+fs_name	mt.h	/^	char *fs_name;$/;"	m	struct:__anon7c9ac89c0e08	typeref:typename:char *
+function	config.h	/^	void (*function)(int, char *, char *);$/;"	m	struct:__anon41b17d910108	typeref:typename:void (*)(int,char *,char *)
+gen_color	color.c	/^int gen_color(char *start, char *end)$/;"	f	typeref:typename:int
+gen_color_from_field	color.c	/^myattr_t gen_color_from_field(char *string, char *field_del, int field_nr)$/;"	f	typeref:typename:myattr_t
+gen_syslog_progname_color	color.c	/^myattr_t gen_syslog_progname_color(char *string)$/;"	f	typeref:typename:myattr_t
+gen_wordwrap_offsets	mt.c	/^void gen_wordwrap_offsets(char *string, int start_offset, int end_offset, int win_width, int **o/;"	f	typeref:typename:void
+generate_diff	diff.c	/^void generate_diff(int winnr, proginfo *cur)$/;"	f	typeref:typename:void
+generate_string	selbox.c	/^char generate_string(char *whereto, void **list, selbox_type_t type, int wcols, int index)$/;"	f	typeref:typename:char
+get_colors_from_colorscheme	color.c	/^void get_colors_from_colorscheme(char *line, int_array_t *color_schemes, color_offset_in_line **/;"	f	typeref:typename:void
+get_do_refresh	globals.c	/^char get_do_refresh()$/;"	f	typeref:typename:char
+get_iat_element	utils.c	/^int get_iat_element(int_array_t *piat, int index)$/;"	f	typeref:typename:int
+get_iat_size	utils.c	/^int get_iat_size(int_array_t *piat)$/;"	f	typeref:typename:int
+get_lines_needed	scrollback.c	/^int get_lines_needed(char *string, int terminal_width)$/;"	f	typeref:typename:int
+get_load_values	utils.c	/^void get_load_values(double *v1, double *v2, double *v3)$/;"	f	typeref:typename:void
+get_markerline_sleep	mt.c	/^void get_markerline_sleep(double *const s, char *have_any)$/;"	f	typeref:typename:void
+get_now_ts	utils.c	/^void get_now_ts(char *format_str, char *dest, int dest_size)$/;"	f	typeref:typename:void
+get_pty_and_fork	my_pty.c	/^int get_pty_and_fork(int *fd_master, int *fd_slave)$/;"	f	typeref:typename:int
+get_terminal_type	term.c	/^void get_terminal_type(void)$/;"	f	typeref:typename:void
+get_ts	utils.c	/^double get_ts(void)$/;"	f	typeref:typename:double
+get_value_arg	utils.c	/^int get_value_arg(char *par, char *string, valcheck_t check)$/;"	f	typeref:typename:int
+get_vmsize	utils.c	/^int get_vmsize(pid_t pid)$/;"	f	typeref:typename:int
+gethome	utils.c	/^char *gethome(char *user)$/;"	f	typeref:typename:char *
+getmaxyx	mt.h	/^	#define getmaxyx(/;"	d
+getuserinfo	utils.c	/^struct passwd *getuserinfo(void)$/;"	f	typeref:struct:passwd *
+getusername	utils.c	/^char * getusername(void)$/;"	f	typeref:typename:char *
+glob_str	mt.h	/^	char *glob_str;$/;"	m	struct:__anon7c9ac89c0b08	typeref:typename:char *
+global_default_nkb	multitail.conf	/^global_default_nkb:1MB$/;"	k
+global_find	globals.c	/^char *global_find = NULL;$/;"	v	typeref:typename:char *
+global_highlight_re	globals.c	/^regex_t global_highlight_re;$/;"	v	typeref:typename:regex_t
+global_highlight_str	globals.c	/^char *global_highlight_str = NULL;$/;"	v	typeref:typename:char *
+global_mark_change	multitail.conf	/^global_mark_change:no$/;"	k
+global_marker_of_other_window	globals.c	/^char global_marker_of_other_window = 0;$/;"	v	typeref:typename:char
+gnu_tail	globals.c	/^mybool_t gnu_tail = 0;$/;"	v	typeref:typename:mybool_t
+got_sigusr1	globals.c	/^char got_sigusr1 = 0;$/;"	v	typeref:typename:char
+grow_mem_if_needed	utils.c	/^void grow_mem_if_needed(char **what, int *cur_len, int requested_len)$/;"	f	typeref:typename:void
+gui_window_header	term.c	/^void gui_window_header(char *string)$/;"	f	typeref:typename:void
+heartbeat	misc.c	/^void heartbeat(void)$/;"	f	typeref:typename:void
+heartbeat_interval	globals.c	/^double heartbeat_interval = 0.0;$/;"	v	typeref:typename:double
+heartbeat_t	globals.c	/^double heartbeat_t = 0.0;$/;"	v	typeref:typename:double
+height	mt.h	/^	int width, height;$/;"	m	struct:__anon7c9ac89c0c08	typeref:typename:int
+help	help.c	/^help_t	help[] =$/;"	v	typeref:typename:help_t[]
+help_add_file_display_diff	help.c	/^char *help_add_file_display_diff[] = {$/;"	v	typeref:typename:char * []
+help_add_file_follow_filename	help.c	/^char *help_add_file_follow_filename[] = {$/;"	v	typeref:typename:char * []
+help_add_file_or_cmd	help.c	/^char *help_add_file_or_cmd[] = {$/;"	v	typeref:typename:char * []
+help_add_window_merge_subwin	help.c	/^char *help_add_window_merge_subwin[] = {$/;"	v	typeref:typename:char * []
+help_add_window_repeat_interval	help.c	/^char *help_add_window_repeat_interval[] = {$/;"	v	typeref:typename:char * []
+help_add_window_select_merge_window	help.c	/^char *help_add_window_select_merge_window[] = {$/;"	v	typeref:typename:char * []
+help_ask_colors	help.c	/^char *help_ask_colors[] = {$/;"	v	typeref:typename:char * []
+help_ask_colors_select_color	help.c	/^char *help_ask_colors_select_color[] = {$/;"	v	typeref:typename:char * []
+help_ask_colors_select_scheme	help.c	/^char *help_ask_colors_select_scheme[] = {$/;"	v	typeref:typename:char * []
+help_cannot_change_color	help.c	/^char *help_cannot_change_color[] = {$/;"	v	typeref:typename:char * []
+help_clear_buffer	help.c	/^char *help_clear_buffer[] = {$/;"	v	typeref:typename:char * []
+help_colors_field_delimiter	help.c	/^char *help_colors_field_delimiter[] = {$/;"	v	typeref:typename:char * []
+help_colors_field_nr	help.c	/^char *help_colors_field_nr[] = {$/;"	v	typeref:typename:char * []
+help_column_width	help.c	/^char *help_column_width[] = {$/;"	v	typeref:typename:char * []
+help_compile_regexp_failed	help.c	/^char *help_compile_regexp_failed[] = {$/;"	v	typeref:typename:char * []
+help_delete_select_subwindow	help.c	/^char *help_delete_select_subwindow[] = {$/;"	v	typeref:typename:char * []
+help_delete_select_window	help.c	/^char *help_delete_select_window[] = {$/;"	v	typeref:typename:char * []
+help_delete_window_delete_all_subwin	help.c	/^char *help_delete_window_delete_all_subwin[] = {$/;"	v	typeref:typename:char * []
+help_edit_color	help.c	/^char *help_edit_color[] = {$/;"	v	typeref:typename:char * []
+help_edit_color_change_name	help.c	/^char *help_edit_color_change_name[] = {$/;"	v	typeref:typename:char * []
+help_edit_color_edit	help.c	/^char *help_edit_color_edit[] = {$/;"	v	typeref:typename:char * []
+help_enter_cmd	help.c	/^char *help_enter_cmd[] = {$/;"	v	typeref:typename:char * []
+help_enter_cmd_to_monitor	help.c	/^char *help_enter_cmd_to_monitor[] = {$/;"	v	typeref:typename:char * []
+help_enter_filename_to_monitor	help.c	/^char *help_enter_filename_to_monitor[] = {$/;"	v	typeref:typename:char * []
+help_enter_number_of_lines_to_store	help.c	/^char *help_enter_number_of_lines_to_store[] = {$/;"	v	typeref:typename:char * []
+help_enter_regexp	help.c	/^char *help_enter_regexp[] = {$/;"	v	typeref:typename:char * []
+help_enter_regexp_select_subwindow	help.c	/^char *help_enter_regexp_select_subwindow[] = {$/;"	v	typeref:typename:char * []
+help_enter_regexp_select_window	help.c	/^char *help_enter_regexp_select_window[] = {$/;"	v	typeref:typename:char * []
+help_enter_stripper_select_subwindow	help.c	/^char *help_enter_stripper_select_subwindow[] = {$/;"	v	typeref:typename:char * []
+help_enter_stripper_select_window	help.c	/^char *help_enter_stripper_select_window[] = {$/;"	v	typeref:typename:char * []
+help_error_write_script_create_file	help.c	/^char *help_error_write_script_create_file[] = {$/;"	v	typeref:typename:char * []
+help_failed_to_start_tail	help.c	/^char *help_failed_to_start_tail[] = {$/;"	v	typeref:typename:char * []
+help_header	help.c	/^void help_header(const char *str)$/;"	f	typeref:typename:void
+help_hide_but_window	help.c	/^char *help_hide_but_window[] = {$/;"	v	typeref:typename:char * []
+help_hide_window	help.c	/^char *help_hide_window[] = {$/;"	v	typeref:typename:char * []
+help_highlight_in_all_windows	help.c	/^char *help_highlight_in_all_windows[] = {$/;"	v	typeref:typename:char * []
+help_history	help.c	/^char *help_history[] = {$/;"	v	typeref:typename:char * []
+help_list_keybindings	help.c	/^char *help_list_keybindings[] = {$/;"	v	typeref:typename:char * []
+help_main_menu	help.c	/^char *help_main_menu[] = {$/;"	v	typeref:typename:char * []
+help_manage_cols	help.c	/^char *help_manage_cols[] = {$/;"	v	typeref:typename:char * []
+help_merge_another_window	help.c	/^#define help_merge_another_window /;"	d	file:
+help_n_win_per_col	help.c	/^char *help_n_win_per_col[] = {$/;"	v	typeref:typename:char * []
+help_negate_regexp	help.c	/^char *help_negate_regexp[] = {$/;"	v	typeref:typename:char * []
+help_pause_a_window	help.c	/^char *help_pause_a_window[] = {$/;"	v	typeref:typename:char * []
+help_redirect_failed	help.c	/^char *help_redirect_failed[] = {$/;"	v	typeref:typename:char * []
+help_regexp_menu	help.c	/^char *help_regexp_menu[] = {$/;"	v	typeref:typename:char * []
+help_regexp_usage	help.c	/^char *help_regexp_usage[] = {$/;"	v	typeref:typename:char * []
+help_screendump_select_file	help.c	/^char *help_screendump_select_file[] = {$/;"	v	typeref:typename:char * []
+help_screendump_select_win	help.c	/^char *help_screendump_select_win[] = {$/;"	v	typeref:typename:char * []
+help_scrollback_edit_search_string	help.c	/^char *help_scrollback_edit_search_string[] = {$/;"	v	typeref:typename:char * []
+help_scrollback_help	help.c	/^char *help_scrollback_help[] = {$/;"	v	typeref:typename:char * []
+help_scrollback_no_mark	help.c	/^char *help_scrollback_no_mark[] = {$/;"	v	typeref:typename:char * []
+help_scrollback_savefile	help.c	/^char *help_scrollback_savefile[] = {$/;"	v	typeref:typename:char * []
+help_scrollback_savefile_enter_filename	help.c	/^char *help_scrollback_savefile_enter_filename[] = {$/;"	v	typeref:typename:char * []
+help_scrollback_select_window	help.c	/^char *help_scrollback_select_window[] = {$/;"	v	typeref:typename:char * []
+help_search_in_all_windows	help.c	/^char *help_search_in_all_windows[] = {$/;"	v	typeref:typename:char * []
+help_select_color_and_attributes	help.c	/^char *help_select_color_and_attributes[] = {$/;"	v	typeref:typename:char * []
+help_select_colorschemes	help.c	/^char *help_select_colorschemes[] = {$/;"	v	typeref:typename:char * []
+help_select_conversionschemes	help.c	/^char *help_select_conversionschemes[] = {$/;"	v	typeref:typename:char * []
+help_select_restart_window	help.c	/^char *help_select_restart_window[] = {$/;"	v	typeref:typename:char * []
+help_select_restart_window_all	help.c	/^char *help_select_restart_window_all[] = {$/;"	v	typeref:typename:char * []
+help_select_signal	help.c	/^char *help_select_signal[] = {$/;"	v	typeref:typename:char * []
+help_select_terminal_emulation	help.c	/^char *help_select_terminal_emulation[] = {$/;"	v	typeref:typename:char * []
+help_send_signal_failed	help.c	/^char *help_send_signal_failed[] = {$/;"	v	typeref:typename:char * []
+help_send_signal_select_subwindow	help.c	/^char *help_send_signal_select_subwindow[] = {$/;"	v	typeref:typename:char * []
+help_send_signal_select_window	help.c	/^char *help_send_signal_select_window[] = {$/;"	v	typeref:typename:char * []
+help_send_signal_window_send_to_all_subwin	help.c	/^char *help_send_signal_window_send_to_all_subwin[] = {$/;"	v	typeref:typename:char * []
+help_set_buffering	help.c	/^char *help_set_buffering[] = {$/;"	v	typeref:typename:char * []
+help_set_buffering_select_window	help.c	/^char *help_set_buffering_select_window[] = {$/;"	v	typeref:typename:char * []
+help_set_buffering_store_what	help.c	/^char *help_set_buffering_store_what[] = {$/;"	v	typeref:typename:char * []
+help_set_linewrap	help.c	/^char *help_set_linewrap[] = {$/;"	v	typeref:typename:char * []
+help_set_vertical_split_n_win	help.c	/^char *help_set_vertical_split_n_win[] = {$/;"	v	typeref:typename:char * []
+help_set_window_height	help.c	/^char *help_set_window_height[] = {$/;"	v	typeref:typename:char * []
+help_set_window_height_select_window	help.c	/^char *help_set_window_height_select_window[] = {$/;"	v	typeref:typename:char * []
+help_set_window_width	help.c	/^char *help_set_window_width[] = {$/;"	v	typeref:typename:char * []
+help_set_windowsizes	help.c	/^char *help_set_windowsizes[] = {$/;"	v	typeref:typename:char * []
+help_statistics	help.c	/^char *help_statistics[] = {$/;"	v	typeref:typename:char * []
+help_statistics_popup	help.c	/^char *help_statistics_popup[] = {$/;"	v	typeref:typename:char * []
+help_stripper_col_nr	help.c	/^char *help_stripper_col_nr[] = {$/;"	v	typeref:typename:char * []
+help_stripper_delimiter	help.c	/^char *help_stripper_delimiter[] = {$/;"	v	typeref:typename:char * []
+help_stripper_end_offset	help.c	/^char *help_stripper_end_offset[] = {$/;"	v	typeref:typename:char * []
+help_stripper_start_offset	help.c	/^char *help_stripper_start_offset[] = {$/;"	v	typeref:typename:char * []
+help_stripper_type	help.c	/^char *help_stripper_type[] = {$/;"	v	typeref:typename:char * []
+help_swap_win1	help.c	/^char *help_swap_win1[] = {$/;"	v	typeref:typename:char * []
+help_swap_win2	help.c	/^char *help_swap_win2[] = {$/;"	v	typeref:typename:char * []
+help_t	help.h	/^} help_t;$/;"	t	typeref:struct:__anon01d84cc40108
+help_terminal_mode_select_window	help.c	/^char *help_terminal_mode_select_window[] = {$/;"	v	typeref:typename:char * []
+help_toggle_colors_select_subwindow	help.c	/^char *help_toggle_colors_select_subwindow[] = {$/;"	v	typeref:typename:char * []
+help_toggle_colors_select_window	help.c	/^char *help_toggle_colors_select_window[] = {$/;"	v	typeref:typename:char * []
+help_truncate_areyousure	help.c	/^char *help_truncate_areyousure[] = {$/;"	v	typeref:typename:char * []
+help_truncate_failed	help.c	/^char *help_truncate_failed[] = {$/;"	v	typeref:typename:char * []
+help_truncate_file_select_subwindow	help.c	/^char *help_truncate_file_select_subwindow[] = {$/;"	v	typeref:typename:char * []
+help_truncate_file_select_window	help.c	/^char *help_truncate_file_select_window[] = {$/;"	v	typeref:typename:char * []
+help_truncate_only_logfiles	help.c	/^char *help_truncate_only_logfiles[] = {$/;"	v	typeref:typename:char * []
+help_window_closed	help.c	/^char *help_window_closed[] = {$/;"	v	typeref:typename:char * []
+help_wipe_window	help.c	/^char *help_wipe_window[] = {$/;"	v	typeref:typename:char * []
+help_write_script	help.c	/^char *help_write_script[] = {$/;"	v	typeref:typename:char * []
+hidden	mt.h	/^	char hidden;$/;"	m	struct:_subwindow_	typeref:typename:char
+hide_all_but	ui.c	/^int hide_all_but(void)$/;"	f	typeref:typename:int
+hide_window	ui.c	/^int hide_window(void)$/;"	f	typeref:typename:int
+highlight_in_all_windows	ui.c	/^void highlight_in_all_windows(void)$/;"	f	typeref:typename:void
+history	mt.h	/^	char **history;$/;"	m	struct:__anon7c9ac89c0908	typeref:typename:char **
+history_add	history.c	/^void history_add(history_t *ph, char *string)$/;"	f	typeref:typename:void
+history_file	mt.h	/^	char *history_file;$/;"	m	struct:__anon7c9ac89c0908	typeref:typename:char *
+history_find_null_entry	history.c	/^int history_find_null_entry(history_t *ph)$/;"	f	typeref:typename:int
+history_size	mt.h	/^	int history_size;$/;"	m	struct:__anon7c9ac89c0908	typeref:typename:int
+history_t	mt.h	/^} history_t;$/;"	t	typeref:struct:__anon7c9ac89c0908
+horizontal_scroll	ui.c	/^void horizontal_scroll(int direction)$/;"	f	typeref:typename:void
+idleline_attrs	globals.c	/^myattr_t idleline_attrs   = { -1, -1 };$/;"	v	typeref:typename:myattr_t
+idleline_char	globals.c	/^char idleline_char   = '-';$/;"	v	typeref:typename:char
+idleline_char	multitail.conf	/^idleline_char:-$/;"	k
+idleline_color	multitail.conf	/^idleline_color:yellow,black,bold\/reverse$/;"	k
+in_one_window	mt.h	/^	char in_one_window;$/;"	m	struct:__anon7c9ac89c0b08	typeref:typename:char
+incomplete_line	mt.h	/^	char *incomplete_line;$/;"	m	struct:_subwindow_	typeref:typename:char *
+info	misc.c	/^void info(void)$/;"	f	typeref:typename:void
+init_check_for_mail	mt.c	/^void init_check_for_mail(void)$/;"	f	typeref:typename:void
+init_children_reaper	exec.c	/^void init_children_reaper(void)$/;"	f	typeref:typename:void
+init_colornames	term.c	/^void init_colornames(void)$/;"	f	typeref:typename:void
+init_colors	color.c	/^void init_colors(void)$/;"	f	typeref:typename:void
+init_history	history.c	/^void init_history(history_t *ph)$/;"	f	typeref:typename:void
+init_iat	utils.c	/^void init_iat(int_array_t *piat)$/;"	f	typeref:typename:void
+init_ncurses	term.c	/^void init_ncurses(void)$/;"	f	typeref:typename:void
+initial_n_lines_tail	mt.h	/^	int initial_n_lines_tail;$/;"	m	struct:_subwindow_	typeref:typename:int
+install	Makefile	/^install: multitail$/;"	t
+int_array_t	mt.h	/^} int_array_t;$/;"	t	typeref:struct:__anon7c9ac89c0a08
+inverse	multitail.conf	/^inverse:bold\/reverse$/;"	k
+inverse_attrs	globals.c	/^int inverse_attrs = A_REVERSE;$/;"	v	typeref:typename:int
+inverse_off	ui.c	/^void inverse_off(NEWWIN *win)$/;"	f	typeref:typename:void
+inverse_on	ui.c	/^void inverse_on(NEWWIN *win)$/;"	f	typeref:typename:void
+invert_regex	mt.h	/^        char invert_regex;$/;"	m	struct:__anon7c9ac89c0d08	typeref:typename:char
+is_buffer_too_full	mt.c	/^char is_buffer_too_full(buffer *lb, int n_bytes_to_add)$/;"	f	typeref:typename:char
+is_restarted	mt.h	/^	char is_restarted;$/;"	m	struct:__anon7c9ac89c1908	typeref:typename:char
+kb_str_to_value	config.c	/^long long int kb_str_to_value(char *field, char *str)$/;"	f	typeref:typename:long long int
+key	mt.h	/^	char key;$/;"	m	struct:__anon7c9ac89c2a08	typeref:typename:char
+key_to_keybinding	mt.c	/^char * key_to_keybinding(char what)$/;"	f	typeref:typename:char *
+keybinding	mt.h	/^} keybinding;$/;"	t	typeref:struct:__anon7c9ac89c2a08
+keybindings	globals.c	/^keybinding *keybindings = NULL;$/;"	v	typeref:typename:keybinding *
+label	mt.h	/^	char *label;		\/* put in front of each line *\/$/;"	m	struct:_subwindow_	typeref:typename:char *
+last_check	mt.h	/^	dtime_t last_check;$/;"	m	struct:__anon7c9ac89c0b08	typeref:typename:dtime_t
+last_exit_rc	mt.h	/^	int last_exit_rc;$/;"	m	struct:_subwindow_	typeref:typename:int
+last_line	mt.h	/^	char *last_line;$/;"	m	struct:__anon7c9ac89c1a08	typeref:typename:char *
+last_size	mt.h	/^	off64_t last_size;$/;"	m	struct:_subwindow_	typeref:typename:off64_t
+last_win	mt.h	/^	proginfo *last_win;$/;"	m	struct:__anon7c9ac89c1e08	typeref:typename:proginfo *
+lastevent	mt.h	/^	dtime_t lastevent;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:dtime_t
+lb	globals.c	/^buffer *lb = NULL;$/;"	v	typeref:typename:buffer *
+line_ts_format	globals.c	/^char *line_ts_format = NULL;$/;"	v	typeref:typename:char *
+line_ts_format	multitail.conf	/^line_ts_format:%Y\/%m\/%d %H:%M:%S$/;"	k
+line_wrap	mt.h	/^	char line_wrap;$/;"	m	struct:_subwindow_	typeref:typename:char
+line_wrap_offset	mt.h	/^	int line_wrap_offset;$/;"	m	struct:_subwindow_	typeref:typename:int
+linecounter_for_beep	globals.c	/^int linecounter_for_beep = 0;$/;"	v	typeref:typename:int
+linecounter_for_beep	mt.h	/^		int linecounter_for_beep;$/;"	m	struct:_subwindow_::__anon7c9ac89c1c08	typeref:typename:int
+linepos_t	mt.h	/^typedef enum { LINE_LEFT = 1, LINE_RIGHT, LINE_TOP, LINE_BOTTOM } linepos_t;$/;"	t	typeref:enum:__anon7c9ac89c0403
+list_keybindings	ui.c	/^void list_keybindings(void)$/;"	f	typeref:typename:void
+load_configfile	config.c	/^char load_configfile(char *config_file)$/;"	f	typeref:typename:char
+load_configfile_wrapper	config.c	/^void load_configfile_wrapper(char *config_file)$/;"	f	typeref:typename:void
+load_global_config	globals.c	/^char load_global_config = 1;$/;"	v	typeref:typename:char
+load_history	history.c	/^void load_history(history_t *ph)$/;"	f	typeref:typename:void
+mail	globals.c	/^char mail = 0;$/;"	v	typeref:typename:char
+mail_spool_file	globals.c	/^char *mail_spool_file = NULL;$/;"	v	typeref:typename:char *
+main	mt.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main_loop	mt.c	/^void main_loop(void)$/;"	f	typeref:typename:void
+map_delete_as_backspace	globals.c	/^mybool_t map_delete_as_backspace = MY_FALSE;$/;"	v	typeref:typename:mybool_t
+map_delete_as_backspace	multitail.conf	/^map_delete_as_backspace:no$/;"	k
+mark_interval	mt.h	/^	int mark_interval;$/;"	m	struct:_subwindow_	typeref:typename:int
+marker_of_other_window	mt.h	/^	char marker_of_other_window;$/;"	m	struct:__anon7c9ac89c1e08	typeref:typename:char
+markerline_attrs	globals.c	/^myattr_t markerline_attrs = { -1, -1 };$/;"	v	typeref:typename:myattr_t
+markerline_char	globals.c	/^char markerline_char = '-';$/;"	v	typeref:typename:char
+markerline_char	multitail.conf	/^markerline_char:-$/;"	k
+markerline_color	multitail.conf	/^markerline_color:red,black,reverse$/;"	k
+markerline_timestamp	multitail.conf	/^markerline_timestamp:on$/;"	k
+match_count	mt.h	/^	int match_count;$/;"	m	struct:__anon7c9ac89c0d08	typeref:typename:int
+match_count	mt.h	/^	int match_count;$/;"	m	struct:__anon7c9ac89c1008	typeref:typename:int
+match_count	mt.h	/^	int match_count;$/;"	m	struct:__anon7c9ac89c2508	typeref:typename:int
+match_files	utils.c	/^int match_files(char *search_for, char **path, char ***found, char **isdir)$/;"	f	typeref:typename:int
+max	utils.h	/^#define max(/;"	d
+max_x	globals.c	/^int max_y, max_x;$/;"	v	typeref:typename:int
+max_y	globals.c	/^int max_y, max_x;$/;"	v	typeref:typename:int
+maxbytes	mt.h	/^	int maxbytes, curbytes;$/;"	m	struct:__anon7c9ac89c1e08	typeref:typename:int
+maxnlines	mt.h	/^	int maxnlines;$/;"	m	struct:__anon7c9ac89c1e08	typeref:typename:int
+mcsre	multitail.conf	/^mcsre:,,inverse:.*man.*$/;"	k
+mcsre	multitail.conf	/^mcsre:,blue:.*tcp.*$/;"	k
+mcsre	multitail.conf	/^mcsre:,cyan:.*icmp.*$/;"	k
+mcsre	multitail.conf	/^mcsre:,green:.*udp.*$/;"	k
+mcsre_s	multitail.conf	/^mcsre_s:,,bold:[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+\\.([0-9]+).*[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+\\/;"	k
+mcsre_s	multitail.conf	/^mcsre_s:cyan,,bold: (<[-?])$/;"	k
+mcsre_s	multitail.conf	/^mcsre_s:magenta,,bold: (<->)$/;"	k
+mcsre_s	multitail.conf	/^mcsre_s:yellow,,bold: ([-?]>)$/;"	k
+mcsre_val_bigger	multitail.conf	/^mcsre_val_bigger:red,,bold:20000:([0-9]+)[ ]+([0-9]+)[ ]+[A-Z][A-Z][A-Z]$/;"	k
+med	mt.h	/^	double med;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:double
+menu_win	globals.c	/^NEWWIN *menu_win = NULL;$/;"	v	typeref:typename:NEWWIN *
+merge_color	mt.h	/^	mybool_t merge_color;$/;"	m	struct:__anon7c9ac89c2208	typeref:typename:mybool_t
+merge_color	mt.h	/^	mybool_t merge_color;$/;"	m	struct:__anon7c9ac89c2908	typeref:typename:mybool_t
+merged_scrollback_with_search	scrollback.c	/^void merged_scrollback_with_search(char *search_for, mybool_t case_insensitive)$/;"	f	typeref:typename:void
+min	utils.h	/^#define min(/;"	d
+min_n_bufferlines	globals.c	/^int min_n_bufferlines = -1;$/;"	v	typeref:typename:int
+min_n_bufferlines	multitail.conf	/^min_n_bufferlines:50$/;"	k
+min_shrink	multitail.conf	/^min_shrink:10$/;"	k
+mode_statusline	globals.c	/^int mode_statusline = 1;$/;"	v	typeref:typename:int
+msf_info	globals.c	/^struct stat64 msf_info;$/;"	v	typeref:struct:stat64
+msf_last_check	globals.c	/^dtime_t msf_last_check = 0;$/;"	v	typeref:typename:dtime_t
+msf_prev_size	globals.c	/^off64_t msf_prev_size = 0;$/;"	v	typeref:typename:off64_t
+msgline_attrs	globals.c	/^myattr_t msgline_attrs    = { -1, -1 };$/;"	v	typeref:typename:myattr_t
+msgline_char	globals.c	/^char msgline_char   = '-';$/;"	v	typeref:typename:char
+msgline_char	multitail.conf	/^msgline_char:-$/;"	k
+msgline_color	multitail.conf	/^msgline_color:magenta,black,bold\/reverse$/;"	k
+mt_started	globals.c	/^dtime_t mt_started;$/;"	v	typeref:typename:dtime_t
+multitail	Makefile	/^multitail: $(OBJS)$/;"	t
+myattr_off	term.c	/^void myattr_off(NEWWIN *win, myattr_t attrs)$/;"	f	typeref:typename:void
+myattr_on	term.c	/^void myattr_on(NEWWIN *win, myattr_t attrs)$/;"	f	typeref:typename:void
+myattr_t	mt.h	/^} myattr_t;$/;"	t	typeref:struct:__anon7c9ac89c1308
+mybool_t	mt.h	/^typedef enum { MY_FALSE = 0, MY_TRUE = 1 } mybool_t;$/;"	t	typeref:enum:__anon7c9ac89c0103
+myclose	utils.c	/^int myclose(int fd)$/;"	f	typeref:typename:int
+mydelwin	term.c	/^void mydelwin(NEWWIN *win)$/;"	f	typeref:typename:void
+mydoupdate	term.c	/^void mydoupdate()$/;"	f	typeref:typename:void
+mydup	utils.c	/^int mydup(int old_fd)$/;"	f	typeref:typename:int
+myfree	mem.c	/^void myfree(void *p)$/;"	f	typeref:typename:void
+mykillpg	utils.c	/^int mykillpg(pid_t pid, int sigtype)$/;"	f	typeref:typename:int
+mymalloc	mem.c	/^void * mymalloc(int size)$/;"	f	typeref:typename:void *
+mynewwin	term.c	/^NEWWIN * mynewwin(int nlines, int ncols, int begin_y, int begin_x)$/;"	f	typeref:typename:NEWWIN *
+myopen	utils.c	/^int myopen(char *path, int mode)$/;"	f	typeref:typename:int
+myrand	utils.c	/^int myrand(int max)$/;"	f	typeref:typename:int
+myrealloc	mem.c	/^void * myrealloc(void *oldp, int new_size)$/;"	f	typeref:typename:void *
+myrealpath	utils.c	/^char *myrealpath(char *in)$/;"	f	typeref:typename:char *
+mystrdup	mem.c	/^char * mystrdup(const char *in)$/;"	f	typeref:typename:char *
+n	mt.h	/^	int n;$/;"	m	struct:__anon7c9ac89c0a08	typeref:typename:int
+n	mt.h	/^	int n;$/;"	m	struct:__anon7c9ac89c2308	typeref:typename:int
+n	mt.h	/^	int n;$/;"	m	struct:__anon7c9ac89c2608	typeref:typename:int
+n_cdg	globals.c	/^int n_cdg = 0;$/;"	v	typeref:typename:int
+n_children	globals.c	/^int n_children = 0;$/;"	v	typeref:typename:int
+n_colors_defined	globals.c	/^int n_colors_defined = 0;$/;"	v	typeref:typename:int
+n_colorschemes	mt.h	/^	int n_colorschemes;$/;"	m	struct:__anon7c9ac89c2808	typeref:typename:int
+n_conversion_schemes	mt.h	/^	int n_conversion_schemes;$/;"	m	struct:__anon7c9ac89c2808	typeref:typename:int
+n_conversions	globals.c	/^int n_conversions = 0;$/;"	v	typeref:typename:int
+n_cschemes	globals.c	/^int n_cschemes = 0;$/;"	v	typeref:typename:int
+n_def	mt.h	/^	int n_def;		\/* n defined, at least 1 as color_pair(0) is the default$/;"	m	struct:__anon7c9ac89c1208	typeref:typename:int
+n_es	globals.c	/^int n_es = 0;$/;"	v	typeref:typename:int
+n_events	mt.h	/^	int n_events;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:int
+n_fs	globals.c	/^int n_fs = 0;$/;"	v	typeref:typename:int
+n_keybindings	globals.c	/^int n_keybindings = 0;$/;"	v	typeref:typename:int
+n_known_sigs	globals.c	/^int n_known_sigs = 32;$/;"	v	typeref:typename:int
+n_pars_per_file	globals.c	/^int n_pars_per_file = 0;$/;"	v	typeref:typename:int
+n_re	mt.h	/^	int n_re;$/;"	m	struct:__anon7c9ac89c0e08	typeref:typename:int
+n_re	mt.h	/^	int n_re;$/;"	m	struct:_subwindow_	typeref:typename:int
+n_redirect	mt.h	/^	int n_redirect;$/;"	m	struct:_subwindow_	typeref:typename:int
+n_runs	mt.h	/^	int n_runs;$/;"	m	struct:_subwindow_	typeref:typename:int
+n_splitlines	globals.c	/^int n_splitlines = 0;$/;"	v	typeref:typename:int
+n_strip	mt.h	/^	int n_strip;$/;"	m	struct:_subwindow_	typeref:typename:int
+n_strips	mt.h	/^	int n_strips;$/;"	m	struct:__anon7c9ac89c1108	typeref:typename:int
+n_times_repeated	mt.h	/^	int n_times_repeated;$/;"	m	struct:__anon7c9ac89c1a08	typeref:typename:int
+n_win_per_col	globals.c	/^int *n_win_per_col = NULL;$/;"	v	typeref:typename:int *
+name	mt.h	/^	char *name;$/;"	m	struct:__anon7c9ac89c2308	typeref:typename:char *
+name	mt.h	/^	char *name;$/;"	m	struct:__anon7c9ac89c2608	typeref:typename:char *
+ncur	mt.h	/^	int ncur, nprev;$/;"	m	struct:__anon7c9ac89c1808	typeref:typename:int
+need_died_procs_check	globals.c	/^char need_died_procs_check = 0;$/;"	v	typeref:typename:char
+new_only	mt.h	/^	time_field_t new_only;$/;"	m	struct:__anon7c9ac89c0b08	typeref:typename:time_field_t
+newstr	mt.h	/^	char *newstr;$/;"	m	struct:cv_off	typeref:typename:char *
+next	mt.h	/^	struct _subwindow_ *next;$/;"	m	struct:_subwindow_	typeref:struct:_subwindow_ *
+nfd	globals.c	/^int nfd = 0;$/;"	v	typeref:typename:int
+no_linewrap	globals.c	/^char no_linewrap = 0;$/;"	v	typeref:typename:char
+nprev	mt.h	/^	int ncur, nprev;$/;"	m	struct:__anon7c9ac89c1808	typeref:typename:int
+nr	help.h	/^	int nr;$/;"	m	struct:__anon01d84cc40108	typeref:typename:int
+nsubwindows	globals.c	/^char *nsubwindows = NULL;$/;"	v	typeref:typename:char *
+off64_t	mt.h	/^#define off64_t /;"	d
+open64	mt.h	/^#define open64 /;"	d
+open_null	utils.c	/^int open_null(void)$/;"	f	typeref:typename:int
+package	Makefile	/^package: clean$/;"	t
+pars_per_file	mt.h	/^} pars_per_file;$/;"	t	typeref:struct:__anon7c9ac89c2808
+parse_attributes	term.c	/^myattr_t parse_attributes(char *str)$/;"	f	typeref:typename:myattr_t
+paused	mt.h	/^	char paused;$/;"	m	struct:_subwindow_	typeref:typename:char
+pcb	mt.h	/^	conversion_bundle_t *pcb;$/;"	m	struct:__anon7c9ac89c2608	typeref:typename:conversion_bundle_t *
+pcs	mt.h	/^	script *pcs;$/;"	m	struct:__anon7c9ac89c2608	typeref:typename:script *
+pentries	mt.h	/^	color_scheme_entry *pentries;$/;"	m	struct:__anon7c9ac89c2308	typeref:typename:color_scheme_entry *
+pes	globals.c	/^editscheme *pes = NULL;$/;"	v	typeref:typename:editscheme *
+pfs	globals.c	/^filterscheme *pfs = NULL;$/;"	v	typeref:typename:filterscheme *
+pi	globals.c	/^proginfo *pi = NULL;$/;"	v	typeref:typename:proginfo *
+pi	mt.h	/^	proginfo *pi;$/;"	m	struct:__anon7c9ac89c1d08	typeref:typename:proginfo *
+pid	mt.h	/^	pid_t pid;$/;"	m	struct:__anon7c9ac89c1508	typeref:typename:pid_t
+pid	mt.h	/^	pid_t pid;$/;"	m	struct:__anon7c9ac89c2008	typeref:typename:pid_t
+pid	mt.h	/^	pid_t pid;$/;"	m	struct:_subwindow_	typeref:typename:pid_t
+popup_refresh_interval	globals.c	/^int popup_refresh_interval = 5; \/* every 5 seconds *\/$/;"	v	typeref:typename:int
+popup_refresh_interval	multitail.conf	/^popup_refresh_interval:5$/;"	k
+posix_tail	globals.c	/^mybool_t posix_tail = 0;$/;"	v	typeref:typename:mybool_t
+posix_tail	multitail.conf	/^posix_tail:no$/;"	k
+ppf	globals.c	/^pars_per_file *ppf = NULL;$/;"	v	typeref:typename:pars_per_file *
+pre	mt.h	/^	re *pre;$/;"	m	struct:__anon7c9ac89c0e08	typeref:typename:re *
+pre	mt.h	/^	re *pre;$/;"	m	struct:_subwindow_	typeref:typename:re *
+predir	mt.h	/^	redirect_t *predir;$/;"	m	struct:_subwindow_	typeref:typename:redirect_t *
+prev_deltat	mt.h	/^	double prev_deltat, total_deltat;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:double
+prev_term_char	globals.c	/^char prev_term_char = -1;$/;"	v	typeref:typename:char
+prio_fac	mt.h	/^	int prio_fac;$/;"	m	struct:__anon7c9ac89c1508	typeref:typename:int
+process_global_keys	mt.c	/^int process_global_keys(int what_help, NEWWIN *popup, char cursor_shift)$/;"	f	typeref:typename:int
+process_input_data	mt.c	/^char process_input_data(int win_nr, proginfo *cur, char *data_in, int new_data_offset, int n_byt/;"	f	typeref:typename:char
+proginfo	mt.h	/^} proginfo;$/;"	t	typeref:struct:_subwindow_
+pstrip	mt.h	/^	strip_t *pstrip;$/;"	m	struct:_subwindow_	typeref:typename:strip_t *
+pwin	mt.h	/^	PANEL *pwin;$/;"	m	struct:__anon7c9ac89c0c08	typeref:typename:PANEL *
+re	mt.h	/^} re;$/;"	t	typeref:struct:__anon7c9ac89c0d08
+re_case_insensitive	globals.c	/^mybool_t re_case_insensitive = MY_FALSE;$/;"	v	typeref:typename:mybool_t
+re_str	mt.h	/^	char *re_str;$/;"	m	struct:__anon7c9ac89c2808	typeref:typename:char *
+realloc_color_offset_in_line	color.c	/^color_offset_in_line *realloc_color_offset_in_line(color_offset_in_line *oldp, int n_entries)$/;"	f	typeref:typename:color_offset_in_line *
+recv_from_fd	mt.c	/^int recv_from_fd(int fd, char **buffer, int new_data_offset, int read_size)$/;"	f	typeref:typename:int
+redirect	mt.c	/^void redirect(proginfo *cur, char *data, int n_bytes, mybool_t is_filtered)$/;"	f	typeref:typename:void
+redirect	mt.h	/^	char *redirect;$/;"	m	struct:__anon7c9ac89c1508	typeref:typename:char *
+redirect_t	mt.h	/^} redirect_t;$/;"	t	typeref:struct:__anon7c9ac89c1508
+redirecttype_t	mt.h	/^typedef enum { REDIRECTTO_NONE = 0, REDIRECTTO_PIPE_FILTERED = 1, REDIRECTTO_PIPE, REDIRECTTO_FI/;"	t	typeref:enum:__anon7c9ac89c1403
+redraw_statuslines	mt.c	/^void redraw_statuslines(void)$/;"	f	typeref:typename:void
+regex	mt.h	/^	regex_t  regex;$/;"	m	struct:__anon7c9ac89c1008	typeref:typename:regex_t
+regex	mt.h	/^	regex_t regex;$/;"	m	struct:__anon7c9ac89c2208	typeref:typename:regex_t
+regex	mt.h	/^	regex_t regex;$/;"	m	struct:__anon7c9ac89c2508	typeref:typename:regex_t
+regex	mt.h	/^	regex_t regex;$/;"	m	struct:__anon7c9ac89c2808	typeref:typename:regex_t
+regex	mt.h	/^        regex_t regex;$/;"	m	struct:__anon7c9ac89c0d08	typeref:typename:regex_t
+regex_str	mt.h	/^	char *regex_str;$/;"	m	struct:__anon7c9ac89c1008	typeref:typename:char *
+regex_str	mt.h	/^        char *regex_str;$/;"	m	struct:__anon7c9ac89c0d08	typeref:typename:char *
+regexp_error_popup	ui.c	/^void regexp_error_popup(int rc, regex_t *pre)$/;"	f	typeref:typename:void
+repeat	mt.h	/^	repeatinglines_t repeat;$/;"	m	struct:_subwindow_	typeref:typename:repeatinglines_t
+repeatinglines_t	mt.h	/^} repeatinglines_t;$/;"	t	typeref:struct:__anon7c9ac89c1a08
+replace_by_markerline	globals.c	/^char *replace_by_markerline = NULL;$/;"	v	typeref:typename:char *
+replace_by_markerline	multitail.conf	/^replace_by_markerline:-- MARK --$/;"	k
+reset_counters	misc.c	/^void reset_counters(statistics_t *ps)$/;"	f	typeref:typename:void
+reset_term	help.c	/^void reset_term()$/;"	f	typeref:typename:void
+resize_terminal_do	mt.c	/^void resize_terminal_do(NEWWIN *popup)$/;"	f	typeref:typename:void
+resolv_ip_addresses	globals.c	/^mybool_t resolv_ip_addresses = 1;$/;"	v	typeref:typename:mybool_t
+resolv_ip_addresses	multitail.conf	/^resolv_ip_addresses:yes$/;"	k
+restart	mt.h	/^	int restart;$/;"	m	struct:__anon7c9ac89c1908	typeref:typename:int
+restart	mt.h	/^	restart_t restart;$/;"	m	struct:_subwindow_	typeref:typename:restart_t
+restart_clear	mt.h	/^	char restart_clear; \/* clear after each iteration? *\/$/;"	m	struct:__anon7c9ac89c1908	typeref:typename:char
+restart_t	mt.h	/^} restart_t;$/;"	t	typeref:struct:__anon7c9ac89c1908
+restart_window	ui.c	/^void restart_window(void)$/;"	f	typeref:typename:void
+retry_open	mt.h	/^	char retry_open;$/;"	m	struct:_subwindow_	typeref:typename:char
+reuse_searchstring	globals.c	/^char reuse_searchstring = 1;$/;"	v	typeref:typename:char
+reuse_searchstring	multitail.conf	/^reuse_searchstring:no$/;"	k
+rule	multitail.conf	/^rule:ev:---- MARK ----$/;"	k
+sai	mt.h	/^	struct sockaddr_in sai;$/;"	m	struct:__anon7c9ac89c1508	typeref:struct:sockaddr_in
+save_history	history.c	/^void save_history(history_t *ph)$/;"	f	typeref:typename:void
+scc	mt.h	/^	double scc, sccu0, scclast, scct1, scct2, scct3;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:double
+sccfirst	mt.h	/^	char sccfirst;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:char
+scclast	mt.h	/^	double scc, sccu0, scclast, scct1, scct2, scct3;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:double
+scct1	mt.h	/^	double scc, sccu0, scclast, scct1, scct2, scct3;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:double
+scct2	mt.h	/^	double scc, sccu0, scclast, scct1, scct2, scct3;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:double
+scct3	mt.h	/^	double scc, sccu0, scclast, scct1, scct2, scct3;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:double
+sccu0	mt.h	/^	double scc, sccu0, scclast, scct1, scct2, scct3;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:double
+scheme	config.c	/^void scheme(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+scheme	multitail.conf	/^scheme:apache:\/var\/log\/apache\/.*access$/;"	k
+scheme	multitail.conf	/^scheme:apache:\/var\/log\/lighttpd\/.*access$/;"	k
+scheme	multitail.conf	/^scheme:apache_error:\/var\/log\/apache\/.*error$/;"	k
+scheme	multitail.conf	/^scheme:asterisk:\/var\/log\/asterisk\/messages$/;"	k
+scheme	multitail.conf	/^scheme:boinc:\/var\/lib\/boinc-client\/std...dae.txt$/;"	k
+scheme	multitail.conf	/^scheme:cscriptexample:\/dev\/null$/;"	k
+scheme	multitail.conf	/^scheme:exim:\/var\/log\/mail\/$/;"	k
+scheme	multitail.conf	/^scheme:inn:\/var\/log\/news\/$/;"	k
+scheme	multitail.conf	/^scheme:postfix:\/var\/log\/mail\/$/;"	k
+scheme	multitail.conf	/^scheme:procmail:procmail.log$/;"	k
+scheme	multitail.conf	/^scheme:qmt-clamd:\/var\/log\/qmail\/clamd\/current$/;"	k
+scheme	multitail.conf	/^scheme:qmt-send:\/var\/log\/qmail\/send\/current$/;"	k
+scheme	multitail.conf	/^scheme:qmt-smtp:\/var\/log\/qmail\/smtp\/current$/;"	k
+scheme	multitail.conf	/^scheme:qmt-smtp:\/var\/log\/qmail\/submission\/current$/;"	k
+scheme	multitail.conf	/^scheme:qmt-sophie:\/var\/log\/qmail\/sophie\/current$/;"	k
+scheme	multitail.conf	/^scheme:qmt-spamassassin:\/var\/log\/qmail\/spam\/current$/;"	k
+scheme	multitail.conf	/^scheme:samba:\/var\/log\/samba\/$/;"	k
+scheme	multitail.conf	/^scheme:sendmail:\/var\/log\/mail\/$/;"	k
+scheme	multitail.conf	/^scheme:snort:\/var\/log\/snort\/alert$/;"	k
+scheme	multitail.conf	/^scheme:squid:\/var\/log\/squid3\/$/;"	k
+scheme	multitail.conf	/^scheme:squid:\/var\/log\/squid\/$/;"	k
+scheme	multitail.conf	/^scheme:syslog,ssh:\/var\/log\/$/;"	k
+scheme	multitail.conf	/^scheme:uucp:\/var\/log\/uucp\/$/;"	k
+scheme	multitail.conf	/^scheme:vnetbr:bplog.rest$/;"	k
+scheme	multitail.conf	/^scheme:zarafa:\/var\/log\/zarafa\/$/;"	k
+scheme_t	mt.h	/^typedef enum { SCHEME_CONVERSION = 1, SCHEME_COLOR } scheme_t;$/;"	t	typeref:enum:__anon7c9ac89c2703
+screendump	ui.c	/^void screendump(void)$/;"	f	typeref:typename:void
+screendump_do	ui.c	/^void screendump_do(WINDOW *win)$/;"	f	typeref:typename:void
+script	mt.h	/^	char *script;$/;"	m	struct:__anon7c9ac89c2008	typeref:typename:char *
+script	mt.h	/^} script;$/;"	t	typeref:struct:__anon7c9ac89c2008
+scrollback	scrollback.c	/^void scrollback(void)$/;"	f	typeref:typename:void
+scrollback_displayline	scrollback.c	/^void scrollback_displayline(int window_nr, NEWWIN *win, buffer *pbuf, int buffer_offset, int ter/;"	f	typeref:typename:void
+scrollback_do	scrollback.c	/^int scrollback_do(int window_nr, buffer *pbuf, int *winnrs, char *header)$/;"	f	typeref:typename:int
+scrollback_find_popup	scrollback.c	/^void scrollback_find_popup(char **find_str, mybool_t *pcase_insensitive)$/;"	f	typeref:typename:void
+scrollback_fullscreen_default	globals.c	/^char scrollback_fullscreen_default = 0;$/;"	v	typeref:typename:char
+scrollback_no_colors	globals.c	/^char scrollback_no_colors = 0;$/;"	v	typeref:typename:char
+scrollback_no_colors	multitail.conf	/^scrollback_no_colors:no$/;"	k
+scrollback_savefile	scrollback.c	/^void scrollback_savefile(buffer *pbuf)$/;"	f	typeref:typename:void
+scrollback_search_new_window	globals.c	/^char scrollback_search_new_window = 1;$/;"	v	typeref:typename:char
+scrollback_search_new_window	multitail.conf	/^scrollback_search_new_window:yes$/;"	k
+scrollback_search_to_new_window	scrollback.c	/^int scrollback_search_to_new_window(buffer *pbuf, char *org_title, char *find_str, mybool_t case/;"	f	typeref:typename:int
+scrollback_show_winnrs	multitail.conf	/^scrollback_show_winnrs:no$/;"	k
+search_h	globals.c	/^history_t search_h = { NULL, 0, NULL };$/;"	v	typeref:typename:history_t
+search_history	history.c	/^char * search_history(history_t *ph, char *search_string)$/;"	f	typeref:typename:char *
+search_in_all_windows	ui.c	/^void search_in_all_windows(void)$/;"	f	typeref:typename:void
+searches_case_insensitive	multitail.conf	/^searches_case_insensitive:no$/;"	k
+searchhistory_file	multitail.conf	/^searchhistory_file:~\/.multitail.searchhistory$/;"	k
+searchhistory_size	multitail.conf	/^searchhistory_size:15$/;"	k
+selbox_type_t	mt.h	/^typedef enum { SEL_WIN = 1, SEL_SUBWIN, SEL_FILES, SEL_CSCHEME, SEL_HISTORY } selbox_type_t;$/;"	t	typeref:enum:__anon7c9ac89c0703
+select_conversionschemes	ui.c	/^void select_conversionschemes(void)$/;"	f	typeref:typename:void
+select_display_start_and_end	mt.c	/^void select_display_start_and_end(char *string, char mode, int wrap_offset, int win_width, int */;"	f	typeref:typename:void
+select_file	selbox.c	/^char * select_file(char *input, int what_help)$/;"	f	typeref:typename:char *
+select_schemes	ui.c	/^int select_schemes(void *schemes_in, int n_schemes_in, scheme_t tscheme, int_array_t *schemes_ou/;"	f	typeref:typename:int
+select_subwindow	selbox.c	/^proginfo * select_subwindow(int f_index, int what_help, char *heading)$/;"	f	typeref:typename:proginfo *
+select_window	selbox.c	/^int select_window(int what_help, char *heading)$/;"	f	typeref:typename:int
+selection_box	selbox.c	/^int selection_box(void **list, char *needs_mark, int nlines, selbox_type_t type, int what_help, /;"	f	typeref:typename:int
+selective_pause	ui.c	/^void selective_pause()$/;"	f	typeref:typename:void
+send_signal	ui.c	/^void send_signal(void)$/;"	f	typeref:typename:void
+send_signal_failed	ui.c	/^void send_signal_failed(proginfo *cur)$/;"	f	typeref:typename:void
+send_signal_select_signal	ui.c	/^int send_signal_select_signal(void)$/;"	f	typeref:typename:int
+send_to_clipboard	clipboard.c	/^void send_to_clipboard(buffer *pb)$/;"	f	typeref:typename:void
+send_to_clipboard_binary	clipboard.c	/^void send_to_clipboard_binary(char *what)$/;"	f	typeref:typename:void
+set_abbreviate_filesize	config.c	/^void set_abbreviate_filesize(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_abort_key	config.c	/^void set_abort_key(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_allow_8bit	config.c	/^void set_allow_8bit(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_basename	config.c	/^void set_basename(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_beep_method	config.c	/^void set_beep_method(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_beep_popup_length	config.c	/^void set_beep_popup_length(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_bold	help.c	/^void set_bold(char on)$/;"	f	typeref:typename:void
+set_box_bottom_left_hand_corner	config.c	/^void set_box_bottom_left_hand_corner(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_box_bottom_right_hand_corner	config.c	/^void set_box_bottom_right_hand_corner(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_box_bottom_side	config.c	/^void set_box_bottom_side(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_box_left_side	config.c	/^void set_box_left_side(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_box_right_side	config.c	/^void set_box_right_side(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_box_top_left_hand_corner	config.c	/^void set_box_top_left_hand_corner(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_box_top_right_hand_corner	config.c	/^void set_box_top_right_hand_corner(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_box_top_side	config.c	/^void set_box_top_side(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_bright	config.c	/^void set_bright(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_buffering	ui.c	/^void set_buffering(void)$/;"	f	typeref:typename:void
+set_caret_notation	config.c	/^void set_caret_notation(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_changeline_char	config.c	/^void set_changeline_char(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_changeline_color	config.c	/^void set_changeline_color(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_check_mail	config.c	/^void set_check_mail(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_close_closed_windows	config.c	/^void set_close_closed_windows(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_cmdfile_history_file	config.c	/^void set_cmdfile_history_file(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_cmdfile_history_size	config.c	/^void set_cmdfile_history_size(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_cnv_ts_format	config.c	/^void set_cnv_ts_format(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_default_background_color	config.c	/^void set_default_background_color(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_default_bufferwhat	config.c	/^void set_default_bufferwhat(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_default_bytes	config.c	/^void set_default_bytes(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_default_convert	config.c	/^void set_default_convert(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_default_linewrap	config.c	/^void set_default_linewrap(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_default_mark_change	config.c	/^void set_default_mark_change(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_default_min_shrink	config.c	/^void set_default_min_shrink(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_default_nlines	config.c	/^void set_default_nlines(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_default_parameters_if_not_given	mt.c	/^void set_default_parameters_if_not_given(void)$/;"	f	typeref:typename:void
+set_default_parameters_if_not_given_do	mt.c	/^void set_default_parameters_if_not_given_do(proginfo *cur, int pi_index)$/;"	f	typeref:typename:void
+set_defaultcscheme	config.c	/^void set_defaultcscheme(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_do_refresh	globals.c	/^void set_do_refresh(char val)$/;"	f	typeref:typename:void
+set_dsblwm	config.c	/^void set_dsblwm(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_exit_key	config.c	/^void set_exit_key(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_follow_filename	config.c	/^void set_follow_filename(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_global_default_nkb	config.c	/^void set_global_default_nkb(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_global_default_nlines	config.c	/^void set_global_default_nlines(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_global_mark_change	config.c	/^void set_global_mark_change(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_gnu_tail	config.c	/^void set_gnu_tail(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_idleline_char	config.c	/^void set_idleline_char(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_idleline_color	config.c	/^void set_idleline_color(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_inverse_attrs	config.c	/^void set_inverse_attrs(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_line_ts_format	config.c	/^void set_line_ts_format(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_linewrap	ui.c	/^void set_linewrap(void)$/;"	f	typeref:typename:void
+set_map_delete_as_backspace	config.c	/^void set_map_delete_as_backspace(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_markerline_attrs	config.c	/^void set_markerline_attrs(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_markerline_char	config.c	/^void set_markerline_char(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_markerline_timestamp	config.c	/^void set_markerline_timestamp(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_min_n_bufferlines	config.c	/^void set_min_n_bufferlines(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_msgline_char	config.c	/^void set_msgline_char(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_msgline_color	config.c	/^void set_msgline_color(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_pbcopy	config.c	/^void set_pbcopy(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_popup_refresh_interval	config.c	/^void set_popup_refresh_interval(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_posix_tail	config.c	/^void set_posix_tail(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_replace_by_markerline	config.c	/^void set_replace_by_markerline(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_resolv_ip_addresses	config.c	/^void set_resolv_ip_addresses(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_reuse_searchstring	config.c	/^void set_reuse_searchstring(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_scrollback_fullscreen_default	config.c	/^void set_scrollback_fullscreen_default(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_scrollback_no_colors	config.c	/^void set_scrollback_no_colors(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_scrollback_search_new_window	config.c	/^void set_scrollback_search_new_window(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_scrollback_show_winnrs	config.c	/^void set_scrollback_show_winnrs(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_searches_case_insensitive	config.c	/^void set_searches_case_insensitive(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_searchhistory_file	config.c	/^void set_searchhistory_file(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_searchhistory_size	config.c	/^void set_searchhistory_size(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_shell	config.c	/^void set_shell(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_show_severity_facility	config.c	/^void set_show_severity_facility(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_show_subwindow_id	config.c	/^void set_show_subwindow_id(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_signal	mt.c	/^void set_signal(int sig, sh_t func, char *signame)$/;"	f	typeref:typename:void
+set_splitline	config.c	/^void set_splitline(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_splitline_attrs	config.c	/^void set_splitline_attrs(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_statusline_above_data	config.c	/^void set_statusline_above_data(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_statusline_attrs	config.c	/^void set_statusline_attrs(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_statusline_ts_format	config.c	/^void set_statusline_ts_format(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_subwindow_number	config.c	/^void set_subwindow_number(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_suppress_empty_lines	config.c	/^void set_suppress_empty_lines(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_syslog_ts_format	config.c	/^void set_syslog_ts_format(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_tab_stop	config.c	/^void set_tab_stop(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_tail	config.c	/^void set_tail(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_title	globals.c	/^char *set_title = NULL;$/;"	v	typeref:typename:char *
+set_titlebar	config.c	/^void set_titlebar(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_ts_format	config.c	/^void set_ts_format(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_umask	config.c	/^void set_umask(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_underline	help.c	/^void set_underline(char on)$/;"	f	typeref:typename:void
+set_warn_closed	config.c	/^void set_warn_closed(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_window_number	config.c	/^void set_window_number(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_window_sizes	ui.c	/^int set_window_sizes(void)$/;"	f	typeref:typename:int
+set_window_widths	ui.c	/^int set_window_widths(void)$/;"	f	typeref:typename:int
+set_wordwrapmaxlength	config.c	/^void set_wordwrapmaxlength(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+set_xclip	config.c	/^void set_xclip(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+setup_for_childproc	utils.c	/^void setup_for_childproc(int fd, char close_fd_0, char *term)$/;"	f	typeref:typename:void
+severities	globals.c	/^char *severities[8] = { "emerg", "alert", "crit", "err", "warning", "notice", "info", "debug" };$/;"	v	typeref:typename:char * [8]
+sh_t	mt.c	/^typedef void (*sh_t)(int);$/;"	t	typeref:typename:void (*)(int)	file:
+shell	globals.c	/^char *shell = NULL;$/;"	v	typeref:typename:char *
+shell	multitail.conf	/^shell:\/bin\/sh$/;"	k
+shorten_filename	utils.c	/^char * shorten_filename(char *in, int max_len)$/;"	f	typeref:typename:char *
+show_help	help.c	/^void show_help(int what_help)$/;"	f	typeref:typename:void
+show_severity_facility	globals.c	/^mybool_t show_severity_facility = 1;$/;"	v	typeref:typename:mybool_t
+show_severity_facility	multitail.conf	/^show_severity_facility:yes$/;"	k
+show_subwindow_id	globals.c	/^char show_subwindow_id = 0;$/;"	v	typeref:typename:char
+show_subwindow_id	multitail.conf	/^show_subwindow_id:off$/;"	k
+signal_handler	mt.c	/^void signal_handler(int sig)$/;"	f	typeref:typename:void
+sigs	globals.c	/^char *sigs[] = { NULL, "SIGHUP", "SIGINT", "SIGQUIT", "SIGILL", "SIGTRAP", "SIGABRT\/SIGIOT", "S/;"	v	typeref:typename:char * []
+sigusr1_restart_tails	mt.c	/^void sigusr1_restart_tails(void)$/;"	f	typeref:typename:void
+size	mt.h	/^	int size;		\/* COLOR_PAIRS *\/$/;"	m	struct:__anon7c9ac89c1208	typeref:typename:int
+size	mt.h	/^	int size;$/;"	m	struct:__anon7c9ac89c0a08	typeref:typename:int
+sort_colorschemes_compare	config.c	/^int sort_colorschemes_compare(const void *a, const void *b)$/;"	f	typeref:typename:int
+split	globals.c	/^int split = 0;$/;"	v	typeref:typename:int
+splitline	multitail.conf	/^splitline:attributes$/;"	k
+splitline_attrs	globals.c	/^myattr_t splitline_attrs  = { -1, -1 };$/;"	v	typeref:typename:myattr_t
+splitline_attrs	multitail.conf	/^splitline_attrs:white,black,reverse$/;"	k
+splitline_mode	globals.c	/^char splitline_mode = SL_REGULAR;$/;"	v	typeref:typename:char
+splitlines	globals.c	/^NEWWIN **splitlines = NULL;$/;"	v	typeref:typename:NEWWIN **
+start	mt.h	/^	int start, end;$/;"	m	struct:__anon7c9ac89c1008	typeref:typename:int
+start	mt.h	/^	int start, end;$/;"	m	struct:cv_off	typeref:typename:int
+start	mt.h	/^	regoff_t start;$/;"	m	struct:__anon7c9ac89c2908	typeref:typename:regoff_t
+start_all_processes	mt.c	/^void start_all_processes(char *nsubwindows)$/;"	f	typeref:typename:void
+start_proc	exec.c	/^int start_proc(proginfo *cur, int initial_tail)$/;"	f	typeref:typename:int
+start_proc_signal_handler	exec.c	/^void start_proc_signal_handler(int sig)$/;"	f	typeref:typename:void
+start_tail	exec.c	/^int start_tail(char *filename, char retry_open, char follow_filename, int initial_tail, int *pip/;"	f	typeref:typename:int
+start_ts	mt.h	/^	dtime_t start_ts;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:dtime_t
+stat64	mt.h	/^#define stat64 /;"	d
+statistics	mt.h	/^	statistics_t statistics;$/;"	m	struct:_subwindow_	typeref:typename:statistics_t
+statistics_menu	misc.c	/^void statistics_menu(void)$/;"	f	typeref:typename:void
+statistics_popup	misc.c	/^void statistics_popup(int f_index, proginfo *cur)$/;"	f	typeref:typename:void
+statistics_t	mt.h	/^} statistics_t;$/;"	t	typeref:struct:__anon7c9ac89c1608
+status	mt.h	/^	NEWWIN *status;$/;"	m	struct:_subwindow_	typeref:typename:NEWWIN *
+statusline_above_data	globals.c	/^char statusline_above_data = 0;$/;"	v	typeref:typename:char
+statusline_above_data	multitail.conf	/^statusline_above_data:no$/;"	k
+statusline_attrs	globals.c	/^myattr_t statusline_attrs = { -1, -1 };$/;"	v	typeref:typename:myattr_t
+statusline_attrs	multitail.conf	/^statusline_attrs:white,black,reverse$/;"	k
+statusline_ts_format	globals.c	/^char *statusline_ts_format = NULL;$/;"	v	typeref:typename:char *
+statusline_ts_format	multitail.conf	/^statusline_ts_format:%Y\/%m\/%d %H:%M:%S$/;"	k
+stop_process	utils.c	/^void stop_process(pid_t pid)$/;"	f	typeref:typename:void
+store_for_diff	diff.c	/^void store_for_diff(diff_t *diff, char *string)$/;"	f	typeref:typename:void
+store_statistics	misc.c	/^void store_statistics(proginfo *cur, dtime_t now)$/;"	f	typeref:typename:void
+str_add	utils.c	/^void str_add(char **to, const char *what, ...)$/;"	f	typeref:typename:void
+strip_t	mt.h	/^} strip_t;$/;"	t	typeref:struct:__anon7c9ac89c1008
+strips	mt.h	/^	strip_t *strips;$/;"	m	struct:__anon7c9ac89c1108	typeref:typename:strip_t *
+striptype_t	mt.h	/^typedef enum { STRIP_TYPE_REGEXP = 1, STRIP_TYPE_RANGE, STRIP_TYPE_COLUMN, STRIP_KEEP_SUBSTR } s/;"	t	typeref:enum:__anon7c9ac89c0f03
+strtoll	mt.h	/^	#define strtoll(/;"	d
+subwindow_number	globals.c	/^char *subwindow_number = NULL;$/;"	v	typeref:typename:char *
+subwindow_number	multitail.conf	/^subwindow_number:[%02d]$/;"	k
+suppress_empty_lines	globals.c	/^char suppress_empty_lines = 1;$/;"	v	typeref:typename:char
+suppress_empty_lines	multitail.conf	/^suppress_empty_lines:yes$/;"	k
+suppress_repeating_lines	mt.h	/^	char suppress_repeating_lines;$/;"	m	struct:__anon7c9ac89c1a08	typeref:typename:char
+swap_re	ui.c	/^void swap_re(re *a, re *b)$/;"	f	typeref:typename:void
+swap_window	ui.c	/^int swap_window(void)$/;"	f	typeref:typename:int
+syslog_noreverse	mt.h	/^	char syslog_noreverse;$/;"	m	struct:__anon7c9ac89c1708	typeref:typename:char
+syslog_port	globals.c	/^int syslog_port = 514;$/;"	v	typeref:typename:int
+syslog_ts_format	globals.c	/^char *syslog_ts_format = NULL;$/;"	v	typeref:typename:char *
+syslog_ts_format	multitail.conf	/^syslog_ts_format:%Y\/%m\/%d %H:%M:%S$/;"	k
+tab_stop	multitail.conf	/^tab_stop:8$/;"	k
+tab_width	globals.c	/^char tab_width = 4;		\/* some people use 8 *\/$/;"	v	typeref:typename:char
+tail	globals.c	/^char *tail = NULL;$/;"	v	typeref:typename:char *
+tail_proc	globals.c	/^pid_t tail_proc = 0;	\/* process used by checker-proc *\/$/;"	v	typeref:typename:pid_t
+term_emul	mt.h	/^	term_t term_emul;$/;"	m	struct:__anon7c9ac89c1708	typeref:typename:term_t
+term_t	mt.h	/^typedef enum { TERM_IGNORE = 0, TERM_XTERM, TERM_ANSI \/* or vt100 *\/} term_t;$/;"	t	typeref:enum:__anon7c9ac89c0503
+term_t_to_string	utils.c	/^char * term_t_to_string(term_t term)$/;"	f	typeref:typename:char *
+term_type	globals.c	/^term_t term_type = TERM_IGNORE;$/;"	v	typeref:typename:term_t
+terminal_changed	globals.c	/^char terminal_changed = 0;$/;"	v	typeref:typename:char
+terminal_index	globals.c	/^proginfo *terminal_index = NULL;$/;"	v	typeref:typename:proginfo *
+terminal_main_index	globals.c	/^int terminal_main_index = -1;$/;"	v	typeref:typename:int
+terminal_mode	ui.c	/^void terminal_mode(void)$/;"	f	typeref:typename:void
+text	help.h	/^	char **text;$/;"	m	struct:__anon01d84cc40108	typeref:typename:char **
+thanks	Makefile	/^thanks:$/;"	t
+time_field_t	mt.h	/^typedef enum { TT_ATIME = 1, TT_MTIME, TT_CTIME } time_field_t;$/;"	t	typeref:enum:__anon7c9ac89c0803
+timestamp_in_markerline	globals.c	/^char timestamp_in_markerline = 0;$/;"	v	typeref:typename:char
+titlebar	multitail.conf	/^titlebar:%m %u@%h %f (%t) [%l]$/;"	k
+toggle_colors	ui.c	/^int toggle_colors(void)$/;"	f	typeref:typename:int
+toggle_regexp_case_insensitive	ui.c	/^void toggle_regexp_case_insensitive(void)$/;"	f	typeref:typename:void
+toggle_subwindow_nr	ui.c	/^void toggle_subwindow_nr(void)$/;"	f	typeref:typename:void
+toggle_vertical_split	ui.c	/^int toggle_vertical_split(void)$/;"	f	typeref:typename:int
+total_deltat	mt.h	/^	double prev_deltat, total_deltat;$/;"	m	struct:__anon7c9ac89c1608	typeref:typename:double
+total_wakeups	globals.c	/^int total_wakeups = 0;$/;"	v	typeref:typename:int
+truncate_file	ui.c	/^void truncate_file(void)$/;"	f	typeref:typename:void
+ts	mt.h	/^	double ts;$/;"	m	struct:__anon7c9ac89c1d08	typeref:typename:double
+ts_format	globals.c	/^char *ts_format = NULL;$/;"	v	typeref:typename:char *
+ts_format	multitail.conf	/^ts_format:%b %d %H:%M:%S$/;"	k
+type	mt.h	/^	conversion_t type;$/;"	m	struct:__anon7c9ac89c2508	typeref:typename:conversion_t
+type	mt.h	/^	redirecttype_t type;$/;"	m	struct:__anon7c9ac89c1508	typeref:typename:redirecttype_t
+type	mt.h	/^	striptype_t type;$/;"	m	struct:__anon7c9ac89c1008	typeref:typename:striptype_t
+ui_inverse_off	term.c	/^void ui_inverse_off(NEWWIN *win)$/;"	f	typeref:typename:void
+ui_inverse_on	term.c	/^void ui_inverse_on(NEWWIN *win)$/;"	f	typeref:typename:void
+umask	multitail.conf	/^umask:0022$/;"	k
+unhide_all_windows	ui.c	/^int unhide_all_windows(void)$/;"	f	typeref:typename:int
+uninstall	Makefile	/^uninstall: clean$/;"	t
+update_interval	globals.c	/^int update_interval = 0;$/;"	v	typeref:typename:int
+update_statusline	mt.c	/^void update_statusline(NEWWIN *status, int win_nr, proginfo *cur)$/;"	f	typeref:typename:void
+usage	help.c	/^void usage(void)$/;"	f	typeref:typename:void
+use_alternating_colors	mt.h	/^	mybool_t use_alternating_colors;$/;"	m	struct:__anon7c9ac89c2108	typeref:typename:mybool_t
+use_colors	globals.c	/^char use_colors = 0;$/;"	v	typeref:typename:char
+use_editscheme	config.c	/^void use_editscheme(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+use_filter_edit_scheme	config.c	/^void use_filter_edit_scheme(int linenr, char *par, filter_edit_scheme_t type)$/;"	f	typeref:typename:void
+use_filterscheme	config.c	/^void use_filterscheme(int linenr, char *cmd, char *par)$/;"	f	typeref:typename:void
+use_regex	mt.h	/^	char use_regex;$/;"	m	struct:__anon7c9ac89c0d08	typeref:typename:char
+useeditscheme	multitail.conf	/^useeditscheme:syslog:\/var\/log\/messages$/;"	k
+usefilterscheme	multitail.conf	/^usefilterscheme:syslog:\/var\/log\/messages$/;"	k
+valcheck_t	mt.h	/^typedef enum { VAL_ZERO_POSITIVE = 1, VAL_POSITIVE_NOT_1, VAL_POSITIVE } valcheck_t;$/;"	t	typeref:enum:__anon7c9ac89c0203
+version	mt.c	/^void version(void)$/;"	f	typeref:typename:void
+version_str	globals.c	/^const char *version_str = " --*- multitail " VERSION " (C) 2003-2019 by folkert@vanheusden.com -/;"	v	typeref:typename:const char *
+vertical_split	globals.c	/^int *vertical_split = NULL;$/;"	v	typeref:typename:int *
+wait_for_keypress	mt.c	/^int wait_for_keypress(int what_help, double max_wait, NEWWIN *popup, char cursor_shift)$/;"	f	typeref:typename:int
+warn_closed	globals.c	/^char warn_closed = 1;$/;"	v	typeref:typename:char
+warn_closed	multitail.conf	/^warn_closed:yes$/;"	k
+wfd	mt.h	/^	int wfd;	\/* write *\/$/;"	m	struct:_subwindow_	typeref:typename:int
+width	mt.h	/^	int width, height;$/;"	m	struct:__anon7c9ac89c0c08	typeref:typename:int
+win	mt.h	/^	WINDOW *win;$/;"	m	struct:__anon7c9ac89c0c08	typeref:typename:WINDOW *
+win_header	term.c	/^void win_header(NEWWIN *win, char *str)$/;"	f	typeref:typename:void
+win_height	mt.h	/^	int win_height;$/;"	m	struct:_subwindow_	typeref:typename:int
+win_title	mt.h	/^	char *win_title;$/;"	m	struct:_subwindow_	typeref:typename:char *
+window_nr	mt.h	/^	int window_nr;	\/* if 'in_one_window' is set, merge into the window 'window_nr' *\/$/;"	m	struct:__anon7c9ac89c0b08	typeref:typename:int
+window_number	globals.c	/^char *window_number = NULL;$/;"	v	typeref:typename:char *
+window_number	multitail.conf	/^window_number:[%02d]$/;"	k
+windowtype_t	mt.h	/^typedef enum { WT_FILE=1, WT_COMMAND, WT_STDIN, WT_SOCKET } windowtype_t;$/;"	t	typeref:enum:__anon7c9ac89c1b03
+wipe_all_windows	ui.c	/^void wipe_all_windows(void)$/;"	f	typeref:typename:void
+wipe_window	ui.c	/^void wipe_window(void)$/;"	f	typeref:typename:void
+wordwrapmaxlength	globals.c	/^int wordwrapmaxlength = 10;$/;"	v	typeref:typename:int
+wordwrapmaxlength	multitail.conf	/^wordwrapmaxlength:31$/;"	k
+write_escape_str	mt.c	/^void write_escape_str(FILE *fh, char *string)$/;"	f	typeref:typename:void
+write_script	ui.c	/^void write_script(void)$/;"	f	typeref:typename:void
+wrong_key	term.c	/^void wrong_key(void)$/;"	f	typeref:typename:void
+wt	mt.h	/^	windowtype_t wt;$/;"	m	struct:_subwindow_	typeref:typename:windowtype_t
+x_off	mt.h	/^	int x_off, y_off;$/;"	m	struct:__anon7c9ac89c0c08	typeref:typename:int
+y_off	mt.h	/^	int x_off, y_off;$/;"	m	struct:__anon7c9ac89c0c08	typeref:typename:int
+zero_str	stripstring.c	/^void zero_str(char *what, int start, int end)$/;"	f	typeref:typename:void
+zerotomin	utils.c	/^char zerotomin(char c)$/;"	f	typeref:typename:char
