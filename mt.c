@@ -837,11 +837,9 @@ void color_print(int f_index, NEWWIN *win, proginfo *cur, char *string, regmatch
 		 * codes in that string which set a color those are stripped as well
 		 * the stripping part should be moved to a seperate function
 		 */
-    char *temp = malloc(strlen(string));
-    memcpy(temp, string, strlen(string)+1);
 		cdev = choose_color(string, cur, &cmatches, &n_cmatches, &has_merge_colors, &use_string);
     
-    memcpy(string, temp, strlen(temp)+1);
+    memcpy(string, use_string, strlen(use_string)+1);
 
 		/* if not using colorschemes (which can have more then one color
 		 * per line), set the color
