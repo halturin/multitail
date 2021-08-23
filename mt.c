@@ -842,7 +842,7 @@ void color_print(int f_index, NEWWIN *win, proginfo *cur, char *string, regmatch
 		cdev = choose_color(string, cur, &cmatches, &n_cmatches, &has_merge_colors, &use_string);
     
     memcpy(string, temp, strlen(temp)+1);
-
+    myfree(temp);
 		/* if not using colorschemes (which can have more then one color
 		 * per line), set the color
 		 */
