@@ -18,7 +18,6 @@ DOCDIR=$(SHAREDIR)/doc/multitail-$(VERSION)
 
 SYSCONFDIR=/etc
 CONFIG_FILE=$(SYSCONFDIR)/multitail.conf
-CONFIG_DIR=$(SYSCONFDIR)/multitail
 
 INSTALL = install
 INSTALL_DATA = $(INSTALL) -m 0644
@@ -62,6 +61,7 @@ install: multitail
 	$(INSTALL_DIR) $(DESTDIR)$(BINDIR)
 	$(INSTALL_DIR) $(DESTDIR)$(MAN1DIR)
 	$(INSTALL_DIR) $(DESTDIR)$(DOCDIR)
+	$(INSTALL_DIR) $(DESTDIR)$(SYSCONFDIR)
 	$(INSTALL_EXEC) multitail $(DESTDIR)$(BINDIR)
 	$(INSTALL_DATA) multitail.1 $(DESTDIR)$(MAN1DIR)/multitail.1
 	$(INSTALL_DATA) *.txt INSTALL manual*.html $(DESTDIR)$(DOCDIR)
@@ -69,9 +69,7 @@ install: multitail
 	### COPIED multitail.conf.new, YOU NEED TO REPLACE THE multitail.conf
 	### YOURSELF WITH THE NEW FILE
 	#
-	$(INSTALL_DIR) $(DESTDIR)$(CONFIG_DIR)
 	$(INSTALL_DATA) multitail.conf $(DESTDIR)$(CONFIG_FILE).new
-	$(INSTALL_EXEC) conversion-scripts/* $(DESTDIR)$(CONFIG_DIR)
 #rm -f $(DESTDIR)$(PREFIX)/share/man/man1/multitail.1.gz
 #gzip -9 $(DESTDIR)$(PREFIX)/share/man/man1/multitail.1
 	#
@@ -89,7 +87,6 @@ uninstall: clean
 	rm -f $(DESTDIR)$(BINDIR)/multitail
 	rm -f $(DESTDIR)$(MAN1DIR)/multitail.1
 	rm -f $(DESTDIR)$(CONFIG_FILE)
-	rm -rf $(DESTDIR)$(CONFIG_DIR)
 	rm -rf $(DESTDIR)$(DOCDIR)
 
 clean:
