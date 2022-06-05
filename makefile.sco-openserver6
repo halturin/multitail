@@ -17,7 +17,7 @@ install: multitail
 	cp multitail $(DESTDIR)/usr/bin
 	cp multitail.1 $(DESTDIR)/usr/share/man/man1/multitail.1
 	mkdir -p $(DESTDIR)/usr/share/doc/multitail-$(VERSION)
-	cp *.txt INSTALL manual*.html $(DESTDIR)/usr/share/doc/multitail-$(VERSION)
+	cp INSTALL manual*.html $(DESTDIR)/usr/share/doc/multitail-$(VERSION)
 	#
 	### COPIED multitail.conf.new, YOU NEED TO REPLACE THE multitail.conf
 	### YOURSELF WITH THE NEW FILE

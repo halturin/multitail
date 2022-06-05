@@ -27,7 +27,7 @@ install: multitail
 	#
 	cp multitail.conf $(DESTDIR)/usr/local/etc/multitail.conf.new
 	mkdir -p $(DESTDIR)/usr/local/share/doc/multitail-$(VERSION)
-	cp *.txt INSTALL manual.html $(DESTDIR)/usr/local/share/doc/multitail-$(VERSION)
+	cp INSTALL manual.html $(DESTDIR)/usr/local/share/doc/multitail-$(VERSION)
 	#
 	# +-=-------------------------------------------------------------=-+
 	# | There's a mailinglist!                                          |
