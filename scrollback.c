@@ -282,7 +282,7 @@ int scrollback_do(int window_nr, buffer *pbuf, int *winnrs, char *header)
 
 		cur_lb.be = myrealloc(cur_lb.be, (cur_lb.curpos + 1) * sizeof(buffered_entry));
 		cur_lb.be[cur_lb.curpos].pi    = (pbuf -> be)[loop].pi;
-		if ((pbuf -> be)[loop].pi != NULL && (!IS_MARKERLINE((pbuf -> be)[loop].pi)) && (pbuf -> be)[loop].pi -> cdef.term_emul != TERM_IGNORE)
+		if ((pbuf -> be)[loop].pi != NULL && (IS_MARKERLINE((pbuf -> be)[loop].pi)) && (pbuf -> be)[loop].pi -> cdef.term_emul != TERM_IGNORE)
 		{
 			color_offset_in_line *cmatches;
 			int n_cmatches;
