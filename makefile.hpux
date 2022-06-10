@@ -21,7 +21,7 @@ install: multitail
 	#
 	cp multitail.conf $(DESTDIR)/etc/multitail.conf.new
 	mkdir -p $(DESTDIR)/usr/share/doc/multitail-$(VERSION)
-	cp *.txt INSTALL manual.html $(DESTDIR)/usr/share/doc/multitail-$(VERSION)
+	cp INSTALL manual.html $(DESTDIR)/usr/share/doc/multitail-$(VERSION)
 	rm -f $(DESTDIR)/usr/man/man1/multitail.1.gz
 	gzip -9 $(DESTDIR)/usr/man/man1/multitail.1
 	#

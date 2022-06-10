@@ -33,7 +33,7 @@ install: multitail
 	/usr/sbin/install -m 0755 -u root -g other -d $(DESTDIR)/usr/share/doc
 	/usr/sbin/install -m 0755 -u root -g other -d $(DESTDIR)/usr/share/doc/multitail-$(VERSION)
 	mkdir -p $(DESTDIR)/usr/share/doc/multitail-$(VERSION)
-	cp *.txt INSTALL manual.html $(DESTDIR)/usr/share/doc/multitail-$(VERSION)
+	cp INSTALL manual.html $(DESTDIR)/usr/share/doc/multitail-$(VERSION)
 	#
 	# +-=-------------------------------------------------------------=-+
 	# | There's a mailinglist!                                          |
@@ -54,7 +54,7 @@ solarisbinpackage: multitail
 	mkdir -p usr/share/doc/multitail-$(VERSION)
 	cp multitail usr/bin
 	cp multitail.1 usr/share/man/man1
-	cp *.txt INSTALL manual.html usr/share/doc/multitail-$(VERSION)
+	cp INSTALL manual.html usr/share/doc/multitail-$(VERSION)
 	tar cvf multitail-$(VERSION)-solaris.tar usr etc
 	rm -rf usr etc
 	gzip -9 multitail-$(VERSION)-solaris.tar

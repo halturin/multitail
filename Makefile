@@ -64,7 +64,7 @@ install: multitail
 	$(INSTALL_DIR) $(DESTDIR)$(DOCDIR)
 	$(INSTALL_EXEC) multitail $(DESTDIR)$(BINDIR)
 	$(INSTALL_DATA) multitail.1 $(DESTDIR)$(MAN1DIR)/multitail.1
-	$(INSTALL_DATA) *.txt INSTALL manual*.html $(DESTDIR)$(DOCDIR)
+	$(INSTALL_DATA) INSTALL manual*.html $(DESTDIR)$(DOCDIR)
 	#
 	### COPIED multitail.conf.new, YOU NEED TO REPLACE THE multitail.conf
 	### YOURSELF WITH THE NEW FILE
