@@ -64,7 +64,7 @@ install: multitail
 	$(INSTALL_DIR) $(DESTDIR)$(DOCDIR)
 	$(INSTALL_EXEC) multitail $(DESTDIR)$(BINDIR)
 	$(INSTALL_DATA) multitail.1 $(DESTDIR)$(MAN1DIR)/multitail.1
-	$(INSTALL_DATA) *.txt INSTALL manual*.html $(DESTDIR)$(DOCDIR)
+	$(INSTALL_DATA) AUTHORS INSTALL README.md manual*.html $(DESTDIR)$(DOCDIR)
 	#
 	### COPIED multitail.conf.new, YOU NEED TO REPLACE THE multitail.conf
 	### YOURSELF WITH THE NEW FILE
@@ -99,7 +99,7 @@ package: clean
 	# source package
 	rm -rf multitail-$(VERSION)*
 	mkdir multitail-$(VERSION)
-	cp -a conversion-scripts *.conf *.c *.h multitail.1 manual*.html Makefile makefile.* INSTALL license.txt readme.txt thanks.txt version multitail-$(VERSION)
+	cp -a conversion-scripts *.conf *.c *.h multitail.1 manual*.html Makefile makefile.* AUTHORS INSTALL README.md version multitail-$(VERSION)
 	tar czf multitail-$(VERSION).tgz multitail-$(VERSION)
 	rm -rf multitail-$(VERSION)
 
