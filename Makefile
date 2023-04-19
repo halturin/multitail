@@ -64,16 +64,13 @@ install: multitail
 	$(INSTALL_DIR) $(DESTDIR)$(DOCDIR)
 	$(INSTALL_EXEC) multitail $(DESTDIR)$(BINDIR)
 	$(INSTALL_DATA) multitail.1 $(DESTDIR)$(MAN1DIR)/multitail.1
-	$(INSTALL_DATA) *.txt INSTALL manual*.html $(DESTDIR)$(DOCDIR)
+	$(INSTALL_DATA) AUTHORS INSTALL README.md manual*.html $(DESTDIR)$(DOCDIR)
 	#
 	### COPIED multitail.conf.new, YOU NEED TO REPLACE THE multitail.conf
 	### YOURSELF WITH THE NEW FILE
 	#
 	$(INSTALL_DIR) $(DESTDIR)$(CONFIG_DIR)
 	$(INSTALL_DATA) multitail.conf $(DESTDIR)$(CONFIG_FILE).new
-	$(INSTALL_EXEC) conversion-scripts/* $(DESTDIR)$(CONFIG_DIR)
-#rm -f $(DESTDIR)$(PREFIX)/share/man/man1/multitail.1.gz
-#gzip -9 $(DESTDIR)$(PREFIX)/share/man/man1/multitail.1
 	#
 	# There's a mailinglist!
 	# Send an e-mail to minimalist@vanheusden.com with in the subject
@@ -99,7 +96,7 @@ package: clean
 	# source package
 	rm -rf multitail-$(VERSION)*
 	mkdir multitail-$(VERSION)
-	cp -a conversion-scripts *.conf *.c *.h multitail.1 manual*.html Makefile makefile.* INSTALL license.txt readme.txt thanks.txt version multitail-$(VERSION)
+	cp -a *.conf *.c *.h multitail.1 manual*.html Makefile makefile.* AUTHORS INSTALL README.md version multitail-$(VERSION)
 	tar czf multitail-$(VERSION).tgz multitail-$(VERSION)
 	rm -rf multitail-$(VERSION)
 
